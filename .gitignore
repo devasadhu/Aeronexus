@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.env
+*.egg-info/
+dist/
+build/
+
+# data - raw downloads and large processed files not committed
+data/raw/
+data/processed/*.parquet
+data/processed/*.xgb
+data/processed/centrality.json
+
+# keep processed JSON (small enough, useful for CI)
+!data/processed/crew_roster.json
+!data/processed/aircraft_fleet.json
+!data/processed/passengers.json
+!data/processed/itineraries.json
+!data/processed/flights.json
+!data/processed/disruptions_seed.json
+
+# DB
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+.dockerenv
