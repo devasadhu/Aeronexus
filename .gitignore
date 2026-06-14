@@ -12,6 +12,7 @@ data/raw/
 data/processed/*.parquet
 data/processed/*.xgb
 data/processed/centrality.json
+data/processed/*.ubj
 
 # keep processed JSON (small enough, useful for CI)
 !data/processed/crew_roster.json

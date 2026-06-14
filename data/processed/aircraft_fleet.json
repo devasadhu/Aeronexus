@@ -1,0 +1,675 @@
+[
+  {
+    "id": "ce442839-e52c-4733-81db-6539ada399ec",
+    "tail_number": "G-VCP1",
+    "aircraft_type": "A320",
+    "capacity": 156,
+    "range_km": 6100,
+    "status": "available",
+    "home_airport_id": "ATL",
+    "current_airport_id": "ATL",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "b3a5d30c-6564-4c73-994a-5e5db27b16ea",
+    "tail_number": "N-PBP2",
+    "aircraft_type": "B737",
+    "capacity": 157,
+    "range_km": 5765,
+    "status": "available",
+    "home_airport_id": "ORD",
+    "current_airport_id": "ORD",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-06T00:45:32.768853",
+        "end": "2026-07-06T04:45:32.768853",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      },
+      {
+        "start": "2026-06-16T18:45:32.768853",
+        "end": "2026-06-16T22:45:32.768853",
+        "type": "scheduled",
+        "reason": "B-check"
+      }
+    ]
+  },
+  {
+    "id": "5b31d555-7fb7-40b4-a26a-c6d22d12b452",
+    "tail_number": "F-PSC3",
+    "aircraft_type": "A320",
+    "capacity": 158,
+    "range_km": 6100,
+    "status": "available",
+    "home_airport_id": "LAX",
+    "current_airport_id": "LAX",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-06-21T20:45:32.768895",
+        "end": "2026-06-22T00:45:32.768895",
+        "type": "scheduled",
+        "reason": "A-check"
+      },
+      {
+        "start": "2026-07-03T15:45:32.768895",
+        "end": "2026-07-05T15:45:32.768895",
+        "type": "scheduled",
+        "reason": "B-check"
+      }
+    ]
+  },
+  {
+    "id": "84ff0c6e-8d0f-4fa9-ba43-24a624586550",
+    "tail_number": "9V-YJF4",
+    "aircraft_type": "B738",
+    "capacity": 157,
+    "range_km": 5765,
+    "status": "available",
+    "home_airport_id": "JFK",
+    "current_airport_id": "SIN",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-09T18:45:32.768919",
+        "end": "2026-07-09T22:45:32.768919",
+        "type": "scheduled",
+        "reason": "avionics update"
+      },
+      {
+        "start": "2026-07-01T22:45:32.768919",
+        "end": "2026-07-02T10:45:32.768919",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      }
+    ]
+  },
+  {
+    "id": "c56f248c-d2e1-46d7-8e74-5a61735359d9",
+    "tail_number": "G-NDJ5",
+    "aircraft_type": "A320",
+    "capacity": 155,
+    "range_km": 6100,
+    "status": "aog",
+    "home_airport_id": "LHR",
+    "current_airport_id": "LHR",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-06-14T15:45:32.768938",
+        "end": "2026-06-15T21:45:32.768938",
+        "type": "AOG",
+        "reason": "hydraulic leak"
+      },
+      {
+        "start": "2026-06-18T03:45:32.768938",
+        "end": "2026-06-20T03:45:32.768938",
+        "type": "scheduled",
+        "reason": "avionics update"
+      },
+      {
+        "start": "2026-06-26T02:45:32.768938",
+        "end": "2026-06-26T14:45:32.768938",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      }
+    ]
+  },
+  {
+    "id": "17cd83f6-23dd-4c10-938e-0eb0e8215eab",
+    "tail_number": "EC-SBT6",
+    "aircraft_type": "A321",
+    "capacity": 179,
+    "range_km": 7400,
+    "status": "available",
+    "home_airport_id": "DXB",
+    "current_airport_id": "LHR",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-04T01:45:32.768960",
+        "end": "2026-07-05T01:45:32.768960",
+        "type": "scheduled",
+        "reason": "avionics update"
+      },
+      {
+        "start": "2026-07-07T21:45:32.768960",
+        "end": "2026-07-08T09:45:32.768960",
+        "type": "scheduled",
+        "reason": "A-check"
+      }
+    ]
+  },
+  {
+    "id": "6decf52a-189d-4cf7-b5f7-9e971de79696",
+    "tail_number": "D-BUD7",
+    "aircraft_type": "A330",
+    "capacity": 257,
+    "range_km": 13430,
+    "status": "available",
+    "home_airport_id": "DEL",
+    "current_airport_id": "DEL",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-06-27T22:45:32.769003",
+        "end": "2026-06-28T02:45:32.769003",
+        "type": "scheduled",
+        "reason": "B-check"
+      }
+    ]
+  },
+  {
+    "id": "c75c5abd-9ebc-4366-bd9b-d6ddd1ba8766",
+    "tail_number": "D-GKJ8",
+    "aircraft_type": "A320",
+    "capacity": 152,
+    "range_km": 6100,
+    "status": "available",
+    "home_airport_id": "SIN",
+    "current_airport_id": "DEL",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "b2775b40-9293-4899-b2fd-49a9f90f076b",
+    "tail_number": "N-AVE9",
+    "aircraft_type": "B737",
+    "capacity": 159,
+    "range_km": 5765,
+    "status": "available",
+    "home_airport_id": "ATL",
+    "current_airport_id": "ATL",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "275a492b-9a6d-4b4a-bad4-f07aa0d760ab",
+    "tail_number": "VT-YSN0",
+    "aircraft_type": "B737",
+    "capacity": 169,
+    "range_km": 5765,
+    "status": "available",
+    "home_airport_id": "ORD",
+    "current_airport_id": "ORD",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-07T02:45:32.769035",
+        "end": "2026-07-07T06:45:32.769035",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      },
+      {
+        "start": "2026-07-14T03:45:32.769035",
+        "end": "2026-07-16T03:45:32.769035",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      }
+    ]
+  },
+  {
+    "id": "01f1da3d-1164-493e-bcc0-b9b45160ea64",
+    "tail_number": "F-BBF1",
+    "aircraft_type": "A320",
+    "capacity": 145,
+    "range_km": 6100,
+    "status": "available",
+    "home_airport_id": "LAX",
+    "current_airport_id": "LAX",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "089fb923-affc-45da-896c-0e266c8b07f7",
+    "tail_number": "G-NYQ2",
+    "aircraft_type": "A320",
+    "capacity": 142,
+    "range_km": 6100,
+    "status": "available",
+    "home_airport_id": "JFK",
+    "current_airport_id": "JFK",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "ce43df96-bba3-4813-afa3-a612f05774b1",
+    "tail_number": "EC-QMC3",
+    "aircraft_type": "A321",
+    "capacity": 185,
+    "range_km": 7400,
+    "status": "available",
+    "home_airport_id": "LHR",
+    "current_airport_id": "LHR",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-06-30T22:45:32.769071",
+        "end": "2026-07-01T10:45:32.769071",
+        "type": "scheduled",
+        "reason": "A-check"
+      }
+    ]
+  },
+  {
+    "id": "1399dc54-7d54-4a3e-96bb-7406fcb0bc3d",
+    "tail_number": "AP-GVD4",
+    "aircraft_type": "B737",
+    "capacity": 150,
+    "range_km": 5765,
+    "status": "in_flight",
+    "home_airport_id": "DXB",
+    "current_airport_id": null,
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "f456bbda-4893-4d3c-96d7-2730308a8cad",
+    "tail_number": "JA-XUH5",
+    "aircraft_type": "A350",
+    "capacity": 379,
+    "range_km": 15000,
+    "status": "available",
+    "home_airport_id": "DEL",
+    "current_airport_id": "DEL",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "25d87847-4d59-475c-ae9f-849b29da9997",
+    "tail_number": "A6-JFN6",
+    "aircraft_type": "B777",
+    "capacity": 402,
+    "range_km": 13500,
+    "status": "available",
+    "home_airport_id": "SIN",
+    "current_airport_id": "SIN",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-05T18:45:32.769098",
+        "end": "2026-07-07T18:45:32.769098",
+        "type": "scheduled",
+        "reason": "B-check"
+      }
+    ]
+  },
+  {
+    "id": "256c1161-d738-4030-bf67-c770be8b9dad",
+    "tail_number": "JA-VEM7",
+    "aircraft_type": "B787",
+    "capacity": 286,
+    "range_km": 14140,
+    "status": "maintenance",
+    "home_airport_id": "ATL",
+    "current_airport_id": "ATL",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "687f5805-cf2f-468b-bebb-54cde914fdb4",
+    "tail_number": "JA-YLY8",
+    "aircraft_type": "B787",
+    "capacity": 297,
+    "range_km": 14140,
+    "status": "available",
+    "home_airport_id": "ORD",
+    "current_airport_id": "ORD",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-06-17T18:45:32.769118",
+        "end": "2026-06-17T22:45:32.769118",
+        "type": "scheduled",
+        "reason": "B-check"
+      }
+    ]
+  },
+  {
+    "id": "855e6972-9585-40f4-8c69-483da3748245",
+    "tail_number": "9V-WMR9",
+    "aircraft_type": "B738",
+    "capacity": 172,
+    "range_km": 5765,
+    "status": "available",
+    "home_airport_id": "LAX",
+    "current_airport_id": "LAX",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "2734881a-96d7-4881-beb0-6a3b051a0ad9",
+    "tail_number": "JA-UME0",
+    "aircraft_type": "B787",
+    "capacity": 306,
+    "range_km": 14140,
+    "status": "available",
+    "home_airport_id": "JFK",
+    "current_airport_id": "JFK",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-06-18T03:45:32.769137",
+        "end": "2026-06-19T03:45:32.769137",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      }
+    ]
+  },
+  {
+    "id": "f019d555-c2d7-4f93-b923-36efed48e4c8",
+    "tail_number": "D-DZA1",
+    "aircraft_type": "A320",
+    "capacity": 158,
+    "range_km": 6100,
+    "status": "maintenance",
+    "home_airport_id": "LHR",
+    "current_airport_id": "LHR",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-11T01:45:32.769148",
+        "end": "2026-07-11T09:45:32.769148",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      }
+    ]
+  },
+  {
+    "id": "de795eee-9d51-4348-8b8b-3153a213317f",
+    "tail_number": "A6-AVT2",
+    "aircraft_type": "B777",
+    "capacity": 389,
+    "range_km": 13500,
+    "status": "available",
+    "home_airport_id": "DXB",
+    "current_airport_id": "DXB",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-08T17:45:32.769159",
+        "end": "2026-07-09T17:45:32.769159",
+        "type": "scheduled",
+        "reason": "B-check"
+      },
+      {
+        "start": "2026-07-11T18:45:32.769159",
+        "end": "2026-07-11T22:45:32.769159",
+        "type": "scheduled",
+        "reason": "avionics update"
+      }
+    ]
+  },
+  {
+    "id": "f28b6006-020d-4523-8e82-907b68962289",
+    "tail_number": "VT-PWB3",
+    "aircraft_type": "B737",
+    "capacity": 161,
+    "range_km": 5765,
+    "status": "available",
+    "home_airport_id": "DEL",
+    "current_airport_id": "DXB",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-07T00:45:32.769174",
+        "end": "2026-07-09T00:45:32.769174",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      }
+    ]
+  },
+  {
+    "id": "5051eddc-e1c2-42c5-a01b-37d26d1a5be3",
+    "tail_number": "N-NNA4",
+    "aircraft_type": "B787",
+    "capacity": 300,
+    "range_km": 14140,
+    "status": "maintenance",
+    "home_airport_id": "SIN",
+    "current_airport_id": "SIN",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "74fbd3bc-cec7-4c1e-8fcc-dde32afc36da",
+    "tail_number": "G-EMT5",
+    "aircraft_type": "A321",
+    "capacity": 187,
+    "range_km": 7400,
+    "status": "in_flight",
+    "home_airport_id": "ATL",
+    "current_airport_id": null,
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "38159367-fdfd-489b-a301-accf91434396",
+    "tail_number": "G-XBE6",
+    "aircraft_type": "A320",
+    "capacity": 141,
+    "range_km": 6100,
+    "status": "available",
+    "home_airport_id": "ORD",
+    "current_airport_id": "ORD",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "4f678ddd-ce78-4bae-aabd-a84f09074ddc",
+    "tail_number": "N-LQN7",
+    "aircraft_type": "B738",
+    "capacity": 168,
+    "range_km": 5765,
+    "status": "in_flight",
+    "home_airport_id": "LAX",
+    "current_airport_id": null,
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "5f211ed1-ee98-4a00-bcdb-acfe330587cd",
+    "tail_number": "VT-NFN8",
+    "aircraft_type": "B777",
+    "capacity": 394,
+    "range_km": 13500,
+    "status": "available",
+    "home_airport_id": "JFK",
+    "current_airport_id": "JFK",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-13T18:45:32.769293",
+        "end": "2026-07-14T18:45:32.769293",
+        "type": "scheduled",
+        "reason": "B-check"
+      },
+      {
+        "start": "2026-06-28T16:45:32.769293",
+        "end": "2026-06-29T16:45:32.769293",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      }
+    ]
+  },
+  {
+    "id": "fb33cf67-6479-4367-b525-43e9f9008ba7",
+    "tail_number": "F-BSU9",
+    "aircraft_type": "A320",
+    "capacity": 144,
+    "range_km": 6100,
+    "status": "in_flight",
+    "home_airport_id": "LHR",
+    "current_airport_id": null,
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-06T01:45:32.769319",
+        "end": "2026-07-06T13:45:32.769319",
+        "type": "scheduled",
+        "reason": "B-check"
+      },
+      {
+        "start": "2026-06-23T17:45:32.769319",
+        "end": "2026-06-24T17:45:32.769319",
+        "type": "scheduled",
+        "reason": "B-check"
+      }
+    ]
+  },
+  {
+    "id": "1cf3eb08-3637-42f4-8666-917469f8dc74",
+    "tail_number": "9V-VDL0",
+    "aircraft_type": "B777",
+    "capacity": 402,
+    "range_km": 13500,
+    "status": "available",
+    "home_airport_id": "DXB",
+    "current_airport_id": "LAX",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-06-25T21:45:32.769339",
+        "end": "2026-06-26T05:45:32.769339",
+        "type": "scheduled",
+        "reason": "avionics update"
+      }
+    ]
+  },
+  {
+    "id": "266d3408-f1d3-4e19-b115-b16e6f1fa772",
+    "tail_number": "G-JMS1",
+    "aircraft_type": "A320",
+    "capacity": 152,
+    "range_km": 6100,
+    "status": "in_flight",
+    "home_airport_id": "DEL",
+    "current_airport_id": null,
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-02T00:45:32.769351",
+        "end": "2026-07-02T12:45:32.769351",
+        "type": "scheduled",
+        "reason": "A-check"
+      }
+    ]
+  },
+  {
+    "id": "b664dd2c-27ec-4d51-a686-659311cece2c",
+    "tail_number": "N-ZCG2",
+    "aircraft_type": "B737",
+    "capacity": 151,
+    "range_km": 5765,
+    "status": "maintenance",
+    "home_airport_id": "SIN",
+    "current_airport_id": "SIN",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "2fcad632-4416-42ae-a247-be83dc4eee5a",
+    "tail_number": "D-VGD3",
+    "aircraft_type": "A320",
+    "capacity": 156,
+    "range_km": 6100,
+    "status": "available",
+    "home_airport_id": "ATL",
+    "current_airport_id": "ATL",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-01T02:45:32.769370",
+        "end": "2026-07-01T14:45:32.769370",
+        "type": "scheduled",
+        "reason": "A-check"
+      },
+      {
+        "start": "2026-06-23T15:45:32.769370",
+        "end": "2026-06-23T23:45:32.769370",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      }
+    ]
+  },
+  {
+    "id": "9f4f0eeb-ae26-4adf-acc4-3818d02b971a",
+    "tail_number": "F-VCW4",
+    "aircraft_type": "A330",
+    "capacity": 252,
+    "range_km": 13430,
+    "status": "available",
+    "home_airport_id": "ORD",
+    "current_airport_id": "ORD",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-12T16:45:32.769388",
+        "end": "2026-07-13T16:45:32.769388",
+        "type": "scheduled",
+        "reason": "A-check"
+      }
+    ]
+  },
+  {
+    "id": "bee930d8-6ba7-4798-a929-06bbc494c2b3",
+    "tail_number": "F-QBT5",
+    "aircraft_type": "A320",
+    "capacity": 143,
+    "range_km": 6100,
+    "status": "in_flight",
+    "home_airport_id": "LAX",
+    "current_airport_id": null,
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "220323cb-19ac-4367-a68c-be038f07d838",
+    "tail_number": "D-UGN6",
+    "aircraft_type": "A320",
+    "capacity": 145,
+    "range_km": 6100,
+    "status": "available",
+    "home_airport_id": "JFK",
+    "current_airport_id": "LHR",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-06-27T03:45:32.769407",
+        "end": "2026-06-27T07:45:32.769407",
+        "type": "scheduled",
+        "reason": "avionics update"
+      }
+    ]
+  },
+  {
+    "id": "f1bcafc3-f857-47ec-94ac-1ae966f516c1",
+    "tail_number": "N-NFL7",
+    "aircraft_type": "B737",
+    "capacity": 170,
+    "range_km": 5765,
+    "status": "available",
+    "home_airport_id": "LHR",
+    "current_airport_id": "LHR",
+    "maintenance_windows_json": [
+      {
+        "start": "2026-07-06T22:45:32.769418",
+        "end": "2026-07-08T22:45:32.769418",
+        "type": "scheduled",
+        "reason": "landing gear inspection"
+      }
+    ]
+  },
+  {
+    "id": "0efe36de-99f3-45b3-a6a4-984e0c8da7b4",
+    "tail_number": "G-JVS8",
+    "aircraft_type": "A350",
+    "capacity": 379,
+    "range_km": 15000,
+    "status": "available",
+    "home_airport_id": "DXB",
+    "current_airport_id": "DXB",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "56525252-4db2-4b19-b90a-1dd79e5ffab0",
+    "tail_number": "G-ARX9",
+    "aircraft_type": "A320",
+    "capacity": 153,
+    "range_km": 6100,
+    "status": "available",
+    "home_airport_id": "DEL",
+    "current_airport_id": "DEL",
+    "maintenance_windows_json": []
+  },
+  {
+    "id": "aad98e7c-848a-4c82-8c40-18961c9dc1b0",
+    "tail_number": "VT-WSG0",
+    "aircraft_type": "B737",
+    "capacity": 157,
+    "range_km": 5765,
+    "status": "in_flight",
+    "home_airport_id": "SIN",
+    "current_airport_id": null,
+    "maintenance_windows_json": [
+      {
+        "start": "2026-06-24T15:45:32.769443",
+        "end": "2026-06-25T15:45:32.769443",
+        "type": "scheduled",
+        "reason": "B-check"
+      },
+      {
+        "start": "2026-06-20T19:45:32.769443",
+        "end": "2026-06-21T19:45:32.769443",
+        "type": "scheduled",
+        "reason": "A-check"
+      }
+    ]
+  }
+]

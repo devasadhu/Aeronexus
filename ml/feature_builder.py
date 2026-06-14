@@ -254,6 +254,21 @@ def build_training_dataset(
     Label them as impacted=1. Sample non-impacted flights as negative examples.
 
     Returns a DataFrame ready for XGBoost training.
+
+    KNOWN LIMITATION (synthetic-data label leakage):
+    Positive examples are drawn from flights linked to a disruption
+    (delay_minutes > 0 by construction), while negative examples are
+    built with a placeholder disruption dict {"delay_minutes": 0,
+    "type": "unknown"}. This makes `delay_minutes` and `delay_category`
+    perfectly separate the classes (AUC=1.0 on this synthetic set),
+    so the trained model is currently learning "was this flight linked
+    to a disruption record" rather than genuine cascade-propagation
+    signal from network/temporal/historical features.
+
+    To get a model that learns real cascade dynamics, replace this with
+    labels derived from actual downstream delay correlation in real BTS
+    data (e.g. did flight B's delay increase given flight A's disruption,
+    independent of whether B itself was flagged as a disruption).
     """
     centrality    = compute_centrality(G) if G else {}
     hist_rates    = build_historical_rates(flights)

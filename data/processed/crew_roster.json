@@ -1,0 +1,2208 @@
+[
+  {
+    "id": "ea511e72-16bd-4f72-aa97-de2463ace216",
+    "employee_id": "CPT00001",
+    "name": "Leila Kim",
+    "role": "captain",
+    "base_airport_id": "ATL",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 10.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 21.1,
+    "qualifications_json": [
+      "B747",
+      "A321"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "5c07e726-5bee-44b7-966b-8b1603bcce23",
+    "employee_id": "CPT00002",
+    "name": "Arjun Brown",
+    "role": "captain",
+    "base_airport_id": "ATL",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 0.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T10:20:18.615654",
+    "cumulative_duty_7day": 24.4,
+    "qualifications_json": [
+      "B747"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "c583b863-7ffd-4a9b-8993-bc9fe07013e2",
+    "employee_id": "CPT00003",
+    "name": "Zara Dubois",
+    "role": "captain",
+    "base_airport_id": "ATL",
+    "status": "on_duty",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 3.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T22:14:32.478884",
+    "cumulative_duty_7day": 33.9,
+    "qualifications_json": [
+      "B738",
+      "B777"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "8309e61c-9a1c-4f9f-b89c-8684bbd895ed",
+    "employee_id": "FO00001",
+    "name": "Maria Taylor",
+    "role": "first_officer",
+    "base_airport_id": "ATL",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T07:56:18.431227",
+    "cumulative_duty_7day": 14.9,
+    "qualifications_json": [
+      "A350"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "5de7b76c-d191-4bc9-8c39-a8c746da2e28",
+    "employee_id": "FO00002",
+    "name": "Diego White",
+    "role": "first_officer",
+    "base_airport_id": "ATL",
+    "status": "off",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 23.2,
+    "qualifications_json": [
+      "B787"
+    ],
+    "current_location_id": "PHX"
+  },
+  {
+    "id": "128c017b-7827-441f-a9ea-3126612a023f",
+    "employee_id": "FO00003",
+    "name": "Wei White",
+    "role": "first_officer",
+    "base_airport_id": "ATL",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 10.2,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 19.3,
+    "qualifications_json": [
+      "A321"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "3abb5b11-2232-498c-a4e9-80d7c20d2bb9",
+    "employee_id": "FA00001",
+    "name": "Nadia Mueller",
+    "role": "flight_attendant",
+    "base_airport_id": "ATL",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 5.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T22:54:39.467711",
+    "cumulative_duty_7day": 11.6,
+    "qualifications_json": [
+      "A320",
+      "B738",
+      "B777",
+      "B787"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "0733cadc-947b-4347-b68a-d10a264d5341",
+    "employee_id": "FA00002",
+    "name": "Aisha Davis",
+    "role": "flight_attendant",
+    "base_airport_id": "ATL",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T09:37:48.189575",
+    "cumulative_duty_7day": 38.4,
+    "qualifications_json": [
+      "B737",
+      "A321",
+      "A330"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "bc8201a8-02ed-4c5c-9cb1-201541b5c5f1",
+    "employee_id": "FA00003",
+    "name": "Hiroshi Nakamura",
+    "role": "flight_attendant",
+    "base_airport_id": "ATL",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T09:40:19.145031",
+    "cumulative_duty_7day": 9.3,
+    "qualifications_json": [
+      "A350",
+      "A330",
+      "B787",
+      "A321"
+    ],
+    "current_location_id": "ZRH"
+  },
+  {
+    "id": "05f2f1f9-98ce-48ec-902c-f318eff9f584",
+    "employee_id": "FA00004",
+    "name": "Zara Mart\u00ednez",
+    "role": "flight_attendant",
+    "base_airport_id": "ATL",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T00:36:15.374588",
+    "cumulative_duty_7day": 22.0,
+    "qualifications_json": [
+      "B787",
+      "A321",
+      "A320"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "571149c7-8ec4-431e-80ff-8d1d335f98c7",
+    "employee_id": "FA00005",
+    "name": "Yuki Davis",
+    "role": "flight_attendant",
+    "base_airport_id": "ATL",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.8,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T13:51:49.860898",
+    "cumulative_duty_7day": 6.2,
+    "qualifications_json": [
+      "A320",
+      "A330",
+      "A321"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "6ea8bff5-80b7-4c95-bf59-0d7c3e7fc1e2",
+    "employee_id": "FA00006",
+    "name": "James Davis",
+    "role": "flight_attendant",
+    "base_airport_id": "ATL",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 11.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 22.0,
+    "qualifications_json": [
+      "A320",
+      "B777",
+      "A330",
+      "B787"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "5c4715ec-14cc-404c-bb96-171c72f01d8e",
+    "employee_id": "FA00007",
+    "name": "Leila Mueller",
+    "role": "flight_attendant",
+    "base_airport_id": "ATL",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T11:45:14.630603",
+    "cumulative_duty_7day": 1.0,
+    "qualifications_json": [
+      "B738",
+      "A320",
+      "A330",
+      "B787"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "697935fc-66b9-47f7-9272-5d87be1e4559",
+    "employee_id": "FA00008",
+    "name": "Mei Anderson",
+    "role": "flight_attendant",
+    "base_airport_id": "ATL",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T03:11:19.058552",
+    "cumulative_duty_7day": 8.0,
+    "qualifications_json": [
+      "B737",
+      "B787",
+      "A321",
+      "B747"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "cf7984de-6826-4fcc-b15f-2f96bbf9fc6d",
+    "employee_id": "FA00009",
+    "name": "Aisha Mart\u00ednez",
+    "role": "flight_attendant",
+    "base_airport_id": "ATL",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T20:02:16.638707",
+    "cumulative_duty_7day": 33.4,
+    "qualifications_json": [
+      "A320",
+      "A350"
+    ],
+    "current_location_id": "ATL"
+  },
+  {
+    "id": "75f81666-29d0-419c-89c2-b596c10ff0ff",
+    "employee_id": "CPT00004",
+    "name": "Mei Okonkwo",
+    "role": "captain",
+    "base_airport_id": "ORD",
+    "status": "standby",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 2.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T04:38:15.519065",
+    "cumulative_duty_7day": 7.9,
+    "qualifications_json": [
+      "B777"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "012aaa7b-093a-4b02-a5a6-ea85639f61cb",
+    "employee_id": "CPT00005",
+    "name": "Arjun Nakamura",
+    "role": "captain",
+    "base_airport_id": "ORD",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 13.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 51.1,
+    "qualifications_json": [
+      "B738",
+      "B777"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "716091d3-305e-4154-9a96-5f6adf150ff7",
+    "employee_id": "CPT00006",
+    "name": "Raj Ali",
+    "role": "captain",
+    "base_airport_id": "ORD",
+    "status": "on_duty",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 5.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T12:27:35.934087",
+    "cumulative_duty_7day": 14.7,
+    "qualifications_json": [
+      "A321"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "68320323-574c-465b-9ebc-3247a09993d4",
+    "employee_id": "FO00004",
+    "name": "Hiroshi Patel",
+    "role": "first_officer",
+    "base_airport_id": "ORD",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 2.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T13:38:25.655442",
+    "cumulative_duty_7day": 4.8,
+    "qualifications_json": [
+      "B747",
+      "A321"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "5023f14a-dfd8-4b92-83bf-282f135061ca",
+    "employee_id": "FO00005",
+    "name": "Yuki Thompson",
+    "role": "first_officer",
+    "base_airport_id": "ORD",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 0.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T20:59:03.447051",
+    "cumulative_duty_7day": 23.2,
+    "qualifications_json": [
+      "A330",
+      "B737"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "ae4b9336-52a2-4cde-8a46-9fb4143ffe62",
+    "employee_id": "FO00006",
+    "name": "Nadia Brown",
+    "role": "first_officer",
+    "base_airport_id": "ORD",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 11.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 27.8,
+    "qualifications_json": [
+      "A330",
+      "A320"
+    ],
+    "current_location_id": "BKK"
+  },
+  {
+    "id": "05a47123-6d8c-43fc-9fd0-c42cafad6256",
+    "employee_id": "FA00010",
+    "name": "Sofia Mueller",
+    "role": "flight_attendant",
+    "base_airport_id": "ORD",
+    "status": "standby",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T11:07:07.860193",
+    "cumulative_duty_7day": 21.8,
+    "qualifications_json": [
+      "A321",
+      "A320",
+      "B747"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "891d7ca9-6545-4b36-adeb-bda3e43a89e4",
+    "employee_id": "FA00011",
+    "name": "James Patel",
+    "role": "flight_attendant",
+    "base_airport_id": "ORD",
+    "status": "standby",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T12:53:55.664129",
+    "cumulative_duty_7day": 28.7,
+    "qualifications_json": [
+      "B738",
+      "A330"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "4592e53d-5e48-4199-80a0-d920f8d6b4d4",
+    "employee_id": "FA00012",
+    "name": "Carlos Mueller",
+    "role": "flight_attendant",
+    "base_airport_id": "ORD",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T07:08:21.465140",
+    "cumulative_duty_7day": 5.2,
+    "qualifications_json": [
+      "B777",
+      "A330",
+      "B787"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "286a5cfb-7498-4e86-aba7-c3d7ba84b4e7",
+    "employee_id": "FA00013",
+    "name": "Omar Nakamura",
+    "role": "flight_attendant",
+    "base_airport_id": "ORD",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 3.0,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 25.2,
+    "qualifications_json": [
+      "A321",
+      "B737",
+      "B777"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "e4504caf-2ece-4a41-b220-8a59e3e29386",
+    "employee_id": "FA00014",
+    "name": "Amara Ivanova",
+    "role": "flight_attendant",
+    "base_airport_id": "ORD",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 10.2,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 22.7,
+    "qualifications_json": [
+      "B738",
+      "B737",
+      "B777",
+      "A350"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "4d145077-58a3-4e7f-af9b-81f0998dbf0e",
+    "employee_id": "FA00015",
+    "name": "Priya Mart\u00ednez",
+    "role": "flight_attendant",
+    "base_airport_id": "ORD",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.2,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 2.9,
+    "qualifications_json": [
+      "B737",
+      "A320"
+    ],
+    "current_location_id": "LAS"
+  },
+  {
+    "id": "c7247f80-c962-4bc0-b74f-2bf9625676ba",
+    "employee_id": "FA00016",
+    "name": "Arjun Dubois",
+    "role": "flight_attendant",
+    "base_airport_id": "ORD",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 6.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T04:49:34.283447",
+    "cumulative_duty_7day": 43.7,
+    "qualifications_json": [
+      "B777",
+      "A330"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "c02c47d0-379b-4fa1-928a-67c2e68fd053",
+    "employee_id": "FA00017",
+    "name": "Ethan Fischer",
+    "role": "flight_attendant",
+    "base_airport_id": "ORD",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T06:04:18.460437",
+    "cumulative_duty_7day": 39.1,
+    "qualifications_json": [
+      "A320",
+      "B747",
+      "B777",
+      "A350"
+    ],
+    "current_location_id": "AMS"
+  },
+  {
+    "id": "0fa5d19d-b49d-44d2-ba98-0abd72ff0693",
+    "employee_id": "FA00018",
+    "name": "Elena Okonkwo",
+    "role": "flight_attendant",
+    "base_airport_id": "ORD",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.2,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T08:07:40.416899",
+    "cumulative_duty_7day": 5.0,
+    "qualifications_json": [
+      "B747",
+      "B777",
+      "A350"
+    ],
+    "current_location_id": "ORD"
+  },
+  {
+    "id": "9d603ea5-bbbb-4c65-bd08-5f28a65a390b",
+    "employee_id": "CPT00007",
+    "name": "Mei Ahmed",
+    "role": "captain",
+    "base_airport_id": "LAX",
+    "status": "off",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 2.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 23.6,
+    "qualifications_json": [
+      "A320"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "fda6c1b7-661a-4da2-a199-24f759d46da0",
+    "employee_id": "CPT00008",
+    "name": "Isabelle Nakamura",
+    "role": "captain",
+    "base_airport_id": "LAX",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 0.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T12:43:31.360356",
+    "cumulative_duty_7day": 22.4,
+    "qualifications_json": [
+      "B738",
+      "B787"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "ae4092a1-8854-4186-9f9d-6796babece6a",
+    "employee_id": "CPT00009",
+    "name": "Samuel Mueller",
+    "role": "captain",
+    "base_airport_id": "LAX",
+    "status": "on_duty",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 3.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T21:30:14.542480",
+    "cumulative_duty_7day": 5.3,
+    "qualifications_json": [
+      "B787",
+      "B737"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "df17d6f1-be89-4d6f-a553-ef09b003b474",
+    "employee_id": "FO00007",
+    "name": "Zara Ali",
+    "role": "first_officer",
+    "base_airport_id": "LAX",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 11.0,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 40.6,
+    "qualifications_json": [
+      "B787",
+      "B737"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "b3a7af05-4043-41b4-a659-0105a122a3f8",
+    "employee_id": "FO00008",
+    "name": "Elena Singh",
+    "role": "first_officer",
+    "base_airport_id": "LAX",
+    "status": "on_duty",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 8.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T03:41:28.966911",
+    "cumulative_duty_7day": 14.4,
+    "qualifications_json": [
+      "B737"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "83283ca5-a433-42cc-920c-d7281b178988",
+    "employee_id": "FO00009",
+    "name": "Isabelle Taylor",
+    "role": "first_officer",
+    "base_airport_id": "LAX",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 0.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T12:48:21.537548",
+    "cumulative_duty_7day": 31.9,
+    "qualifications_json": [
+      "B738"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "a17e03b1-f6ab-4863-a3c2-f561fe3a90dd",
+    "employee_id": "FA00019",
+    "name": "Sofia Taylor",
+    "role": "flight_attendant",
+    "base_airport_id": "LAX",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T23:33:40.348433",
+    "cumulative_duty_7day": 7.6,
+    "qualifications_json": [
+      "A330",
+      "A321",
+      "B738"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "89cda131-c64d-43f2-b69a-d1e37f79a608",
+    "employee_id": "FA00020",
+    "name": "Liam Jackson",
+    "role": "flight_attendant",
+    "base_airport_id": "LAX",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T07:29:26.767464",
+    "cumulative_duty_7day": 3.6,
+    "qualifications_json": [
+      "B787",
+      "B777",
+      "A330"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "0f58cf1d-cf96-4a2d-ad89-8d4498f20a9e",
+    "employee_id": "FA00021",
+    "name": "Hana Patel",
+    "role": "flight_attendant",
+    "base_airport_id": "LAX",
+    "status": "standby",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T14:18:33.973966",
+    "cumulative_duty_7day": 8.4,
+    "qualifications_json": [
+      "B787",
+      "A330",
+      "B747"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "1ae27d55-a03a-4e64-83d0-5cfd13d09dfe",
+    "employee_id": "FA00022",
+    "name": "Noah Okonkwo",
+    "role": "flight_attendant",
+    "base_airport_id": "LAX",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 39.2,
+    "qualifications_json": [
+      "B777",
+      "B737",
+      "A350",
+      "B747"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "0c4110bb-a35d-4b60-8644-92ad261a4cfa",
+    "employee_id": "FA00023",
+    "name": "Carlos Mart\u00ednez",
+    "role": "flight_attendant",
+    "base_airport_id": "LAX",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 7.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T08:47:57.093030",
+    "cumulative_duty_7day": 31.8,
+    "qualifications_json": [
+      "B777",
+      "B737"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "c6ef362e-efd8-4f76-9862-6e9dfeb148db",
+    "employee_id": "FA00024",
+    "name": "Leila Taylor",
+    "role": "flight_attendant",
+    "base_airport_id": "LAX",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 10.0,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 47.0,
+    "qualifications_json": [
+      "A321",
+      "B787",
+      "B747",
+      "B737"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "53f1b31b-c6b2-4c58-b1b6-8fb296a13e5c",
+    "employee_id": "FA00025",
+    "name": "Priya Taylor",
+    "role": "flight_attendant",
+    "base_airport_id": "LAX",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.8,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 27.7,
+    "qualifications_json": [
+      "B747",
+      "B777",
+      "B787"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "f330a8d3-1ce6-437f-8709-7f207bf0073a",
+    "employee_id": "FA00026",
+    "name": "Carlos Davis",
+    "role": "flight_attendant",
+    "base_airport_id": "LAX",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 4.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T09:08:29.805496",
+    "cumulative_duty_7day": 9.7,
+    "qualifications_json": [
+      "B738",
+      "B777",
+      "A321",
+      "A350"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "877e9025-6fb8-486a-b66d-53e0b0a3b778",
+    "employee_id": "FA00027",
+    "name": "Hiroshi Park",
+    "role": "flight_attendant",
+    "base_airport_id": "LAX",
+    "status": "standby",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T10:45:56.125715",
+    "cumulative_duty_7day": 32.3,
+    "qualifications_json": [
+      "A350",
+      "A321",
+      "B777"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "14f78ee4-3f39-49f8-873f-93924f11c969",
+    "employee_id": "CPT00010",
+    "name": "Lucas Davis",
+    "role": "captain",
+    "base_airport_id": "JFK",
+    "status": "on_duty",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 9.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T23:38:04.527780",
+    "cumulative_duty_7day": 15.9,
+    "qualifications_json": [
+      "B787",
+      "A320"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "57300576-cf8b-4f83-a0e4-279b64956bba",
+    "employee_id": "CPT00011",
+    "name": "Aisha Thompson",
+    "role": "captain",
+    "base_airport_id": "JFK",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 10.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 18.9,
+    "qualifications_json": [
+      "A320"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "e75fc6e5-c922-409b-b786-393b258191cf",
+    "employee_id": "CPT00012",
+    "name": "Omar Brown",
+    "role": "captain",
+    "base_airport_id": "JFK",
+    "status": "standby",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T01:06:37.760829",
+    "cumulative_duty_7day": 17.1,
+    "qualifications_json": [
+      "B737"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "34b13877-d108-46d9-81f2-e023095fb020",
+    "employee_id": "FO00010",
+    "name": "Lucas Park",
+    "role": "first_officer",
+    "base_airport_id": "JFK",
+    "status": "standby",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 2.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T23:58:08.665667",
+    "cumulative_duty_7day": 11.5,
+    "qualifications_json": [
+      "B737"
+    ],
+    "current_location_id": "SYD"
+  },
+  {
+    "id": "69be01d5-9484-4ddf-98fc-c034a1d040fe",
+    "employee_id": "FO00011",
+    "name": "Lucas Ali",
+    "role": "first_officer",
+    "base_airport_id": "JFK",
+    "status": "off",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 0.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 5.7,
+    "qualifications_json": [
+      "B787"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "dfd42a06-7a1e-4a56-ace8-ce727c3b999e",
+    "employee_id": "FO00012",
+    "name": "Ethan Okonkwo",
+    "role": "first_officer",
+    "base_airport_id": "JFK",
+    "status": "standby",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.8,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T01:05:34.282625",
+    "cumulative_duty_7day": 22.0,
+    "qualifications_json": [
+      "A350"
+    ],
+    "current_location_id": "NRT"
+  },
+  {
+    "id": "c1ebaef7-31bc-435f-b2a7-76a13d9eb426",
+    "employee_id": "FA00028",
+    "name": "Aisha Mueller",
+    "role": "flight_attendant",
+    "base_airport_id": "JFK",
+    "status": "standby",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T09:29:24.525111",
+    "cumulative_duty_7day": 33.6,
+    "qualifications_json": [
+      "A320",
+      "B777",
+      "B747"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "e01d9f62-0a82-4915-9505-e246a62ae424",
+    "employee_id": "FA00029",
+    "name": "Arjun Johnson",
+    "role": "flight_attendant",
+    "base_airport_id": "JFK",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.0,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T04:29:46.209766",
+    "cumulative_duty_7day": 6.5,
+    "qualifications_json": [
+      "A321",
+      "A320",
+      "B747",
+      "A330"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "8f2a60e7-6c73-452d-84b9-30119a15f89b",
+    "employee_id": "FA00030",
+    "name": "Marcus Mart\u00ednez",
+    "role": "flight_attendant",
+    "base_airport_id": "JFK",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T13:34:33.647242",
+    "cumulative_duty_7day": 34.7,
+    "qualifications_json": [
+      "B737",
+      "A330",
+      "A321",
+      "B747"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "9e84ab95-28fa-423f-bd0e-d50677924c6b",
+    "employee_id": "FA00031",
+    "name": "Mei Taylor",
+    "role": "flight_attendant",
+    "base_airport_id": "JFK",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 16.5,
+    "qualifications_json": [
+      "B747",
+      "A321",
+      "A350",
+      "A320"
+    ],
+    "current_location_id": "LAX"
+  },
+  {
+    "id": "d457e3dc-9807-4736-9189-d2e7518f90a7",
+    "employee_id": "FA00032",
+    "name": "Leila Okonkwo",
+    "role": "flight_attendant",
+    "base_airport_id": "JFK",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T07:22:14.789185",
+    "cumulative_duty_7day": 28.3,
+    "qualifications_json": [
+      "B738",
+      "B737",
+      "A321"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "bb3520f5-2364-4b86-81d0-7d6da40cd47e",
+    "employee_id": "FA00033",
+    "name": "Hana Park",
+    "role": "flight_attendant",
+    "base_airport_id": "JFK",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 12.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 16.1,
+    "qualifications_json": [
+      "B737",
+      "B777"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "e4c66b8a-225f-48e3-8441-6945f5639ecc",
+    "employee_id": "FA00034",
+    "name": "Marcus Jackson",
+    "role": "flight_attendant",
+    "base_airport_id": "JFK",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T08:32:56.368856",
+    "cumulative_duty_7day": 33.3,
+    "qualifications_json": [
+      "B777",
+      "A320",
+      "A321"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "3eba3bbf-d6ee-4dc7-a617-296427d707ba",
+    "employee_id": "FA00035",
+    "name": "Marcus Brown",
+    "role": "flight_attendant",
+    "base_airport_id": "JFK",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T19:45:38.926453",
+    "cumulative_duty_7day": 15.6,
+    "qualifications_json": [
+      "B737",
+      "A321"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "4025a218-5539-4829-a845-ea2e3bb24312",
+    "employee_id": "FA00036",
+    "name": "Raj Nakamura",
+    "role": "flight_attendant",
+    "base_airport_id": "JFK",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T11:51:49.669482",
+    "cumulative_duty_7day": 5.1,
+    "qualifications_json": [
+      "B777",
+      "B787",
+      "A320"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "ac54ff5b-a8b4-4bdf-b317-e4c6410aa2ba",
+    "employee_id": "CPT00013",
+    "name": "Sofia Ahmed",
+    "role": "captain",
+    "base_airport_id": "LHR",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 13.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 42.6,
+    "qualifications_json": [
+      "A320"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "d7069bf8-ff68-4bda-8cb7-df1a785f5e34",
+    "employee_id": "CPT00014",
+    "name": "Arjun Nakamura",
+    "role": "captain",
+    "base_airport_id": "LHR",
+    "status": "off",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 38.0,
+    "qualifications_json": [
+      "A320"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "2482d999-416a-4f47-a72a-b8b785b2a6eb",
+    "employee_id": "CPT00015",
+    "name": "Yuki Kim",
+    "role": "captain",
+    "base_airport_id": "LHR",
+    "status": "standby",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 0.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T01:30:44.620592",
+    "cumulative_duty_7day": 12.8,
+    "qualifications_json": [
+      "A350",
+      "B737"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "09092414-0cad-467f-b691-fc893acb68c7",
+    "employee_id": "FO00013",
+    "name": "Zara Jackson",
+    "role": "first_officer",
+    "base_airport_id": "LHR",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 10.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 36.2,
+    "qualifications_json": [
+      "B738",
+      "A350"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "ccd672d7-aa72-4239-a769-7dfe173319e4",
+    "employee_id": "FO00014",
+    "name": "Leila Ivanova",
+    "role": "first_officer",
+    "base_airport_id": "LHR",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 13.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 41.6,
+    "qualifications_json": [
+      "B777"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "be5eb264-a191-4d39-8aae-be733b2360c8",
+    "employee_id": "FO00015",
+    "name": "Noah Dubois",
+    "role": "first_officer",
+    "base_airport_id": "LHR",
+    "status": "off",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 2.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 20.9,
+    "qualifications_json": [
+      "A321"
+    ],
+    "current_location_id": "PEK"
+  },
+  {
+    "id": "36b59e2e-a946-4896-b702-2a71a7748cb4",
+    "employee_id": "FA00037",
+    "name": "Carlos Dubois",
+    "role": "flight_attendant",
+    "base_airport_id": "LHR",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T10:07:32.362784",
+    "cumulative_duty_7day": 21.2,
+    "qualifications_json": [
+      "A350",
+      "B787"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "5f5b2ebb-a60b-42b7-94af-5f4c2b1d24b4",
+    "employee_id": "FA00038",
+    "name": "Diego Mueller",
+    "role": "flight_attendant",
+    "base_airport_id": "LHR",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T23:36:00.888831",
+    "cumulative_duty_7day": 14.2,
+    "qualifications_json": [
+      "B737",
+      "A321",
+      "B747",
+      "A320"
+    ],
+    "current_location_id": "SYD"
+  },
+  {
+    "id": "04725b47-c478-49fe-970b-3b9270d6e02d",
+    "employee_id": "FA00039",
+    "name": "Kwame Wilson",
+    "role": "flight_attendant",
+    "base_airport_id": "LHR",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 12.0,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 42.3,
+    "qualifications_json": [
+      "A350",
+      "B737",
+      "B747"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "ab7e986e-f8cc-412d-b80b-3570c46510fc",
+    "employee_id": "FA00040",
+    "name": "Mei Ivanova",
+    "role": "flight_attendant",
+    "base_airport_id": "LHR",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.2,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T10:08:10.548850",
+    "cumulative_duty_7day": 27.8,
+    "qualifications_json": [
+      "A330",
+      "B787",
+      "B738"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "d585c380-ddec-41d4-b559-bd67ba6d59cd",
+    "employee_id": "FA00041",
+    "name": "Liam Dubois",
+    "role": "flight_attendant",
+    "base_airport_id": "LHR",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 11.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 21.2,
+    "qualifications_json": [
+      "B747",
+      "B738"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "7ab48112-3e66-4be4-89f6-1fecbd0d0800",
+    "employee_id": "FA00042",
+    "name": "Isabelle Ahmed",
+    "role": "flight_attendant",
+    "base_airport_id": "LHR",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.2,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T09:30:20.047593",
+    "cumulative_duty_7day": 25.8,
+    "qualifications_json": [
+      "A321",
+      "B777"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "096f0fc0-6e6f-4de8-937d-78da2aaf55ed",
+    "employee_id": "FA00043",
+    "name": "Maria Ali",
+    "role": "flight_attendant",
+    "base_airport_id": "LHR",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T14:29:24.873770",
+    "cumulative_duty_7day": 21.9,
+    "qualifications_json": [
+      "B738",
+      "A350",
+      "B737"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "15be9d5d-736b-4fec-9fcf-f85b55939ca4",
+    "employee_id": "FA00044",
+    "name": "Sofia Rodriguez",
+    "role": "flight_attendant",
+    "base_airport_id": "LHR",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 20.5,
+    "qualifications_json": [
+      "A350",
+      "A320",
+      "A330"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "cb20fcbc-8b62-4f48-aa9e-2516ee31e98f",
+    "employee_id": "FA00045",
+    "name": "Yuki Mart\u00ednez",
+    "role": "flight_attendant",
+    "base_airport_id": "LHR",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T03:47:44.375008",
+    "cumulative_duty_7day": 29.0,
+    "qualifications_json": [
+      "A320",
+      "A321",
+      "B737"
+    ],
+    "current_location_id": "LHR"
+  },
+  {
+    "id": "0fc01f0b-ad57-4251-b2bf-ecb61b8c91ca",
+    "employee_id": "CPT00016",
+    "name": "Marcus Ivanova",
+    "role": "captain",
+    "base_airport_id": "DXB",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 11.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 35.5,
+    "qualifications_json": [
+      "A330"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "d7997cbc-4bcb-4d57-bbd2-bdd69f94879f",
+    "employee_id": "CPT00017",
+    "name": "Isabelle Taylor",
+    "role": "captain",
+    "base_airport_id": "DXB",
+    "status": "on_duty",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 8.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T19:56:54.483915",
+    "cumulative_duty_7day": 20.9,
+    "qualifications_json": [
+      "A320"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "3127f3ef-20d3-4d6c-82f2-b07fd6b228c7",
+    "employee_id": "CPT00018",
+    "name": "Wei Okonkwo",
+    "role": "captain",
+    "base_airport_id": "DXB",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 0.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T02:12:39.337560",
+    "cumulative_duty_7day": 6.9,
+    "qualifications_json": [
+      "B737"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "1fec0251-7487-4780-bf98-447de537f6d1",
+    "employee_id": "FO00016",
+    "name": "Elena Wilson",
+    "role": "first_officer",
+    "base_airport_id": "DXB",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 11.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 13.2,
+    "qualifications_json": [
+      "A350",
+      "A320"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "cfe517e5-39f1-42f5-920c-8e46c2689bf5",
+    "employee_id": "FO00017",
+    "name": "Anna Nakamura",
+    "role": "first_officer",
+    "base_airport_id": "DXB",
+    "status": "off",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 2.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 27.4,
+    "qualifications_json": [
+      "A330",
+      "A320"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "a81c1660-7c69-499d-ae96-05ff4de96a05",
+    "employee_id": "FO00018",
+    "name": "Sofia Thomas",
+    "role": "first_officer",
+    "base_airport_id": "DXB",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 13.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 46.7,
+    "qualifications_json": [
+      "B777"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "ba582842-fa04-4795-accf-8318cbe3c8f3",
+    "employee_id": "FA00046",
+    "name": "Carlos Mueller",
+    "role": "flight_attendant",
+    "base_airport_id": "DXB",
+    "status": "standby",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.8,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T06:24:54.526289",
+    "cumulative_duty_7day": 21.5,
+    "qualifications_json": [
+      "B747",
+      "A350",
+      "A321",
+      "B737"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "1b61fca2-ed58-4312-b9ea-e796d31543ca",
+    "employee_id": "FA00047",
+    "name": "James Patel",
+    "role": "flight_attendant",
+    "base_airport_id": "DXB",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 13.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 43.0,
+    "qualifications_json": [
+      "B737",
+      "B777"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "dd5effa6-7cfd-4250-bdde-2c57e2cb79e3",
+    "employee_id": "FA00048",
+    "name": "Ethan Mueller",
+    "role": "flight_attendant",
+    "base_airport_id": "DXB",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 13.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 20.1,
+    "qualifications_json": [
+      "A330",
+      "A350"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "1ac4f5bd-62a5-4bf3-b2a2-07fc9db8d339",
+    "employee_id": "FA00049",
+    "name": "Priya White",
+    "role": "flight_attendant",
+    "base_airport_id": "DXB",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 17.7,
+    "qualifications_json": [
+      "B787",
+      "A330"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "6768619b-b9fc-41bf-80a8-25946fdd6a8a",
+    "employee_id": "FA00050",
+    "name": "Maria Park",
+    "role": "flight_attendant",
+    "base_airport_id": "DXB",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 11.2,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 49.0,
+    "qualifications_json": [
+      "B787",
+      "B777"
+    ],
+    "current_location_id": "NRT"
+  },
+  {
+    "id": "a5c7f32c-fab6-43a9-b7ca-4adde7282679",
+    "employee_id": "FA00051",
+    "name": "Hana Ali",
+    "role": "flight_attendant",
+    "base_airport_id": "DXB",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T07:04:47.048323",
+    "cumulative_duty_7day": 23.5,
+    "qualifications_json": [
+      "A330",
+      "B737",
+      "A320"
+    ],
+    "current_location_id": "SFO"
+  },
+  {
+    "id": "c2f23dc5-f63f-4eb7-a7dc-3e7e613bcb94",
+    "employee_id": "FA00052",
+    "name": "Noah Ali",
+    "role": "flight_attendant",
+    "base_airport_id": "DXB",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 6.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T05:17:15.694032",
+    "cumulative_duty_7day": 24.3,
+    "qualifications_json": [
+      "B777",
+      "A350"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "be1f3c6d-43bf-4e5b-9d1b-7a671da28cec",
+    "employee_id": "FA00053",
+    "name": "Yuki Santos",
+    "role": "flight_attendant",
+    "base_airport_id": "DXB",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 2.7,
+    "qualifications_json": [
+      "B738",
+      "B777",
+      "A350",
+      "B737"
+    ],
+    "current_location_id": "DXB"
+  },
+  {
+    "id": "00dd2918-e4da-4aa4-8c2f-2e84bc939686",
+    "employee_id": "FA00054",
+    "name": "Priya Brown",
+    "role": "flight_attendant",
+    "base_airport_id": "DXB",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 10.4,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 50.1,
+    "qualifications_json": [
+      "A350",
+      "B777"
+    ],
+    "current_location_id": "MAA"
+  },
+  {
+    "id": "b170ae31-ca89-4ce4-a239-a603b521e341",
+    "employee_id": "CPT00019",
+    "name": "Mei Johnson",
+    "role": "captain",
+    "base_airport_id": "DEL",
+    "status": "on_duty",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 3.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T22:53:57.504386",
+    "cumulative_duty_7day": 42.7,
+    "qualifications_json": [
+      "A330",
+      "A320"
+    ],
+    "current_location_id": "DEL"
+  },
+  {
+    "id": "1e5326b3-96a7-460f-a2f4-89b9c26b61e4",
+    "employee_id": "CPT00020",
+    "name": "Noah Jackson",
+    "role": "captain",
+    "base_airport_id": "DEL",
+    "status": "standby",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 0.8,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T23:44:56.199425",
+    "cumulative_duty_7day": 17.4,
+    "qualifications_json": [
+      "A330",
+      "B737"
+    ],
+    "current_location_id": "MIA"
+  },
+  {
+    "id": "feb802ae-35b2-447a-ab48-c68105d6cadb",
+    "employee_id": "CPT00021",
+    "name": "Amara Singh",
+    "role": "captain",
+    "base_airport_id": "DEL",
+    "status": "standby",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T02:13:12.674776",
+    "cumulative_duty_7day": 36.3,
+    "qualifications_json": [
+      "B787"
+    ],
+    "current_location_id": "DEL"
+  },
+  {
+    "id": "2bfa03cb-ad98-413a-92af-0a2525d147eb",
+    "employee_id": "FO00019",
+    "name": "Raj Williams",
+    "role": "first_officer",
+    "base_airport_id": "DEL",
+    "status": "on_duty",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 5.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T08:38:43.051540",
+    "cumulative_duty_7day": 12.6,
+    "qualifications_json": [
+      "A321"
+    ],
+    "current_location_id": "DEL"
+  },
+  {
+    "id": "2f1ffd25-1d9b-4355-9f63-34b93f31cff5",
+    "employee_id": "FO00020",
+    "name": "Nadia Thomas",
+    "role": "first_officer",
+    "base_airport_id": "DEL",
+    "status": "on_duty",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 3.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T05:46:21.046791",
+    "cumulative_duty_7day": 40.4,
+    "qualifications_json": [
+      "B738"
+    ],
+    "current_location_id": "DEL"
+  },
+  {
+    "id": "322450c3-dc74-4831-96ff-96a23326c25e",
+    "employee_id": "FO00021",
+    "name": "Priya Ivanova",
+    "role": "first_officer",
+    "base_airport_id": "DEL",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T03:32:44.280953",
+    "cumulative_duty_7day": 36.3,
+    "qualifications_json": [
+      "A350",
+      "A320"
+    ],
+    "current_location_id": "LIS"
+  },
+  {
+    "id": "34902c2a-8355-4cce-a50e-c09dd773e0a9",
+    "employee_id": "FA00055",
+    "name": "Isabelle Wilson",
+    "role": "flight_attendant",
+    "base_airport_id": "DEL",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 6.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T11:49:34.314973",
+    "cumulative_duty_7day": 25.7,
+    "qualifications_json": [
+      "A320",
+      "B787",
+      "A330"
+    ],
+    "current_location_id": "IAH"
+  },
+  {
+    "id": "8d998f29-bada-4f39-b5bb-b18a4ea24817",
+    "employee_id": "FA00056",
+    "name": "Diego Anderson",
+    "role": "flight_attendant",
+    "base_airport_id": "DEL",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 12.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 50.3,
+    "qualifications_json": [
+      "B747",
+      "B737",
+      "B777"
+    ],
+    "current_location_id": "DEL"
+  },
+  {
+    "id": "eafc1409-c571-4986-ae34-34b8d3339e7e",
+    "employee_id": "FA00057",
+    "name": "Zara Kim",
+    "role": "flight_attendant",
+    "base_airport_id": "DEL",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T21:15:41.072002",
+    "cumulative_duty_7day": 41.8,
+    "qualifications_json": [
+      "A320",
+      "A350",
+      "B747",
+      "B787"
+    ],
+    "current_location_id": "DEL"
+  },
+  {
+    "id": "fbdf1524-4760-4d1e-9e13-6e754976182b",
+    "employee_id": "FA00058",
+    "name": "Zara Johnson",
+    "role": "flight_attendant",
+    "base_airport_id": "DEL",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T08:35:45.395163",
+    "cumulative_duty_7day": 2.3,
+    "qualifications_json": [
+      "B747",
+      "A330"
+    ],
+    "current_location_id": "DEL"
+  },
+  {
+    "id": "755ec857-1315-4634-8c36-19d78102ce40",
+    "employee_id": "FA00059",
+    "name": "Hana Williams",
+    "role": "flight_attendant",
+    "base_airport_id": "DEL",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 13.2,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 20.0,
+    "qualifications_json": [
+      "A321",
+      "A350",
+      "B777",
+      "A320"
+    ],
+    "current_location_id": "DEL"
+  },
+  {
+    "id": "417ec6e6-3081-4d94-a339-172f16f0fd9b",
+    "employee_id": "FA00060",
+    "name": "Diego Ahmed",
+    "role": "flight_attendant",
+    "base_airport_id": "DEL",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T06:01:38.000247",
+    "cumulative_duty_7day": 28.6,
+    "qualifications_json": [
+      "B747",
+      "B738",
+      "B737",
+      "A321"
+    ],
+    "current_location_id": "MAA"
+  },
+  {
+    "id": "2b46408a-58b1-476f-bd61-ff187e6af7ea",
+    "employee_id": "FA00061",
+    "name": "Noah Park",
+    "role": "flight_attendant",
+    "base_airport_id": "DEL",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 3.0,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 15.0,
+    "qualifications_json": [
+      "A321",
+      "A330",
+      "A350"
+    ],
+    "current_location_id": "SYD"
+  },
+  {
+    "id": "f5172b95-4d1a-4c14-a06b-958138011d2c",
+    "employee_id": "FA00062",
+    "name": "James Jackson",
+    "role": "flight_attendant",
+    "base_airport_id": "DEL",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 3.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T03:53:33.110255",
+    "cumulative_duty_7day": 26.1,
+    "qualifications_json": [
+      "A330",
+      "B777",
+      "B737",
+      "A350"
+    ],
+    "current_location_id": "FRA"
+  },
+  {
+    "id": "e0b95d1d-2dcb-4c29-9493-78829cb024fc",
+    "employee_id": "FA00063",
+    "name": "Samuel Ahmed",
+    "role": "flight_attendant",
+    "base_airport_id": "DEL",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 2.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 41.2,
+    "qualifications_json": [
+      "B787",
+      "A321"
+    ],
+    "current_location_id": "MCO"
+  },
+  {
+    "id": "c0faf381-644c-4d7e-b0bb-2c574991bef9",
+    "employee_id": "CPT00022",
+    "name": "Nadia Davis",
+    "role": "captain",
+    "base_airport_id": "SIN",
+    "status": "rest",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 12.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 39.6,
+    "qualifications_json": [
+      "B738"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "b43e2f90-4409-43f6-9f50-8d39cce7968c",
+    "employee_id": "CPT00023",
+    "name": "Raj Singh",
+    "role": "captain",
+    "base_airport_id": "SIN",
+    "status": "off",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 14.3,
+    "qualifications_json": [
+      "B738",
+      "A330"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "671d5559-b3fb-4515-8948-5356a539eb13",
+    "employee_id": "CPT00024",
+    "name": "Lucas Ivanova",
+    "role": "captain",
+    "base_airport_id": "SIN",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.2,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T10:56:38.258499",
+    "cumulative_duty_7day": 32.7,
+    "qualifications_json": [
+      "B777"
+    ],
+    "current_location_id": "JFK"
+  },
+  {
+    "id": "6160dbcf-d46b-4f1d-ac1d-6725a6a7d15f",
+    "employee_id": "FO00022",
+    "name": "Hiroshi Thomas",
+    "role": "first_officer",
+    "base_airport_id": "SIN",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 2.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T05:36:14.230902",
+    "cumulative_duty_7day": 34.8,
+    "qualifications_json": [
+      "A320"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "70ac46d5-ed90-442a-9d42-e1ee5b86d81e",
+    "employee_id": "FO00023",
+    "name": "Carlos White",
+    "role": "first_officer",
+    "base_airport_id": "SIN",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 2.3,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T10:28:20.577290",
+    "cumulative_duty_7day": 29.4,
+    "qualifications_json": [
+      "B747",
+      "A321"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "34ad208c-e517-463f-ae3d-def4745b388d",
+    "employee_id": "FO00024",
+    "name": "Raj Williams",
+    "role": "first_officer",
+    "base_airport_id": "SIN",
+    "status": "available",
+    "max_duty_hours": 14.0,
+    "current_duty_hours": 1.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T06:07:05.258190",
+    "cumulative_duty_7day": 28.5,
+    "qualifications_json": [
+      "B787",
+      "A320"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "04b386d4-57c6-4dc8-9451-e21d0a5dfb2f",
+    "employee_id": "FA00064",
+    "name": "Kwame Patel",
+    "role": "flight_attendant",
+    "base_airport_id": "SIN",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 6.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T20:50:19.853592",
+    "cumulative_duty_7day": 19.7,
+    "qualifications_json": [
+      "A350",
+      "B777",
+      "B787",
+      "A321"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "bb77ecb1-2466-4289-8348-630545e77062",
+    "employee_id": "FA00065",
+    "name": "Aisha Ali",
+    "role": "flight_attendant",
+    "base_airport_id": "SIN",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.1,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T14:03:07.312947",
+    "cumulative_duty_7day": 39.9,
+    "qualifications_json": [
+      "A330",
+      "A350"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "4be94808-05a6-455d-94a1-cdb545e60813",
+    "employee_id": "FA00066",
+    "name": "Leila Johnson",
+    "role": "flight_attendant",
+    "base_airport_id": "SIN",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 9.5,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T01:31:33.117503",
+    "cumulative_duty_7day": 31.1,
+    "qualifications_json": [
+      "A320",
+      "A350",
+      "B777"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "ef848944-c87c-4a7a-a29d-b8be861737ed",
+    "employee_id": "FA00067",
+    "name": "Aisha White",
+    "role": "flight_attendant",
+    "base_airport_id": "SIN",
+    "status": "on_duty",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 9.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T14:08:14.828523",
+    "cumulative_duty_7day": 24.4,
+    "qualifications_json": [
+      "A320",
+      "B787",
+      "B777"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "979b80b1-0989-4dae-bbe4-6f31c7c13fde",
+    "employee_id": "FA00068",
+    "name": "Priya White",
+    "role": "flight_attendant",
+    "base_airport_id": "SIN",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 4.3,
+    "qualifications_json": [
+      "A320",
+      "A321",
+      "B787"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "7b9df2ab-d0fd-44e3-a0d3-4ddb0d70adc4",
+    "employee_id": "FA00069",
+    "name": "Omar Thomas",
+    "role": "flight_attendant",
+    "base_airport_id": "SIN",
+    "status": "rest",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 13.9,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 15.9,
+    "qualifications_json": [
+      "A321",
+      "A320",
+      "A330",
+      "B777"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "1d01fca2-6b36-4df1-8547-cf18c224e22b",
+    "employee_id": "FA00070",
+    "name": "Diego Fischer",
+    "role": "flight_attendant",
+    "base_airport_id": "SIN",
+    "status": "available",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-13T22:14:05.455381",
+    "cumulative_duty_7day": 13.7,
+    "qualifications_json": [
+      "B777",
+      "B738"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "ef302095-251d-4a02-94b9-53d7120f61b4",
+    "employee_id": "FA00071",
+    "name": "Hana Chen",
+    "role": "flight_attendant",
+    "base_airport_id": "SIN",
+    "status": "off",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 1.6,
+    "min_rest_hours": 10.0,
+    "last_rest_start": null,
+    "cumulative_duty_7day": 33.5,
+    "qualifications_json": [
+      "B737",
+      "B787"
+    ],
+    "current_location_id": "SIN"
+  },
+  {
+    "id": "3833fff7-48f3-4fac-8945-cf740752e36b",
+    "employee_id": "FA00072",
+    "name": "Leila Garcia",
+    "role": "flight_attendant",
+    "base_airport_id": "SIN",
+    "status": "standby",
+    "max_duty_hours": 12.0,
+    "current_duty_hours": 0.7,
+    "min_rest_hours": 10.0,
+    "last_rest_start": "2026-06-14T08:36:26.654596",
+    "cumulative_duty_7day": 7.7,
+    "qualifications_json": [
+      "A320",
+      "B747",
+      "A321",
+      "A330"
+    ],
+    "current_location_id": "SIN"
+  }
+]

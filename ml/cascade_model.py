@@ -98,7 +98,7 @@ def train(df: Optional[pd.DataFrame] = None) -> xgb.XGBClassifier:
 
     # evaluation
     y_prob = model.predict_proba(X_val)[:, 1]
-    y_pred = (y_prob >= 0.4).astype(int)
+    y_pred = (y_prob >= 0.5).astype(int)
 
     auc  = roc_auc_score(y_val, y_prob)
     ap   = average_precision_score(y_val, y_prob)

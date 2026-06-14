@@ -162,7 +162,7 @@ def action_table(actions: list, filter_type: str = None):
         "Conflict":    "⚠️" if a["conflict_flag"] else "—",
         "Description": a["description"][:80] + ("…" if len(a["description"]) > 80 else ""),
     } for a in rows])
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    st.dataframe(df, width="stretch", hide_index=True)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -176,6 +176,21 @@ def page_map():
     flights     = load_flights()
     disruptions = load_disruptions()
     coords      = airport_coords()
+
+    if not flights or not coords:
+        st.error(
+            "No data found. Run the data generation pipeline first (see terminal):\n\n"
+            "```bash\n"
+            "python -m ingestion.load_airports --hub-only --no-db\n"
+            "python -m synthetic.gen_crew --no-db\n"
+            "python -m synthetic.gen_aircraft --no-db\n"
+            "python -m ingestion.load_bts --synthetic --sample 5000 --no-db\n"
+            "python -m synthetic.gen_passengers --flights-json data/processed/flights.json --no-db\n"
+            "python ml/feature_builder.py\n"
+            "python -m ml.cascade_model --train\n"
+            "```\n\nThen restart this dashboard."
+        )
+        return
 
     # ── Sidebar filters
     with st.sidebar:
@@ -279,7 +294,7 @@ def page_map():
         height=500,
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     # ── Status breakdown bar chart
     st.subheader("Flight status breakdown")
@@ -287,16 +302,30 @@ def page_map():
     for f in flights:
         status_counts[f["status"]] += 1
 
-    df_status = pd.DataFrame([
-        {"Status": s, "Count": c, "Colour": STATUS_COLOUR.get(s, "#95a5a6")}
-        for s, c in sorted(status_counts.items(), key=lambda x: -x[1])
-    ])
-    fig2 = px.bar(df_status, x="Status", y="Count", color="Status",
-                   color_discrete_map=STATUS_COLOUR,
-                   template="plotly_dark")
-    fig2.update_layout(showlegend=False, paper_bgcolor="#0f0f23",
-                        plot_bgcolor="#0f0f23", height=280)
-    st.plotly_chart(fig2, use_container_width=True)
+    if status_counts:
+        df_status = pd.DataFrame([
+            {"Status": s, "Count": c, "Colour": STATUS_COLOUR.get(s, "#95a5a6")}
+            for s, c in sorted(status_counts.items(), key=lambda x: -x[1])
+        ])
+        fig2 = px.bar(df_status, x="Status", y="Count", color="Status",
+                       color_discrete_map=STATUS_COLOUR,
+                       template="plotly_dark")
+        fig2.update_layout(showlegend=False, paper_bgcolor="#0f0f23",
+                            plot_bgcolor="#0f0f23", height=280)
+        st.plotly_chart(fig2, width="stretch")
+    else:
+        st.warning(
+            "No flight data found. Run the data generation pipeline first:\n\n"
+            "```\n"
+            "python -m ingestion.load_airports --hub-only --no-db\n"
+            "python -m synthetic.gen_crew --no-db\n"
+            "python -m synthetic.gen_aircraft --no-db\n"
+            "python -m ingestion.load_bts --synthetic --sample 5000 --no-db\n"
+            "python -m synthetic.gen_passengers --flights-json data/processed/flights.json --no-db\n"
+            "python ml/feature_builder.py\n"
+            "python -m ml.cascade_model --train\n"
+            "```"
+        )
 
     # ── Disruption table
     st.subheader(f"Active disruptions ({len(filtered)} flights shown)")
@@ -309,7 +338,7 @@ def page_map():
             "Delay (min)": f.get("delay_minutes", 0),
             "Booked":      f.get("booked_seats", 0),
         } for f in filtered[:100]])
-        st.dataframe(df, use_container_width=True, hide_index=True)
+        st.dataframe(df, width="stretch", hide_index=True)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -349,7 +378,7 @@ def page_detail():
     with col2:
         risk_threshold = st.slider("Risk threshold", 0.0, 1.0, 0.25, 0.05,
                                     help="Cascade model probability cutoff")
-        run_btn = st.button("▶ Run Recovery Pipeline", type="primary", use_container_width=True)
+        run_btn = st.button("▶ Run Recovery Pipeline", type="primary", width="stretch")
 
     if run_btn or "last_event" in st.session_state:
         with st.spinner("Running cascade prediction and recovery pipeline..."):
@@ -433,7 +462,7 @@ def page_detail():
             )
             fig_donut.update_layout(paper_bgcolor="#0f0f23", height=250,
                                      margin=dict(t=20,b=20,l=20,r=20))
-            st.plotly_chart(fig_donut, use_container_width=True)
+            st.plotly_chart(fig_donut, width="stretch")
             action_table(actions)
 
         with tab_json:
@@ -524,7 +553,7 @@ def page_whatif():
     }
 
     st.divider()
-    run_btn = st.button("▶ Run Simulation", type="primary", use_container_width=True)
+    run_btn = st.button("▶ Run Simulation", type="primary", width="stretch")
 
     if run_btn:
         with st.spinner("Simulating disruption and running recovery pipeline..."):
@@ -598,7 +627,7 @@ def page_whatif():
             paper_bgcolor="#0f0f23",
             height=380, margin=dict(l=0,r=0,t=0,b=0),
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
         # affected flights table
         st.subheader("At-risk downstream flights")
@@ -609,7 +638,7 @@ def page_whatif():
                 "Est. delay":   f"{a.get('delay_estimate_min',0)} min",
                 "Reason":       a.get("reason",""),
             } for a in affected])
-            st.dataframe(df, use_container_width=True, hide_index=True)
+            st.dataframe(df, width="stretch", hide_index=True)
         else:
             st.info("No downstream flights at risk above the threshold.")
 

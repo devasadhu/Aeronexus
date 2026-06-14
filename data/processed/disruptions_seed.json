@@ -1,0 +1,5366 @@
+[
+  {
+    "flight_id": "a3f75d00-b512-449e-b021-f1c2c1f63a62",
+    "flight_number": "HA283",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "CLT",
+    "destination": "ICN",
+    "departure_time": "2024-10-27T08:00:00"
+  },
+  {
+    "flight_id": "4234b7ff-858c-4793-a231-bba5bef362c6",
+    "flight_number": "DL5659",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "JFK",
+    "destination": "SEA",
+    "departure_time": "2024-05-27T10:30:00"
+  },
+  {
+    "flight_id": "70e7cf16-6771-4209-a254-4a98a04674f8",
+    "flight_number": "DL1772",
+    "type": "unknown",
+    "delay_minutes": 131,
+    "origin": "ATL",
+    "destination": "EWR",
+    "departure_time": "2024-07-19T13:30:00"
+  },
+  {
+    "flight_id": "06a9f627-8cad-4208-8b71-10bbc7eacd16",
+    "flight_number": "WN5942",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "SFO",
+    "destination": "SEA",
+    "departure_time": "2024-10-07T13:00:00"
+  },
+  {
+    "flight_id": "02f26160-10c8-4c93-9238-bbe471dab0fd",
+    "flight_number": "NK2382",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "SEA",
+    "destination": "BOM",
+    "departure_time": "2024-05-16T10:15:00"
+  },
+  {
+    "flight_id": "969131f8-5189-4c31-b7fb-000c28bd3a98",
+    "flight_number": "F92122",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "IAH",
+    "destination": "ICN",
+    "departure_time": "2024-04-13T19:30:00"
+  },
+  {
+    "flight_id": "66c80c75-09f3-43a3-b67f-609fffbfe44f",
+    "flight_number": "AS2111",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "IAH",
+    "destination": "DTW",
+    "departure_time": "2024-02-26T20:15:00"
+  },
+  {
+    "flight_id": "59499550-4050-47d1-8774-19f831193b9e",
+    "flight_number": "HA1197",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "MSP",
+    "destination": "BOM",
+    "departure_time": "2024-11-26T21:45:00"
+  },
+  {
+    "flight_id": "f540806b-2142-414b-9ef4-1e8c26dbe4d1",
+    "flight_number": "WN4575",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "CLT",
+    "destination": "BOM",
+    "departure_time": "2024-04-20T10:00:00"
+  },
+  {
+    "flight_id": "dd668357-3828-49b7-99c2-d583c45b0ae9",
+    "flight_number": "WN577",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "JFK",
+    "destination": "LAS",
+    "departure_time": "2024-09-04T20:30:00"
+  },
+  {
+    "flight_id": "363fa562-e6f9-40e0-a33c-a3bb899625b4",
+    "flight_number": "AA3870",
+    "type": "unknown",
+    "delay_minutes": 94,
+    "origin": "BOM",
+    "destination": "LAX",
+    "departure_time": "2024-04-24T10:00:00"
+  },
+  {
+    "flight_id": "aa4c5f3a-3180-492e-bbf3-d58870a8abcb",
+    "flight_number": "NK5942",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "FLL",
+    "destination": "CLT",
+    "departure_time": "2024-05-06T22:45:00"
+  },
+  {
+    "flight_id": "07317cf4-c60f-4ec7-9d27-5fbb225de4bc",
+    "flight_number": "HA4156",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "LHR",
+    "destination": "MSP",
+    "departure_time": "2024-11-28T21:15:00"
+  },
+  {
+    "flight_id": "47dda5a5-61cc-4c4a-b603-a8419cd70f94",
+    "flight_number": "UA3090",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "PHX",
+    "destination": "LAX",
+    "departure_time": "2024-04-27T21:15:00"
+  },
+  {
+    "flight_id": "7308b2d3-9d71-4390-8095-03c184b90427",
+    "flight_number": "B62735",
+    "type": "unknown",
+    "delay_minutes": 79,
+    "origin": "SFO",
+    "destination": "PHL",
+    "departure_time": "2024-06-22T10:30:00"
+  },
+  {
+    "flight_id": "68eac639-c7d2-4a00-9788-bcfd7ecea3ef",
+    "flight_number": "UA1827",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "ORD",
+    "destination": "BOS",
+    "departure_time": "2024-04-25T10:00:00"
+  },
+  {
+    "flight_id": "6476a6ae-8128-4e7a-8f4d-eee4cdd6d723",
+    "flight_number": "HA5252",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "BOM",
+    "destination": "ATL",
+    "departure_time": "2024-03-11T15:30:00"
+  },
+  {
+    "flight_id": "a7e50de0-ee18-482c-b46a-2d7702a69238",
+    "flight_number": "F91472",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "FLL",
+    "destination": "SEA",
+    "departure_time": "2024-11-04T08:30:00"
+  },
+  {
+    "flight_id": "da0aabfa-a650-46f3-bc82-e1eb74817f5f",
+    "flight_number": "UA557",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "BOS",
+    "destination": "SIN",
+    "departure_time": "2024-08-03T11:45:00"
+  },
+  {
+    "flight_id": "cdb376d5-478f-4dcb-a558-190b220d0842",
+    "flight_number": "DL1749",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "BOM",
+    "destination": "FRA",
+    "departure_time": "2024-04-21T12:45:00"
+  },
+  {
+    "flight_id": "2e277968-0d69-422b-9a80-e0cc4fcb4731",
+    "flight_number": "WN3911",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "DFW",
+    "destination": "ICN",
+    "departure_time": "2024-08-16T13:00:00"
+  },
+  {
+    "flight_id": "0bcf3ef8-4a21-4e47-bfc8-ff41dafd4cf5",
+    "flight_number": "WN4575",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "BOS",
+    "destination": "JFK",
+    "departure_time": "2024-01-31T11:15:00"
+  },
+  {
+    "flight_id": "1fe99676-d6b7-40da-80cf-4ca1b55ebf19",
+    "flight_number": "NK4436",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "IAH",
+    "destination": "DEL",
+    "departure_time": "2024-03-08T12:15:00"
+  },
+  {
+    "flight_id": "4a1301ef-b936-4203-be0d-0022ae0d9640",
+    "flight_number": "HA4052",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "DTW",
+    "destination": "MIA",
+    "departure_time": "2024-06-24T10:45:00"
+  },
+  {
+    "flight_id": "d71d50d1-9177-48db-b50c-41778205babe",
+    "flight_number": "AS572",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "PHL",
+    "destination": "ATL",
+    "departure_time": "2024-03-04T18:15:00"
+  },
+  {
+    "flight_id": "ef076d91-d41c-424b-929b-7fc218a546e0",
+    "flight_number": "AA3395",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "CDG",
+    "destination": "LHR",
+    "departure_time": "2024-10-21T10:00:00"
+  },
+  {
+    "flight_id": "c457374e-faef-4985-ad26-0ffe8ffa949a",
+    "flight_number": "G45992",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "CLT",
+    "destination": "MSP",
+    "departure_time": "2024-09-17T14:15:00"
+  },
+  {
+    "flight_id": "8b14746a-5790-4cbb-b989-62f2e099dd11",
+    "flight_number": "F93496",
+    "type": "unknown",
+    "delay_minutes": 99,
+    "origin": "ORD",
+    "destination": "EWR",
+    "departure_time": "2024-08-05T11:00:00"
+  },
+  {
+    "flight_id": "14d3f72e-391f-43b0-bed7-08f38dafeb87",
+    "flight_number": "G41440",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "SEA",
+    "destination": "SFO",
+    "departure_time": "2024-06-24T09:45:00"
+  },
+  {
+    "flight_id": "0669c515-f1d1-41f6-a23a-f1b53c833eb3",
+    "flight_number": "DL308",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "DTW",
+    "destination": "PHL",
+    "departure_time": "2024-06-17T21:00:00"
+  },
+  {
+    "flight_id": "340e5e04-4544-487d-aefa-d7024dd172c9",
+    "flight_number": "G43374",
+    "type": "unknown",
+    "delay_minutes": 77,
+    "origin": "LHR",
+    "destination": "LAX",
+    "departure_time": "2024-08-20T13:00:00"
+  },
+  {
+    "flight_id": "83439713-5856-41c9-bab5-6fe0300b2540",
+    "flight_number": "WN1631",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "DTW",
+    "destination": "PHL",
+    "departure_time": "2024-12-19T15:45:00"
+  },
+  {
+    "flight_id": "bff5b1e3-00e0-4e89-88fa-f718a6a560f4",
+    "flight_number": "G4340",
+    "type": "unknown",
+    "delay_minutes": 112,
+    "origin": "CLT",
+    "destination": "PHX",
+    "departure_time": "2024-04-29T13:45:00"
+  },
+  {
+    "flight_id": "b52d8bab-8c96-4537-855b-536d28b9bc0a",
+    "flight_number": "HA1296",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "MIA",
+    "destination": "CLT",
+    "departure_time": "2024-10-02T10:15:00"
+  },
+  {
+    "flight_id": "d314fbbe-a31c-44a1-b7c0-7a4be31823fb",
+    "flight_number": "DL5102",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "DFW",
+    "destination": "FRA",
+    "departure_time": "2024-02-24T13:30:00"
+  },
+  {
+    "flight_id": "3ba363a8-302e-4f6c-9d95-d51c9ea3b330",
+    "flight_number": "UA1679",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "SEA",
+    "destination": "MSP",
+    "departure_time": "2024-07-08T15:45:00"
+  },
+  {
+    "flight_id": "920ee90c-149d-4ad9-ad7d-6a0a470b5d71",
+    "flight_number": "HA4435",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "FLL",
+    "destination": "ATL",
+    "departure_time": "2024-08-14T10:15:00"
+  },
+  {
+    "flight_id": "4638d989-5311-4a0b-b944-fdb6e7d7c4ea",
+    "flight_number": "B64167",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "SFO",
+    "destination": "SEA",
+    "departure_time": "2024-08-19T18:30:00"
+  },
+  {
+    "flight_id": "333fa47c-df95-4209-9821-22399cdc3e14",
+    "flight_number": "G45610",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "NRT",
+    "destination": "DXB",
+    "departure_time": "2024-09-29T19:00:00"
+  },
+  {
+    "flight_id": "db4e1b59-9cc2-4be7-a220-f66e02948375",
+    "flight_number": "B61821",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "LAX",
+    "destination": "SIN",
+    "departure_time": "2024-03-26T09:00:00"
+  },
+  {
+    "flight_id": "ae8b74bd-a926-4da7-8e98-925265b5b61c",
+    "flight_number": "UA460",
+    "type": "weather",
+    "delay_minutes": 6,
+    "origin": "ORD",
+    "destination": "DXB",
+    "departure_time": "2024-12-13T21:15:00"
+  },
+  {
+    "flight_id": "a7536fd8-cb5e-4cb2-ad63-0069ff05e30e",
+    "flight_number": "B6946",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "MCO",
+    "destination": "JFK",
+    "departure_time": "2024-01-09T13:30:00"
+  },
+  {
+    "flight_id": "9d3bd861-1683-4e87-9537-3d598e4586ba",
+    "flight_number": "HA3627",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "PHL",
+    "destination": "BOS",
+    "departure_time": "2024-07-13T21:00:00"
+  },
+  {
+    "flight_id": "486375a4-3fb0-44b1-9f1a-5fdbca3405bc",
+    "flight_number": "F92906",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "LAX",
+    "destination": "BOM",
+    "departure_time": "2024-02-24T15:15:00"
+  },
+  {
+    "flight_id": "6568b875-b18a-453c-b2fb-484838a34d58",
+    "flight_number": "AS3638",
+    "type": "unknown",
+    "delay_minutes": 101,
+    "origin": "ICN",
+    "destination": "CLT",
+    "departure_time": "2024-04-19T19:30:00"
+  },
+  {
+    "flight_id": "5a2e1105-9848-44fd-a69d-a9bb94d28ee8",
+    "flight_number": "AA1856",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "FRA",
+    "destination": "ATL",
+    "departure_time": "2024-09-23T11:15:00"
+  },
+  {
+    "flight_id": "a4f0db0f-9ee1-43fc-9819-1adf2f00fe6c",
+    "flight_number": "G43573",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SFO",
+    "destination": "DXB",
+    "departure_time": "2024-01-29T12:00:00"
+  },
+  {
+    "flight_id": "ee8acdb4-9e69-4174-bded-d9d3f505d15c",
+    "flight_number": "F95346",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "ORD",
+    "destination": "EWR",
+    "departure_time": "2024-06-16T15:45:00"
+  },
+  {
+    "flight_id": "2977024f-2058-4954-9b72-82d03b2f8acd",
+    "flight_number": "WN1474",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "FRA",
+    "destination": "MIA",
+    "departure_time": "2024-09-21T07:30:00"
+  },
+  {
+    "flight_id": "0325e441-220d-41fb-b27a-548ac9d46d08",
+    "flight_number": "WN1805",
+    "type": "unknown",
+    "delay_minutes": 89,
+    "origin": "NRT",
+    "destination": "PHL",
+    "departure_time": "2024-03-24T09:00:00"
+  },
+  {
+    "flight_id": "5594798f-34e7-4daa-99c3-eac1fe2ef216",
+    "flight_number": "NK1761",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "PHL",
+    "destination": "ICN",
+    "departure_time": "2024-05-28T09:30:00"
+  },
+  {
+    "flight_id": "70e842ac-5319-4ad5-8caa-83e38507f69a",
+    "flight_number": "HA1331",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "SIN",
+    "destination": "MIA",
+    "departure_time": "2024-11-26T21:15:00"
+  },
+  {
+    "flight_id": "dae81c22-34e1-4571-b85d-f2b38f5d341e",
+    "flight_number": "UA1831",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "LAS",
+    "destination": "MCO",
+    "departure_time": "2024-11-17T06:00:00"
+  },
+  {
+    "flight_id": "4c3801c2-3507-49ce-a0f2-43214036a4b6",
+    "flight_number": "UA5145",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "LHR",
+    "destination": "JFK",
+    "departure_time": "2024-05-27T20:00:00"
+  },
+  {
+    "flight_id": "df6d77f6-ec83-417c-9ae1-8929ae9a1eaa",
+    "flight_number": "HA1454",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "NRT",
+    "destination": "LHR",
+    "departure_time": "2024-06-25T21:15:00"
+  },
+  {
+    "flight_id": "a536c731-f433-4a9d-9b76-3d34a60d1fe8",
+    "flight_number": "WN1268",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "DTW",
+    "destination": "LHR",
+    "departure_time": "2024-09-19T14:45:00"
+  },
+  {
+    "flight_id": "e4193784-291c-45e6-a504-2e20b44ca7b0",
+    "flight_number": "DL3055",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "FLL",
+    "destination": "FRA",
+    "departure_time": "2024-01-18T12:45:00"
+  },
+  {
+    "flight_id": "002dbe73-10cf-4c98-895a-7a76e8337034",
+    "flight_number": "NK3550",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "ORD",
+    "destination": "BOS",
+    "departure_time": "2024-01-12T08:00:00"
+  },
+  {
+    "flight_id": "3c8e3419-e5a2-4d90-b4cd-702ed3c42573",
+    "flight_number": "WN5204",
+    "type": "unknown",
+    "delay_minutes": 84,
+    "origin": "CLT",
+    "destination": "BOM",
+    "departure_time": "2024-08-19T09:45:00"
+  },
+  {
+    "flight_id": "b53347b7-1f29-4fa5-9140-e90cc5693e92",
+    "flight_number": "G44737",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "DFW",
+    "destination": "BOM",
+    "departure_time": "2024-12-15T19:00:00"
+  },
+  {
+    "flight_id": "c7c07b7d-051a-436f-86e9-3b14fe41651b",
+    "flight_number": "UA3956",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "LHR",
+    "destination": "ICN",
+    "departure_time": "2024-06-19T17:30:00"
+  },
+  {
+    "flight_id": "15d1a0e9-eb3d-499f-bb06-96f7b84fe738",
+    "flight_number": "F91605",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "BOM",
+    "destination": "JFK",
+    "departure_time": "2024-11-01T13:30:00"
+  },
+  {
+    "flight_id": "cda65f62-d43c-43ee-984e-5bd6442e984a",
+    "flight_number": "NK3592",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "LHR",
+    "destination": "JFK",
+    "departure_time": "2024-09-17T15:00:00"
+  },
+  {
+    "flight_id": "c2ba0616-c1e6-441d-8d4c-8a8049983935",
+    "flight_number": "AA5425",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "IAH",
+    "destination": "ORD",
+    "departure_time": "2024-07-19T20:15:00"
+  },
+  {
+    "flight_id": "1cddfd3f-4516-4627-83c0-d62a25e14157",
+    "flight_number": "AA5692",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "AMS",
+    "destination": "PHL",
+    "departure_time": "2024-06-28T16:00:00"
+  },
+  {
+    "flight_id": "94757d50-c9fb-44fa-b439-04374525eb1d",
+    "flight_number": "AA5671",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "NRT",
+    "destination": "PHX",
+    "departure_time": "2024-05-03T13:00:00"
+  },
+  {
+    "flight_id": "7705d2b7-9494-42ae-ab34-527af0762690",
+    "flight_number": "B6191",
+    "type": "unknown",
+    "delay_minutes": 93,
+    "origin": "NRT",
+    "destination": "DEN",
+    "departure_time": "2024-07-15T21:45:00"
+  },
+  {
+    "flight_id": "d78ea50d-3791-4ccb-9a15-2eaa905d5c09",
+    "flight_number": "AS3251",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "DEN",
+    "destination": "DFW",
+    "departure_time": "2024-09-02T16:30:00"
+  },
+  {
+    "flight_id": "d6d2cf7f-d1a3-4ac5-8295-1ae47dc7f1a5",
+    "flight_number": "G4179",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "ATL",
+    "destination": "BOM",
+    "departure_time": "2024-04-04T12:15:00"
+  },
+  {
+    "flight_id": "1e3d18b4-c9d0-4189-997a-56d5fd9e0f63",
+    "flight_number": "UA5553",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "BOS",
+    "destination": "FRA",
+    "departure_time": "2024-11-06T09:15:00"
+  },
+  {
+    "flight_id": "7c5f727d-06c0-433e-b5dd-f5047d26a882",
+    "flight_number": "AS5365",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "PHL",
+    "destination": "SIN",
+    "departure_time": "2024-08-26T22:15:00"
+  },
+  {
+    "flight_id": "d2279d15-e76e-46b1-81be-efcdd4a4a7e7",
+    "flight_number": "WN5934",
+    "type": "unknown",
+    "delay_minutes": 89,
+    "origin": "MCO",
+    "destination": "DTW",
+    "departure_time": "2024-01-19T21:45:00"
+  },
+  {
+    "flight_id": "6933666f-9c9a-4094-891d-6599cb6ca7a8",
+    "flight_number": "AS4996",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "NRT",
+    "destination": "DTW",
+    "departure_time": "2024-09-20T20:45:00"
+  },
+  {
+    "flight_id": "57fe8db2-a4dc-48bf-82b3-d484250270f3",
+    "flight_number": "F94953",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "PHL",
+    "destination": "AMS",
+    "departure_time": "2024-01-13T15:45:00"
+  },
+  {
+    "flight_id": "1bd82825-04c0-47b4-baa1-3001c6056f42",
+    "flight_number": "F95492",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "LHR",
+    "destination": "SIN",
+    "departure_time": "2024-12-27T16:30:00"
+  },
+  {
+    "flight_id": "18c84b71-3e06-4669-b632-5024278baf40",
+    "flight_number": "HA4562",
+    "type": "unknown",
+    "delay_minutes": 113,
+    "origin": "MSP",
+    "destination": "JFK",
+    "departure_time": "2024-06-19T09:00:00"
+  },
+  {
+    "flight_id": "06a7f50a-bdc2-483b-a824-91fcd900604c",
+    "flight_number": "F92013",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "EWR",
+    "destination": "AMS",
+    "departure_time": "2024-02-19T12:30:00"
+  },
+  {
+    "flight_id": "d2f393fe-5004-4d3b-a969-90a0d4d3fed4",
+    "flight_number": "B64817",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "SEA",
+    "destination": "CDG",
+    "departure_time": "2024-10-07T13:00:00"
+  },
+  {
+    "flight_id": "128437a8-7f55-4f56-b541-2b9b8aaed19b",
+    "flight_number": "HA3453",
+    "type": "unknown",
+    "delay_minutes": 110,
+    "origin": "DFW",
+    "destination": "MSP",
+    "departure_time": "2024-10-24T11:45:00"
+  },
+  {
+    "flight_id": "2ca5b79c-9cea-4dc8-a81d-b21b03ee4a7c",
+    "flight_number": "F93624",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "CLT",
+    "destination": "MCO",
+    "departure_time": "2024-12-20T14:00:00"
+  },
+  {
+    "flight_id": "48e21a53-28e4-4b14-93ff-5d4afff4b0bd",
+    "flight_number": "UA799",
+    "type": "unknown",
+    "delay_minutes": 78,
+    "origin": "SEA",
+    "destination": "DEL",
+    "departure_time": "2024-09-14T11:00:00"
+  },
+  {
+    "flight_id": "6bc20460-cf6e-464a-9b82-f15e37be532b",
+    "flight_number": "AA5754",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "ORD",
+    "destination": "SIN",
+    "departure_time": "2024-11-01T07:45:00"
+  },
+  {
+    "flight_id": "9148e5bf-3458-49e5-8654-9630ccb0c986",
+    "flight_number": "UA1539",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "FLL",
+    "destination": "DTW",
+    "departure_time": "2024-09-25T11:30:00"
+  },
+  {
+    "flight_id": "a9b55e60-5e84-457c-86a7-5aa58b02912a",
+    "flight_number": "AA3389",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "FLL",
+    "destination": "ORD",
+    "departure_time": "2024-09-27T11:30:00"
+  },
+  {
+    "flight_id": "07f72f62-e9a5-4b42-8778-aa8878b8c42d",
+    "flight_number": "AA2406",
+    "type": "unknown",
+    "delay_minutes": 78,
+    "origin": "EWR",
+    "destination": "MSP",
+    "departure_time": "2024-12-01T16:15:00"
+  },
+  {
+    "flight_id": "5930b7be-9f83-4fcc-afbf-5390a5189955",
+    "flight_number": "UA2139",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "IAH",
+    "destination": "CDG",
+    "departure_time": "2024-07-21T11:30:00"
+  },
+  {
+    "flight_id": "08ef475b-ea14-4302-b7ea-b0b932674337",
+    "flight_number": "WN562",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "LAS",
+    "destination": "DEN",
+    "departure_time": "2024-01-31T17:30:00"
+  },
+  {
+    "flight_id": "becded44-5d4f-457a-bba7-51bad1aaaba6",
+    "flight_number": "DL2096",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "DEN",
+    "destination": "ICN",
+    "departure_time": "2024-12-27T13:30:00"
+  },
+  {
+    "flight_id": "2b2e4601-697f-4097-9ba4-9c7761806bea",
+    "flight_number": "WN4388",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "DXB",
+    "destination": "SEA",
+    "departure_time": "2024-12-15T14:00:00"
+  },
+  {
+    "flight_id": "e208e67a-c169-419d-9719-6462246c3a57",
+    "flight_number": "DL4695",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "MSP",
+    "destination": "ATL",
+    "departure_time": "2024-06-10T12:30:00"
+  },
+  {
+    "flight_id": "4b9bbb4d-1738-4b6c-bf51-4a9907e17eb6",
+    "flight_number": "WN3060",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "ATL",
+    "destination": "DTW",
+    "departure_time": "2024-10-22T12:30:00"
+  },
+  {
+    "flight_id": "9f07d6dd-d31e-4f9f-a523-35b3350dcf37",
+    "flight_number": "HA4149",
+    "type": "unknown",
+    "delay_minutes": 97,
+    "origin": "ICN",
+    "destination": "SEA",
+    "departure_time": "2024-02-18T10:30:00"
+  },
+  {
+    "flight_id": "01472866-56b2-4617-a5fd-0bc98e5c11b4",
+    "flight_number": "HA5640",
+    "type": "unknown",
+    "delay_minutes": 99,
+    "origin": "LHR",
+    "destination": "ICN",
+    "departure_time": "2024-06-06T17:45:00"
+  },
+  {
+    "flight_id": "82dcb0c7-fb5d-439c-a233-29356e82d228",
+    "flight_number": "G43998",
+    "type": "unknown",
+    "delay_minutes": 86,
+    "origin": "BOS",
+    "destination": "ATL",
+    "departure_time": "2024-12-17T15:45:00"
+  },
+  {
+    "flight_id": "47fbbfeb-0fab-48c4-9170-24f68ed09327",
+    "flight_number": "HA3058",
+    "type": "unknown",
+    "delay_minutes": 77,
+    "origin": "FRA",
+    "destination": "LAS",
+    "departure_time": "2024-12-25T11:00:00"
+  },
+  {
+    "flight_id": "e18c1a0c-b45a-40af-9f96-9c37d0addc7d",
+    "flight_number": "G41717",
+    "type": "unknown",
+    "delay_minutes": 87,
+    "origin": "CDG",
+    "destination": "MIA",
+    "departure_time": "2024-06-25T07:15:00"
+  },
+  {
+    "flight_id": "81df7baa-c4d9-4017-9a8b-4ee170eb93f3",
+    "flight_number": "G42492",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "SFO",
+    "destination": "LHR",
+    "departure_time": "2024-01-28T07:30:00"
+  },
+  {
+    "flight_id": "3ad51b5a-740c-4bca-80e0-d2566c98380c",
+    "flight_number": "F92127",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "DEL",
+    "destination": "FRA",
+    "departure_time": "2024-03-24T10:15:00"
+  },
+  {
+    "flight_id": "a4527375-39bd-4c87-a781-83dfab4216f6",
+    "flight_number": "G44694",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "LAS",
+    "destination": "SIN",
+    "departure_time": "2024-10-30T21:45:00"
+  },
+  {
+    "flight_id": "7a1fcb6a-b49b-415e-8e17-fa550ccf4828",
+    "flight_number": "F9241",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "DXB",
+    "destination": "SFO",
+    "departure_time": "2024-01-21T09:15:00"
+  },
+  {
+    "flight_id": "a71989f3-28fa-43e1-9c7c-41906668dc64",
+    "flight_number": "DL312",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "ORD",
+    "destination": "CDG",
+    "departure_time": "2024-07-03T22:30:00"
+  },
+  {
+    "flight_id": "6943e64f-c648-464b-8ec8-66638c7eef48",
+    "flight_number": "AA2264",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "LAX",
+    "destination": "BOS",
+    "departure_time": "2024-10-10T20:30:00"
+  },
+  {
+    "flight_id": "bfd41f93-7062-4f98-ac59-375d63e4af4f",
+    "flight_number": "G41562",
+    "type": "unknown",
+    "delay_minutes": 129,
+    "origin": "SIN",
+    "destination": "CDG",
+    "departure_time": "2024-06-11T19:00:00"
+  },
+  {
+    "flight_id": "afc3dd8c-6848-49c6-b8b7-db295377a052",
+    "flight_number": "B63627",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "BOM",
+    "destination": "CLT",
+    "departure_time": "2024-08-26T22:30:00"
+  },
+  {
+    "flight_id": "e07683c0-f5d5-4158-a0a6-70d08c9ab2db",
+    "flight_number": "NK3736",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "SEA",
+    "destination": "JFK",
+    "departure_time": "2024-06-10T13:15:00"
+  },
+  {
+    "flight_id": "ca31ae2b-1030-4129-aee9-0a48685dca66",
+    "flight_number": "HA1504",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "FLL",
+    "destination": "DTW",
+    "departure_time": "2024-01-04T20:00:00"
+  },
+  {
+    "flight_id": "9c96b1e5-3dad-4f06-8b5d-5e45705766ec",
+    "flight_number": "B61550",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "SEA",
+    "destination": "SIN",
+    "departure_time": "2024-06-03T09:00:00"
+  },
+  {
+    "flight_id": "d85e5b1a-2e09-494d-b55d-ece9e225fff2",
+    "flight_number": "F9424",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "EWR",
+    "destination": "BOS",
+    "departure_time": "2024-09-13T08:15:00"
+  },
+  {
+    "flight_id": "22a18222-0531-4569-ac83-45df20a886ad",
+    "flight_number": "HA1326",
+    "type": "unknown",
+    "delay_minutes": 98,
+    "origin": "IAH",
+    "destination": "MCO",
+    "departure_time": "2024-05-16T10:45:00"
+  },
+  {
+    "flight_id": "00d2e3f0-f071-4b0c-ba91-3d0be560a667",
+    "flight_number": "DL474",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "BOM",
+    "destination": "DXB",
+    "departure_time": "2024-01-04T11:30:00"
+  },
+  {
+    "flight_id": "a0ed10c7-1b7f-44fb-9c44-7dca117ab2ea",
+    "flight_number": "G41070",
+    "type": "unknown",
+    "delay_minutes": 84,
+    "origin": "BOM",
+    "destination": "LAX",
+    "departure_time": "2024-04-25T14:15:00"
+  },
+  {
+    "flight_id": "3e909c6a-d991-45fd-a5f9-9d99551e90c6",
+    "flight_number": "F93372",
+    "type": "unknown",
+    "delay_minutes": 79,
+    "origin": "CDG",
+    "destination": "BOS",
+    "departure_time": "2024-07-06T21:45:00"
+  },
+  {
+    "flight_id": "f55c3b19-4db6-4c22-a44d-aaef8daf4c75",
+    "flight_number": "F94707",
+    "type": "unknown",
+    "delay_minutes": 120,
+    "origin": "DFW",
+    "destination": "EWR",
+    "departure_time": "2024-11-19T13:45:00"
+  },
+  {
+    "flight_id": "4e1790b5-8212-42be-9fc4-ee1355794864",
+    "flight_number": "F92021",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "FRA",
+    "destination": "BOS",
+    "departure_time": "2024-06-17T20:45:00"
+  },
+  {
+    "flight_id": "81eb2bff-7516-4ba3-98f7-8eb231e36810",
+    "flight_number": "WN2465",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "LAX",
+    "destination": "MIA",
+    "departure_time": "2024-04-08T19:00:00"
+  },
+  {
+    "flight_id": "0e3c36ef-9e3c-4bfc-af9f-42439bb4d882",
+    "flight_number": "AS5562",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DXB",
+    "destination": "DEL",
+    "departure_time": "2024-12-21T19:00:00"
+  },
+  {
+    "flight_id": "619f077a-7c7c-4595-9039-afc1ea1ad576",
+    "flight_number": "DL5807",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "DEN",
+    "destination": "ICN",
+    "departure_time": "2024-01-17T20:30:00"
+  },
+  {
+    "flight_id": "e8a0dc54-01ed-4224-8456-73008f2b5e2c",
+    "flight_number": "B6359",
+    "type": "unknown",
+    "delay_minutes": 110,
+    "origin": "DXB",
+    "destination": "DEN",
+    "departure_time": "2024-03-06T22:15:00"
+  },
+  {
+    "flight_id": "c7446772-fe9f-4cf9-8100-b22a846d4b38",
+    "flight_number": "B65114",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "DFW",
+    "destination": "ATL",
+    "departure_time": "2024-08-24T15:45:00"
+  },
+  {
+    "flight_id": "33122efc-df33-40cc-8878-81884364c1ef",
+    "flight_number": "F95956",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "LAS",
+    "destination": "EWR",
+    "departure_time": "2024-10-11T13:30:00"
+  },
+  {
+    "flight_id": "c1974551-e2e7-49cf-87c0-fcf85c075052",
+    "flight_number": "DL2029",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SEA",
+    "destination": "LAS",
+    "departure_time": "2024-06-29T13:45:00"
+  },
+  {
+    "flight_id": "21193de1-cbdd-4ac8-a08b-718cb375b1ac",
+    "flight_number": "B64278",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "FLL",
+    "destination": "BOM",
+    "departure_time": "2024-08-20T10:45:00"
+  },
+  {
+    "flight_id": "f1888136-d937-47ef-a8a6-3f6df89cd97a",
+    "flight_number": "G44458",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "MSP",
+    "destination": "NRT",
+    "departure_time": "2024-06-15T08:30:00"
+  },
+  {
+    "flight_id": "7aca4969-a04e-4670-8f75-ae279d0d6b08",
+    "flight_number": "G42347",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "LAX",
+    "destination": "NRT",
+    "departure_time": "2024-05-09T20:15:00"
+  },
+  {
+    "flight_id": "8cf15c9e-39ab-440e-a6c9-36b38626a69f",
+    "flight_number": "WN1011",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "MIA",
+    "destination": "LAX",
+    "departure_time": "2024-11-20T10:15:00"
+  },
+  {
+    "flight_id": "fe096beb-6285-474a-a255-341f14b7efbe",
+    "flight_number": "AA470",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "BOM",
+    "destination": "CDG",
+    "departure_time": "2024-06-02T15:30:00"
+  },
+  {
+    "flight_id": "1f3b6651-263a-418e-b2fa-5e52d48c41f2",
+    "flight_number": "AS3375",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "ATL",
+    "destination": "BOM",
+    "departure_time": "2024-01-07T18:15:00"
+  },
+  {
+    "flight_id": "2500287f-9134-4a0f-948c-70bdfeba9430",
+    "flight_number": "NK2022",
+    "type": "unknown",
+    "delay_minutes": 81,
+    "origin": "PHL",
+    "destination": "ATL",
+    "departure_time": "2024-06-19T14:15:00"
+  },
+  {
+    "flight_id": "204b8839-33a3-4a6b-9515-7bea49ea86f9",
+    "flight_number": "WN2538",
+    "type": "unknown",
+    "delay_minutes": 114,
+    "origin": "JFK",
+    "destination": "BOS",
+    "departure_time": "2024-07-15T17:45:00"
+  },
+  {
+    "flight_id": "c63e9303-c104-48f3-9c9a-d8c10452e6e2",
+    "flight_number": "AS3522",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "ICN",
+    "destination": "MCO",
+    "departure_time": "2024-05-19T16:00:00"
+  },
+  {
+    "flight_id": "34b0ecba-a172-42af-8bda-af5927287985",
+    "flight_number": "AA4582",
+    "type": "unknown",
+    "delay_minutes": 94,
+    "origin": "ATL",
+    "destination": "CDG",
+    "departure_time": "2024-04-05T15:00:00"
+  },
+  {
+    "flight_id": "fb3b8679-07b4-4fa5-8176-a2b2723a5c0f",
+    "flight_number": "G44534",
+    "type": "weather",
+    "delay_minutes": 13,
+    "origin": "JFK",
+    "destination": "BOS",
+    "departure_time": "2024-09-20T07:45:00"
+  },
+  {
+    "flight_id": "f75bb9da-0307-40a5-814c-6d3274a593a4",
+    "flight_number": "AA1134",
+    "type": "unknown",
+    "delay_minutes": 82,
+    "origin": "LAS",
+    "destination": "CLT",
+    "departure_time": "2024-03-20T22:45:00"
+  },
+  {
+    "flight_id": "e45da2d4-cf6d-4f78-9f4e-5970d9986010",
+    "flight_number": "UA4910",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "DEN",
+    "destination": "BOS",
+    "departure_time": "2024-08-30T16:30:00"
+  },
+  {
+    "flight_id": "863b5f55-d4f8-41b1-9db6-33ff6acaa275",
+    "flight_number": "DL2502",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "FRA",
+    "destination": "DEN",
+    "departure_time": "2024-01-13T21:00:00"
+  },
+  {
+    "flight_id": "1f1a0f92-eac0-4cd8-a544-dd25d13eb280",
+    "flight_number": "UA5290",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "IAH",
+    "destination": "DFW",
+    "departure_time": "2024-09-27T19:30:00"
+  },
+  {
+    "flight_id": "ce760ea6-e0f9-4eb1-a558-c966b9c6b39d",
+    "flight_number": "HA3653",
+    "type": "unknown",
+    "delay_minutes": 100,
+    "origin": "AMS",
+    "destination": "BOM",
+    "departure_time": "2024-09-23T13:45:00"
+  },
+  {
+    "flight_id": "6957957c-4fcc-4e22-85be-897b732662bf",
+    "flight_number": "WN5462",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "SIN",
+    "destination": "AMS",
+    "departure_time": "2024-03-26T14:15:00"
+  },
+  {
+    "flight_id": "59d497b5-9308-4d9e-9c55-a3ff939d956c",
+    "flight_number": "AS5692",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "DXB",
+    "destination": "IAH",
+    "departure_time": "2024-01-20T11:15:00"
+  },
+  {
+    "flight_id": "03cc1f27-ab01-4c65-b4fc-cdbdbff1323c",
+    "flight_number": "NK926",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "MCO",
+    "destination": "PHX",
+    "departure_time": "2024-06-13T10:00:00"
+  },
+  {
+    "flight_id": "b01a88e4-a15f-4922-becb-0e1afe760fed",
+    "flight_number": "AS4914",
+    "type": "weather",
+    "delay_minutes": 33,
+    "origin": "DTW",
+    "destination": "SFO",
+    "departure_time": "2024-03-29T16:15:00"
+  },
+  {
+    "flight_id": "48d636da-9261-425c-93c2-70c71a3a9097",
+    "flight_number": "NK1928",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SEA",
+    "destination": "PHX",
+    "departure_time": "2024-04-07T12:00:00"
+  },
+  {
+    "flight_id": "4c790cd0-0454-4b3a-9f43-491533a8510a",
+    "flight_number": "G41658",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "MSP",
+    "destination": "BOM",
+    "departure_time": "2024-10-10T22:00:00"
+  },
+  {
+    "flight_id": "85285d7e-f44a-4f7f-bd31-1d94f68522db",
+    "flight_number": "HA3262",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "CLT",
+    "destination": "NRT",
+    "departure_time": "2024-09-19T13:30:00"
+  },
+  {
+    "flight_id": "f5b933be-40a3-4e38-afdd-be08fb25c2ad",
+    "flight_number": "DL5056",
+    "type": "weather",
+    "delay_minutes": 20,
+    "origin": "SEA",
+    "destination": "SFO",
+    "departure_time": "2024-06-12T12:30:00"
+  },
+  {
+    "flight_id": "e75b4b61-7531-4de3-9081-c43723e5416d",
+    "flight_number": "F95898",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "ORD",
+    "destination": "IAH",
+    "departure_time": "2024-12-11T10:30:00"
+  },
+  {
+    "flight_id": "fe912ab3-109a-4a22-8190-49416ed9d433",
+    "flight_number": "UA2602",
+    "type": "unknown",
+    "delay_minutes": 87,
+    "origin": "DEN",
+    "destination": "SIN",
+    "departure_time": "2024-12-27T06:00:00"
+  },
+  {
+    "flight_id": "59a9ed7c-0949-4179-a543-3f5fa7bd4187",
+    "flight_number": "AA2141",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "ORD",
+    "destination": "MSP",
+    "departure_time": "2024-12-29T10:00:00"
+  },
+  {
+    "flight_id": "04ef675b-d4a0-405c-9dee-58b0400886d5",
+    "flight_number": "NK234",
+    "type": "unknown",
+    "delay_minutes": 78,
+    "origin": "ICN",
+    "destination": "BOM",
+    "departure_time": "2024-04-02T10:15:00"
+  },
+  {
+    "flight_id": "80c0d1b6-af13-4d82-86ba-6a3b79f8acdb",
+    "flight_number": "AA3148",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "PHL",
+    "destination": "NRT",
+    "departure_time": "2024-10-01T12:45:00"
+  },
+  {
+    "flight_id": "5efb04fa-3190-42cd-a68b-646ab0445a54",
+    "flight_number": "WN4695",
+    "type": "unknown",
+    "delay_minutes": 90,
+    "origin": "ICN",
+    "destination": "FLL",
+    "departure_time": "2024-03-16T15:30:00"
+  },
+  {
+    "flight_id": "be8544a0-120e-4b55-9e3a-c5a713e53e88",
+    "flight_number": "AS5579",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "DEL",
+    "destination": "DEN",
+    "departure_time": "2024-06-03T20:00:00"
+  },
+  {
+    "flight_id": "927ed872-1201-4df5-9472-97d9ca6665ba",
+    "flight_number": "AS3387",
+    "type": "unknown",
+    "delay_minutes": 79,
+    "origin": "SIN",
+    "destination": "MCO",
+    "departure_time": "2024-04-10T10:30:00"
+  },
+  {
+    "flight_id": "033c1d5d-97c8-4690-a751-1e7b1cca9cc4",
+    "flight_number": "WN5382",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "PHX",
+    "destination": "SIN",
+    "departure_time": "2024-08-07T11:00:00"
+  },
+  {
+    "flight_id": "44977ca7-17d8-46d8-9fba-4dcf328fded4",
+    "flight_number": "NK3943",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "ATL",
+    "destination": "EWR",
+    "departure_time": "2024-06-27T09:30:00"
+  },
+  {
+    "flight_id": "342367d9-8c88-4aff-ac45-5395f7c72e68",
+    "flight_number": "AS2567",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "SEA",
+    "destination": "ICN",
+    "departure_time": "2024-12-27T06:00:00"
+  },
+  {
+    "flight_id": "8fc08546-4b24-4fe4-876c-cb1e2d60978a",
+    "flight_number": "NK1025",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "DEN",
+    "destination": "CDG",
+    "departure_time": "2024-06-07T18:15:00"
+  },
+  {
+    "flight_id": "8c48167f-f8b2-47de-b464-f43834d3a856",
+    "flight_number": "F94686",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DFW",
+    "destination": "MIA",
+    "departure_time": "2024-05-07T10:30:00"
+  },
+  {
+    "flight_id": "cb7ce89c-9016-4bcd-ad13-3f1e40fa964e",
+    "flight_number": "AS5697",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "DEN",
+    "destination": "AMS",
+    "departure_time": "2024-11-28T09:45:00"
+  },
+  {
+    "flight_id": "b3ba8a10-e27e-4f41-a1aa-e53f6b9cd723",
+    "flight_number": "HA2091",
+    "type": "unknown",
+    "delay_minutes": 109,
+    "origin": "FRA",
+    "destination": "PHL",
+    "departure_time": "2024-02-17T17:15:00"
+  },
+  {
+    "flight_id": "2904cff5-694a-4d67-b574-a65baf8d1faf",
+    "flight_number": "DL3931",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "DTW",
+    "destination": "LAS",
+    "departure_time": "2024-05-13T10:00:00"
+  },
+  {
+    "flight_id": "4b5ad9f6-d360-429e-b299-a8d211c64621",
+    "flight_number": "AS862",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "DEL",
+    "destination": "SFO",
+    "departure_time": "2024-12-06T07:15:00"
+  },
+  {
+    "flight_id": "3da0c8f2-d395-4942-9e04-200e26814f71",
+    "flight_number": "UA2993",
+    "type": "unknown",
+    "delay_minutes": 84,
+    "origin": "BOS",
+    "destination": "FRA",
+    "departure_time": "2024-05-24T11:30:00"
+  },
+  {
+    "flight_id": "35541c6e-871a-4ad6-afa1-003a4416f09d",
+    "flight_number": "AA4157",
+    "type": "unknown",
+    "delay_minutes": 87,
+    "origin": "DFW",
+    "destination": "LAS",
+    "departure_time": "2024-09-13T18:00:00"
+  },
+  {
+    "flight_id": "b1df01c6-2671-4d5d-895f-9bf59ccdba1b",
+    "flight_number": "AS1065",
+    "type": "unknown",
+    "delay_minutes": 129,
+    "origin": "BOM",
+    "destination": "BOS",
+    "departure_time": "2024-06-13T09:00:00"
+  },
+  {
+    "flight_id": "64631bad-b76e-4f6c-826b-43029f950974",
+    "flight_number": "DL4101",
+    "type": "weather",
+    "delay_minutes": 51,
+    "origin": "CDG",
+    "destination": "AMS",
+    "departure_time": "2024-12-11T08:30:00"
+  },
+  {
+    "flight_id": "03d55602-d716-41c8-82db-ca500dafe6b3",
+    "flight_number": "AA5520",
+    "type": "unknown",
+    "delay_minutes": 81,
+    "origin": "BOM",
+    "destination": "ORD",
+    "departure_time": "2024-11-19T20:30:00"
+  },
+  {
+    "flight_id": "e5e0c8e1-f612-48d6-b21a-77aa378770ed",
+    "flight_number": "G44592",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "IAH",
+    "destination": "NRT",
+    "departure_time": "2024-06-04T16:00:00"
+  },
+  {
+    "flight_id": "ed47a762-5dc8-4af4-bf05-b120c9c3cafe",
+    "flight_number": "WN2369",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "SEA",
+    "destination": "AMS",
+    "departure_time": "2024-04-02T16:00:00"
+  },
+  {
+    "flight_id": "560d7bde-9c98-49af-8754-99ca27f47eff",
+    "flight_number": "HA3272",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "ATL",
+    "destination": "MCO",
+    "departure_time": "2024-10-06T08:00:00"
+  },
+  {
+    "flight_id": "abf17286-0485-4986-bc8f-4211731149f0",
+    "flight_number": "AS1512",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "DEL",
+    "destination": "BOM",
+    "departure_time": "2024-07-06T15:30:00"
+  },
+  {
+    "flight_id": "c9b35a4b-bc78-41a5-9360-7787097e7809",
+    "flight_number": "F93986",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "BOS",
+    "destination": "ORD",
+    "departure_time": "2024-08-01T16:45:00"
+  },
+  {
+    "flight_id": "514f5736-d72b-4e0a-8533-369a7c2fdde2",
+    "flight_number": "UA4757",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "NRT",
+    "destination": "DTW",
+    "departure_time": "2024-12-14T09:00:00"
+  },
+  {
+    "flight_id": "ca102efe-4ba8-4a6a-9265-1088c9e6ff35",
+    "flight_number": "UA2364",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "ATL",
+    "destination": "DFW",
+    "departure_time": "2024-01-05T11:00:00"
+  },
+  {
+    "flight_id": "bd939a4b-f962-4eb1-8415-28c63e255594",
+    "flight_number": "G45090",
+    "type": "unknown",
+    "delay_minutes": 77,
+    "origin": "SIN",
+    "destination": "MIA",
+    "departure_time": "2024-11-24T13:45:00"
+  },
+  {
+    "flight_id": "8d136bd9-2b86-48bf-a4c8-e6bc0b17ff79",
+    "flight_number": "HA930",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "BOM",
+    "destination": "MCO",
+    "departure_time": "2024-08-19T15:00:00"
+  },
+  {
+    "flight_id": "8e7eddea-5306-4f3a-a216-e5066ea1b647",
+    "flight_number": "B62995",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "PHX",
+    "destination": "BOS",
+    "departure_time": "2024-09-04T14:30:00"
+  },
+  {
+    "flight_id": "6b7c273a-551a-4f7d-80a7-11d320333511",
+    "flight_number": "AA2163",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "DEL",
+    "destination": "BOM",
+    "departure_time": "2024-03-01T14:30:00"
+  },
+  {
+    "flight_id": "fe01efbb-7748-4fc9-b0f2-d5865fe74de7",
+    "flight_number": "UA2129",
+    "type": "weather",
+    "delay_minutes": 99,
+    "origin": "AMS",
+    "destination": "NRT",
+    "departure_time": "2024-10-02T09:45:00"
+  },
+  {
+    "flight_id": "d0a1c453-7bb5-445e-b3c2-2973db5c5326",
+    "flight_number": "G43982",
+    "type": "weather",
+    "delay_minutes": 26,
+    "origin": "DEL",
+    "destination": "BOM",
+    "departure_time": "2024-01-11T15:45:00"
+  },
+  {
+    "flight_id": "1e78dd9c-78fb-4b59-8fb4-c4a598410b9a",
+    "flight_number": "AA4325",
+    "type": "unknown",
+    "delay_minutes": 92,
+    "origin": "CLT",
+    "destination": "FRA",
+    "departure_time": "2024-11-29T07:15:00"
+  },
+  {
+    "flight_id": "b735286f-4b38-48ff-a35a-0114726c0973",
+    "flight_number": "B6246",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "PHL",
+    "destination": "MIA",
+    "departure_time": "2024-07-04T09:15:00"
+  },
+  {
+    "flight_id": "950b5dcb-6f4b-4060-b3f3-cecc3a9818fd",
+    "flight_number": "DL3438",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SIN",
+    "destination": "LAX",
+    "departure_time": "2024-02-16T11:15:00"
+  },
+  {
+    "flight_id": "8ac47456-c001-45e1-882e-44ab74b0337d",
+    "flight_number": "WN4797",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "LAX",
+    "destination": "LAS",
+    "departure_time": "2024-11-23T17:30:00"
+  },
+  {
+    "flight_id": "375c5808-96f3-45e8-a2d3-952585e1ba0f",
+    "flight_number": "NK3424",
+    "type": "unknown",
+    "delay_minutes": 88,
+    "origin": "SFO",
+    "destination": "IAH",
+    "departure_time": "2024-10-18T08:15:00"
+  },
+  {
+    "flight_id": "b38b13d7-930d-40fd-8e4d-bdf32fae0b1c",
+    "flight_number": "G41954",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "IAH",
+    "destination": "ICN",
+    "departure_time": "2024-01-28T06:00:00"
+  },
+  {
+    "flight_id": "8e61d5c8-5932-42fc-80d4-e6fcceb13cc6",
+    "flight_number": "NK5490",
+    "type": "unknown",
+    "delay_minutes": 90,
+    "origin": "FRA",
+    "destination": "SIN",
+    "departure_time": "2024-05-07T15:30:00"
+  },
+  {
+    "flight_id": "3fe6fa6a-ce45-44bb-aaeb-a81d2e2e1c15",
+    "flight_number": "AA628",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "LAX",
+    "destination": "DEN",
+    "departure_time": "2024-02-14T19:00:00"
+  },
+  {
+    "flight_id": "e650b5c3-66b4-432d-9890-b8a7c2e69e03",
+    "flight_number": "NK4067",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "PHX",
+    "destination": "DXB",
+    "departure_time": "2024-06-29T22:15:00"
+  },
+  {
+    "flight_id": "55b4803e-1464-4fdf-b8df-6598cb9add21",
+    "flight_number": "AS749",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "BOS",
+    "destination": "IAH",
+    "departure_time": "2024-11-26T20:30:00"
+  },
+  {
+    "flight_id": "cbc30f2c-e8c5-4945-a19f-9cea963305b1",
+    "flight_number": "AA4246",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "LAS",
+    "destination": "ORD",
+    "departure_time": "2024-04-11T22:15:00"
+  },
+  {
+    "flight_id": "c0f91163-272f-4518-a800-1180a27126a8",
+    "flight_number": "F9684",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "CDG",
+    "destination": "EWR",
+    "departure_time": "2024-01-29T13:15:00"
+  },
+  {
+    "flight_id": "01bbec49-d700-4e3d-86eb-95496d601eef",
+    "flight_number": "WN2996",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "ATL",
+    "destination": "LHR",
+    "departure_time": "2024-10-23T11:00:00"
+  },
+  {
+    "flight_id": "0b654cab-5d65-45ed-98a8-4d58b7df6706",
+    "flight_number": "B6400",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "BOM",
+    "destination": "PHX",
+    "departure_time": "2024-03-27T15:30:00"
+  },
+  {
+    "flight_id": "656ed09a-6b3d-46ec-8bce-ad0df67990ce",
+    "flight_number": "B62180",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "EWR",
+    "destination": "NRT",
+    "departure_time": "2024-01-14T13:45:00"
+  },
+  {
+    "flight_id": "5e1d8481-28ac-4ca3-b79c-5ffc99eb8054",
+    "flight_number": "NK4840",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SEA",
+    "destination": "EWR",
+    "departure_time": "2024-10-24T12:00:00"
+  },
+  {
+    "flight_id": "5f58a057-07fc-4304-a708-1910c1ab69f3",
+    "flight_number": "B64903",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "IAH",
+    "destination": "ATL",
+    "departure_time": "2024-08-20T13:00:00"
+  },
+  {
+    "flight_id": "82824de8-bd03-4985-98f3-a91de7e1abf4",
+    "flight_number": "HA1662",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "IAH",
+    "destination": "MIA",
+    "departure_time": "2024-09-06T10:45:00"
+  },
+  {
+    "flight_id": "120bfe38-cb5d-4e3d-ba96-e79361d20b7d",
+    "flight_number": "WN4031",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "ORD",
+    "destination": "SIN",
+    "departure_time": "2024-07-24T19:30:00"
+  },
+  {
+    "flight_id": "a128eb2c-f8b5-4b90-96ee-dba9c4331397",
+    "flight_number": "B62425",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "CDG",
+    "destination": "LHR",
+    "departure_time": "2024-10-08T09:45:00"
+  },
+  {
+    "flight_id": "ae78e66d-78f9-4ea3-bff3-fb1b1d2f9d9a",
+    "flight_number": "HA2764",
+    "type": "unknown",
+    "delay_minutes": 85,
+    "origin": "PHX",
+    "destination": "MSP",
+    "departure_time": "2024-06-07T16:00:00"
+  },
+  {
+    "flight_id": "e147bd80-aef1-4000-9a99-135cf207febb",
+    "flight_number": "NK4057",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DEN",
+    "destination": "CLT",
+    "departure_time": "2024-01-18T15:30:00"
+  },
+  {
+    "flight_id": "dcd4aea4-1860-44c4-b5c5-5d961cad71d6",
+    "flight_number": "WN488",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "AMS",
+    "destination": "PHX",
+    "departure_time": "2024-03-18T12:15:00"
+  },
+  {
+    "flight_id": "83faff08-d4a4-4867-b942-facfb11e6ea1",
+    "flight_number": "B62645",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "CDG",
+    "destination": "SIN",
+    "departure_time": "2024-03-20T22:30:00"
+  },
+  {
+    "flight_id": "0dd412e6-6f18-4ee7-acae-2aa8a95da4ad",
+    "flight_number": "UA3971",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "LAS",
+    "destination": "MIA",
+    "departure_time": "2024-12-02T08:00:00"
+  },
+  {
+    "flight_id": "213fa4d1-48bb-4aa2-b00b-792f7080425e",
+    "flight_number": "HA725",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "MIA",
+    "destination": "DFW",
+    "departure_time": "2024-06-12T13:30:00"
+  },
+  {
+    "flight_id": "7babed0e-d700-4bde-8f18-5a7ee309d08f",
+    "flight_number": "WN3417",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "BOM",
+    "destination": "DFW",
+    "departure_time": "2024-08-09T20:15:00"
+  },
+  {
+    "flight_id": "472ecc2b-0559-443b-b58d-a777db2430f8",
+    "flight_number": "WN911",
+    "type": "unknown",
+    "delay_minutes": 79,
+    "origin": "PHL",
+    "destination": "ATL",
+    "departure_time": "2024-07-28T12:30:00"
+  },
+  {
+    "flight_id": "284f96a6-eaa2-4828-87fa-940e199300b9",
+    "flight_number": "B63896",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "NRT",
+    "destination": "LAS",
+    "departure_time": "2024-02-19T14:00:00"
+  },
+  {
+    "flight_id": "4fd16029-cd6f-45b4-ad65-39a79d0d2f39",
+    "flight_number": "AA2105",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "EWR",
+    "destination": "LAS",
+    "departure_time": "2024-08-24T21:30:00"
+  },
+  {
+    "flight_id": "b697b328-19e8-4538-a977-2c6c5e564412",
+    "flight_number": "AA1221",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "IAH",
+    "destination": "MSP",
+    "departure_time": "2024-06-05T13:15:00"
+  },
+  {
+    "flight_id": "c7fdff14-72ec-4964-9536-843bd545cfce",
+    "flight_number": "G43135",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "MIA",
+    "destination": "SEA",
+    "departure_time": "2024-02-06T10:45:00"
+  },
+  {
+    "flight_id": "c7d54b3b-96a9-4781-bacd-8ae1923b4433",
+    "flight_number": "NK174",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "ICN",
+    "destination": "SFO",
+    "departure_time": "2024-01-14T13:45:00"
+  },
+  {
+    "flight_id": "6136acb1-8dde-483d-810a-48de85b20661",
+    "flight_number": "G4114",
+    "type": "unknown",
+    "delay_minutes": 77,
+    "origin": "LAX",
+    "destination": "SIN",
+    "departure_time": "2024-07-03T16:45:00"
+  },
+  {
+    "flight_id": "2d703aff-726a-423c-976d-fa23197f5d47",
+    "flight_number": "DL2299",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "MIA",
+    "destination": "DTW",
+    "departure_time": "2024-02-16T13:45:00"
+  },
+  {
+    "flight_id": "2f738bd7-f15c-4073-bc33-8b8306a2056c",
+    "flight_number": "G41311",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "CLT",
+    "destination": "MCO",
+    "departure_time": "2024-04-07T13:00:00"
+  },
+  {
+    "flight_id": "7078e6fc-38ae-43d5-9a2e-2ffaa6c9c886",
+    "flight_number": "F95402",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "LAS",
+    "destination": "DEN",
+    "departure_time": "2024-04-11T16:00:00"
+  },
+  {
+    "flight_id": "353923ee-e941-46c5-94cb-5b630b0373bb",
+    "flight_number": "UA2712",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "JFK",
+    "destination": "LAX",
+    "departure_time": "2024-04-21T14:30:00"
+  },
+  {
+    "flight_id": "2a3ea0ae-0fc6-443b-8341-d8907f19a27d",
+    "flight_number": "DL2840",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "FRA",
+    "destination": "JFK",
+    "departure_time": "2024-06-22T10:00:00"
+  },
+  {
+    "flight_id": "eda0e626-8ed1-4138-afad-564ad190a814",
+    "flight_number": "HA5927",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "BOS",
+    "destination": "DEN",
+    "departure_time": "2024-12-16T08:15:00"
+  },
+  {
+    "flight_id": "470f6a06-69f8-4340-8e83-6c0b8435ad22",
+    "flight_number": "G45699",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "DEL",
+    "destination": "DXB",
+    "departure_time": "2024-06-13T17:45:00"
+  },
+  {
+    "flight_id": "b3b72c53-313a-432a-bc37-f532be98083c",
+    "flight_number": "G45335",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "MSP",
+    "destination": "SFO",
+    "departure_time": "2024-02-09T12:30:00"
+  },
+  {
+    "flight_id": "107700b0-33f7-45bd-89b5-e6064dbe795a",
+    "flight_number": "NK5206",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "EWR",
+    "destination": "DEL",
+    "departure_time": "2024-07-24T09:15:00"
+  },
+  {
+    "flight_id": "0c81cfc2-19c4-4559-8b8d-868711ebbcdf",
+    "flight_number": "F93781",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "PHX",
+    "destination": "LHR",
+    "departure_time": "2024-06-30T09:00:00"
+  },
+  {
+    "flight_id": "eca59051-2a69-422d-9710-502dc6a4b960",
+    "flight_number": "F94578",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "BOS",
+    "destination": "PHX",
+    "departure_time": "2024-10-19T11:15:00"
+  },
+  {
+    "flight_id": "cfff22dc-7894-438b-9a04-03333e64270e",
+    "flight_number": "AS3867",
+    "type": "unknown",
+    "delay_minutes": 84,
+    "origin": "DEL",
+    "destination": "ORD",
+    "departure_time": "2024-10-15T11:15:00"
+  },
+  {
+    "flight_id": "ac90e476-1b8d-4fce-a641-5ebf047d1e03",
+    "flight_number": "HA2962",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "MSP",
+    "destination": "LHR",
+    "departure_time": "2024-04-08T08:45:00"
+  },
+  {
+    "flight_id": "629eadf5-fbd3-485a-a6d9-38bc53cf5890",
+    "flight_number": "G45699",
+    "type": "unknown",
+    "delay_minutes": 100,
+    "origin": "BOS",
+    "destination": "ATL",
+    "departure_time": "2024-02-29T15:15:00"
+  },
+  {
+    "flight_id": "6ad15bc1-24fa-4c16-a5f4-50f8df2cefb6",
+    "flight_number": "F91494",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "FLL",
+    "destination": "CLT",
+    "departure_time": "2024-08-19T10:30:00"
+  },
+  {
+    "flight_id": "0943284c-6ace-4ab3-9d38-9858c0aeb4da",
+    "flight_number": "NK5122",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "DTW",
+    "destination": "DEL",
+    "departure_time": "2024-11-29T18:00:00"
+  },
+  {
+    "flight_id": "b201a6ff-567b-4c23-a11c-8d6413be3515",
+    "flight_number": "DL3993",
+    "type": "weather",
+    "delay_minutes": 38,
+    "origin": "FLL",
+    "destination": "DFW",
+    "departure_time": "2024-08-12T08:30:00"
+  },
+  {
+    "flight_id": "710dc151-b1de-4470-94bf-e4ae29515efe",
+    "flight_number": "HA3731",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "PHL",
+    "destination": "SFO",
+    "departure_time": "2024-10-21T10:30:00"
+  },
+  {
+    "flight_id": "0ddadbdd-d4d3-4412-8373-b59703489ca0",
+    "flight_number": "DL3821",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "ICN",
+    "destination": "IAH",
+    "departure_time": "2024-05-31T08:30:00"
+  },
+  {
+    "flight_id": "c999d22f-6dbc-431e-8d9e-8010d47e614e",
+    "flight_number": "DL3471",
+    "type": "unknown",
+    "delay_minutes": 84,
+    "origin": "CLT",
+    "destination": "MSP",
+    "departure_time": "2024-03-15T12:45:00"
+  },
+  {
+    "flight_id": "c616aec6-f5c2-4106-8de0-272312c2a658",
+    "flight_number": "NK2291",
+    "type": "unknown",
+    "delay_minutes": 85,
+    "origin": "IAH",
+    "destination": "JFK",
+    "departure_time": "2024-03-14T13:00:00"
+  },
+  {
+    "flight_id": "ba5648f7-1a67-4afc-a79f-e7af2c669048",
+    "flight_number": "G43512",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "CLT",
+    "destination": "LAS",
+    "departure_time": "2024-06-24T10:45:00"
+  },
+  {
+    "flight_id": "455ef5cd-c6a2-482a-aaff-2f79cb227969",
+    "flight_number": "AA3270",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "DFW",
+    "destination": "BOM",
+    "departure_time": "2024-08-20T13:00:00"
+  },
+  {
+    "flight_id": "57792aec-92e0-4a75-982c-81ffab2c00d2",
+    "flight_number": "DL626",
+    "type": "unknown",
+    "delay_minutes": 89,
+    "origin": "CLT",
+    "destination": "IAH",
+    "departure_time": "2024-06-02T07:30:00"
+  },
+  {
+    "flight_id": "d9af3f77-e436-4062-8a72-b5494527b574",
+    "flight_number": "UA2651",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "FRA",
+    "destination": "DEN",
+    "departure_time": "2024-03-10T13:45:00"
+  },
+  {
+    "flight_id": "28c65e9e-1e16-4da6-8aae-7a14179b2d39",
+    "flight_number": "NK4768",
+    "type": "unknown",
+    "delay_minutes": 86,
+    "origin": "FLL",
+    "destination": "SIN",
+    "departure_time": "2024-06-29T11:45:00"
+  },
+  {
+    "flight_id": "3d936e90-868d-4eb8-ab0a-cda22cc2541a",
+    "flight_number": "HA490",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "IAH",
+    "destination": "MCO",
+    "departure_time": "2024-06-02T11:30:00"
+  },
+  {
+    "flight_id": "54f2c706-8b33-40e3-81cc-729333d22825",
+    "flight_number": "AA2761",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "LAX",
+    "destination": "IAH",
+    "departure_time": "2024-03-26T17:45:00"
+  },
+  {
+    "flight_id": "2e693ec6-4a8d-4d56-8ae3-261c4c03eb46",
+    "flight_number": "AS5740",
+    "type": "unknown",
+    "delay_minutes": 88,
+    "origin": "DEL",
+    "destination": "ICN",
+    "departure_time": "2024-04-27T13:15:00"
+  },
+  {
+    "flight_id": "59d330e9-727d-4f62-82ad-295e0647b040",
+    "flight_number": "G45220",
+    "type": "unknown",
+    "delay_minutes": 96,
+    "origin": "ICN",
+    "destination": "ATL",
+    "departure_time": "2024-06-26T06:45:00"
+  },
+  {
+    "flight_id": "fde37ac9-e74a-4130-89ee-5cb697493d19",
+    "flight_number": "AS413",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "JFK",
+    "destination": "DEL",
+    "departure_time": "2024-12-10T15:30:00"
+  },
+  {
+    "flight_id": "21ae9076-a345-44e6-920d-8c81c88c70b7",
+    "flight_number": "UA458",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "EWR",
+    "destination": "MIA",
+    "departure_time": "2024-04-26T10:00:00"
+  },
+  {
+    "flight_id": "ceaf30b4-e044-4e43-ae80-7d805fa52cad",
+    "flight_number": "AS4713",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "IAH",
+    "destination": "MCO",
+    "departure_time": "2024-06-02T13:30:00"
+  },
+  {
+    "flight_id": "97460a34-3586-43f1-ab7b-d5030cdc4add",
+    "flight_number": "WN4374",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "DTW",
+    "destination": "MSP",
+    "departure_time": "2024-12-10T09:45:00"
+  },
+  {
+    "flight_id": "f19154df-c712-46c0-b97f-11ccd815b4ac",
+    "flight_number": "NK667",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "BOM",
+    "destination": "SIN",
+    "departure_time": "2024-02-14T12:00:00"
+  },
+  {
+    "flight_id": "721a0308-0f11-4bfb-b62e-7a27714153d6",
+    "flight_number": "AA1038",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "DEN",
+    "destination": "MSP",
+    "departure_time": "2024-06-05T11:45:00"
+  },
+  {
+    "flight_id": "2486b3b8-3c47-4127-820f-2755775ef9e2",
+    "flight_number": "AA913",
+    "type": "unknown",
+    "delay_minutes": 86,
+    "origin": "SIN",
+    "destination": "ATL",
+    "departure_time": "2024-04-30T11:30:00"
+  },
+  {
+    "flight_id": "f4423c43-ed0c-49b1-9a8b-bea61fc03d7e",
+    "flight_number": "DL1801",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "FLL",
+    "destination": "AMS",
+    "departure_time": "2024-04-18T06:45:00"
+  },
+  {
+    "flight_id": "5d75156e-2e9b-4ab6-b892-a90585874dbf",
+    "flight_number": "AA5318",
+    "type": "unknown",
+    "delay_minutes": 87,
+    "origin": "MIA",
+    "destination": "JFK",
+    "departure_time": "2024-05-24T15:30:00"
+  },
+  {
+    "flight_id": "024d5a17-13a0-49cd-80d3-6d1130e76c9e",
+    "flight_number": "G42821",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "DTW",
+    "destination": "SFO",
+    "departure_time": "2024-02-13T19:00:00"
+  },
+  {
+    "flight_id": "ca797976-b86d-4b0a-9b89-4938c5af5b13",
+    "flight_number": "WN1988",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "IAH",
+    "destination": "CLT",
+    "departure_time": "2024-05-05T20:15:00"
+  },
+  {
+    "flight_id": "366fbe97-783d-4bd7-a433-0f83a64680e3",
+    "flight_number": "B61286",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "MSP",
+    "destination": "FRA",
+    "departure_time": "2024-02-14T21:45:00"
+  },
+  {
+    "flight_id": "05cb39f6-796b-43f6-8275-8dacd41b5401",
+    "flight_number": "UA5246",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "MIA",
+    "destination": "DFW",
+    "departure_time": "2024-12-29T06:30:00"
+  },
+  {
+    "flight_id": "9166da23-e124-4dcd-8142-d03b9463c734",
+    "flight_number": "B6736",
+    "type": "unknown",
+    "delay_minutes": 81,
+    "origin": "DFW",
+    "destination": "DEN",
+    "departure_time": "2024-04-21T18:00:00"
+  },
+  {
+    "flight_id": "aea0b9a5-4f08-43d9-a5b2-41e19aa26c32",
+    "flight_number": "AA3494",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DEN",
+    "destination": "PHX",
+    "departure_time": "2024-08-06T17:00:00"
+  },
+  {
+    "flight_id": "c51fcfd9-9dc3-47e4-ab3f-619355d365d8",
+    "flight_number": "AS5672",
+    "type": "unknown",
+    "delay_minutes": 115,
+    "origin": "ICN",
+    "destination": "BOM",
+    "departure_time": "2024-07-15T11:00:00"
+  },
+  {
+    "flight_id": "054d4b1e-e531-4dad-8b3e-b70787f06296",
+    "flight_number": "F9654",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "NRT",
+    "destination": "MIA",
+    "departure_time": "2024-09-01T07:15:00"
+  },
+  {
+    "flight_id": "f8598da4-c538-43dd-95f2-c7f75ad1a9fa",
+    "flight_number": "DL4961",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "PHL",
+    "destination": "MSP",
+    "departure_time": "2024-05-29T07:30:00"
+  },
+  {
+    "flight_id": "75a1923b-d68c-4354-85c9-cf714e85de42",
+    "flight_number": "NK3191",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "BOS",
+    "destination": "CLT",
+    "departure_time": "2024-09-28T21:45:00"
+  },
+  {
+    "flight_id": "7ba049ba-8b5e-419c-8184-68383a5dd5cc",
+    "flight_number": "B62831",
+    "type": "unknown",
+    "delay_minutes": 77,
+    "origin": "ORD",
+    "destination": "DTW",
+    "departure_time": "2024-09-26T21:45:00"
+  },
+  {
+    "flight_id": "5527f9e3-7e81-45c7-b18c-f01ef627bb9c",
+    "flight_number": "DL2138",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "SIN",
+    "destination": "DEN",
+    "departure_time": "2024-05-23T11:00:00"
+  },
+  {
+    "flight_id": "c3964491-c93f-4a07-836a-f83e124b5c4d",
+    "flight_number": "B6699",
+    "type": "unknown",
+    "delay_minutes": 93,
+    "origin": "CDG",
+    "destination": "DXB",
+    "departure_time": "2024-03-03T22:30:00"
+  },
+  {
+    "flight_id": "0888d1f8-6dcb-49bc-8087-ca124a9b7b43",
+    "flight_number": "F95894",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "MIA",
+    "destination": "EWR",
+    "departure_time": "2024-03-21T12:45:00"
+  },
+  {
+    "flight_id": "6ad15d6e-33a8-4140-800d-aa2134844655",
+    "flight_number": "B61969",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "DEL",
+    "destination": "LAX",
+    "departure_time": "2024-05-26T13:45:00"
+  },
+  {
+    "flight_id": "524681c1-c17e-47b2-84e6-f4ea26574b9c",
+    "flight_number": "UA389",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "FLL",
+    "destination": "CDG",
+    "departure_time": "2024-10-02T07:30:00"
+  },
+  {
+    "flight_id": "a76ba584-4885-4164-93e6-96a68e5156bf",
+    "flight_number": "AA2497",
+    "type": "weather",
+    "delay_minutes": 21,
+    "origin": "DXB",
+    "destination": "FRA",
+    "departure_time": "2024-08-30T10:45:00"
+  },
+  {
+    "flight_id": "9c57615d-bc2b-4c3a-ad32-30c55d0d7b50",
+    "flight_number": "B65436",
+    "type": "unknown",
+    "delay_minutes": 82,
+    "origin": "DXB",
+    "destination": "MSP",
+    "departure_time": "2024-04-02T18:30:00"
+  },
+  {
+    "flight_id": "b312a278-ebcf-43fc-aaf7-166c88a0edee",
+    "flight_number": "NK103",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DXB",
+    "destination": "SIN",
+    "departure_time": "2024-08-07T08:00:00"
+  },
+  {
+    "flight_id": "83cfd474-acaf-45e1-a1aa-80d1e76eb655",
+    "flight_number": "NK5957",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "BOM",
+    "destination": "EWR",
+    "departure_time": "2024-11-18T14:30:00"
+  },
+  {
+    "flight_id": "cf98a7c4-e13f-4409-9395-401843c5230a",
+    "flight_number": "G41504",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "EWR",
+    "destination": "LAS",
+    "departure_time": "2024-08-17T09:15:00"
+  },
+  {
+    "flight_id": "eee8bbea-ef3f-45af-9feb-940ddffb3602",
+    "flight_number": "WN5486",
+    "type": "unknown",
+    "delay_minutes": 81,
+    "origin": "EWR",
+    "destination": "ORD",
+    "departure_time": "2024-12-26T14:30:00"
+  },
+  {
+    "flight_id": "4ef95a85-971e-4d71-b21c-73655ce034bf",
+    "flight_number": "NK5999",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "SFO",
+    "destination": "ORD",
+    "departure_time": "2024-04-26T12:45:00"
+  },
+  {
+    "flight_id": "87e3a498-7295-4961-a154-6d1cd9255146",
+    "flight_number": "F95266",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "IAH",
+    "destination": "CLT",
+    "departure_time": "2024-06-07T13:30:00"
+  },
+  {
+    "flight_id": "f4dc478e-9918-472d-bc27-3341d15cf762",
+    "flight_number": "G44499",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "FRA",
+    "destination": "ORD",
+    "departure_time": "2024-03-29T14:30:00"
+  },
+  {
+    "flight_id": "26bcce96-c20a-4e29-87f3-4309cbc350ba",
+    "flight_number": "HA508",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "CLT",
+    "destination": "SEA",
+    "departure_time": "2024-05-11T11:45:00"
+  },
+  {
+    "flight_id": "d6144cd6-4693-4b2f-9646-3a80c445cbc0",
+    "flight_number": "G43896",
+    "type": "unknown",
+    "delay_minutes": 93,
+    "origin": "CLT",
+    "destination": "MIA",
+    "departure_time": "2024-06-29T18:30:00"
+  },
+  {
+    "flight_id": "1ac3b828-6839-43ae-a068-8de5a738c03f",
+    "flight_number": "AS3540",
+    "type": "unknown",
+    "delay_minutes": 84,
+    "origin": "BOS",
+    "destination": "NRT",
+    "departure_time": "2024-11-05T07:15:00"
+  },
+  {
+    "flight_id": "d54aba56-4e0c-414f-82e8-5e98825ad7ea",
+    "flight_number": "HA3671",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "DEL",
+    "destination": "NRT",
+    "departure_time": "2024-07-11T16:15:00"
+  },
+  {
+    "flight_id": "bf5e0b22-bf4b-450d-bc40-f1df1adbdec7",
+    "flight_number": "AS5629",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "CLT",
+    "destination": "LHR",
+    "departure_time": "2024-02-29T22:15:00"
+  },
+  {
+    "flight_id": "ad57c506-ebab-42e6-8d75-a7a0edaeaa00",
+    "flight_number": "G43568",
+    "type": "weather",
+    "delay_minutes": 38,
+    "origin": "CLT",
+    "destination": "SIN",
+    "departure_time": "2024-10-25T10:30:00"
+  },
+  {
+    "flight_id": "2e0ca7c0-47d4-4792-8e95-94668c16cbb1",
+    "flight_number": "AA4974",
+    "type": "unknown",
+    "delay_minutes": 118,
+    "origin": "DEN",
+    "destination": "BOM",
+    "departure_time": "2024-09-01T13:30:00"
+  },
+  {
+    "flight_id": "1dd4650b-198b-4da0-aafd-2c239af9f3b8",
+    "flight_number": "B64183",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "JFK",
+    "destination": "MSP",
+    "departure_time": "2024-11-25T21:30:00"
+  },
+  {
+    "flight_id": "914b8d4b-53b9-4419-8e43-5d68cdae8cdc",
+    "flight_number": "WN1554",
+    "type": "weather",
+    "delay_minutes": 54,
+    "origin": "LHR",
+    "destination": "PHL",
+    "departure_time": "2024-07-04T21:15:00"
+  },
+  {
+    "flight_id": "fa179d7b-a162-42cd-abd8-e35363c32810",
+    "flight_number": "AA4572",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "ICN",
+    "destination": "JFK",
+    "departure_time": "2024-09-02T20:30:00"
+  },
+  {
+    "flight_id": "2cb6610e-db8f-4667-b4cb-960a14a6d2d7",
+    "flight_number": "WN453",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "DEL",
+    "destination": "SEA",
+    "departure_time": "2024-03-21T11:45:00"
+  },
+  {
+    "flight_id": "874e5e73-7bad-428e-90a6-3d66256beec3",
+    "flight_number": "DL4571",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "SFO",
+    "destination": "SIN",
+    "departure_time": "2024-12-18T21:15:00"
+  },
+  {
+    "flight_id": "58d2abe3-5fe3-4d5d-ab6b-5812ad590187",
+    "flight_number": "NK694",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SEA",
+    "destination": "DXB",
+    "departure_time": "2024-03-01T17:00:00"
+  },
+  {
+    "flight_id": "43c9eb2b-8a5d-42f9-972b-38d537d59e42",
+    "flight_number": "HA3275",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "ATL",
+    "destination": "MCO",
+    "departure_time": "2024-06-20T12:00:00"
+  },
+  {
+    "flight_id": "04a041e4-cab7-4d14-a1c9-2b6f8a328c31",
+    "flight_number": "NK5700",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "PHL",
+    "destination": "BOM",
+    "departure_time": "2024-02-28T17:45:00"
+  },
+  {
+    "flight_id": "fdf7066e-0ef1-44ae-af02-9c88ad0e2071",
+    "flight_number": "NK4410",
+    "type": "weather",
+    "delay_minutes": 28,
+    "origin": "LHR",
+    "destination": "DFW",
+    "departure_time": "2024-05-27T14:45:00"
+  },
+  {
+    "flight_id": "b6856873-132a-49ff-8520-145ea4c5547b",
+    "flight_number": "DL3000",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "EWR",
+    "destination": "MIA",
+    "departure_time": "2024-12-02T21:15:00"
+  },
+  {
+    "flight_id": "50829acb-ae92-43d1-91a4-a84a569b0adf",
+    "flight_number": "B63369",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "PHL",
+    "destination": "EWR",
+    "departure_time": "2024-04-02T14:30:00"
+  },
+  {
+    "flight_id": "47efb2ae-53de-469e-9c8e-12bb4ca1285b",
+    "flight_number": "B61867",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "LAS",
+    "destination": "SFO",
+    "departure_time": "2024-03-10T11:00:00"
+  },
+  {
+    "flight_id": "2a0ca994-a63b-4379-aa76-e0bb95eb170c",
+    "flight_number": "AS4221",
+    "type": "unknown",
+    "delay_minutes": 105,
+    "origin": "DXB",
+    "destination": "SIN",
+    "departure_time": "2024-05-22T06:00:00"
+  },
+  {
+    "flight_id": "cf64c29a-e899-4046-931c-d307692ca8da",
+    "flight_number": "G4736",
+    "type": "unknown",
+    "delay_minutes": 78,
+    "origin": "BOM",
+    "destination": "IAH",
+    "departure_time": "2024-04-18T17:45:00"
+  },
+  {
+    "flight_id": "b7b900a9-386b-41f9-8209-40966c0b25fe",
+    "flight_number": "UA860",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "LAS",
+    "destination": "SIN",
+    "departure_time": "2024-09-17T15:15:00"
+  },
+  {
+    "flight_id": "0fb7752e-22a6-42dc-928c-f36477d15239",
+    "flight_number": "UA2019",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "CDG",
+    "destination": "MCO",
+    "departure_time": "2024-05-31T16:00:00"
+  },
+  {
+    "flight_id": "a90b8e23-64c4-4d1d-8b45-edd3c8be9dd9",
+    "flight_number": "UA2953",
+    "type": "unknown",
+    "delay_minutes": 78,
+    "origin": "DXB",
+    "destination": "SIN",
+    "departure_time": "2024-08-28T08:15:00"
+  },
+  {
+    "flight_id": "8c3608a8-98d3-4119-ab49-cb92cfc6e6d7",
+    "flight_number": "AS3531",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "IAH",
+    "destination": "LHR",
+    "departure_time": "2024-12-21T09:30:00"
+  },
+  {
+    "flight_id": "ce145c59-370d-41fd-9e60-6a3b6bf49605",
+    "flight_number": "HA3627",
+    "type": "unknown",
+    "delay_minutes": 93,
+    "origin": "JFK",
+    "destination": "ORD",
+    "departure_time": "2024-10-26T10:00:00"
+  },
+  {
+    "flight_id": "ff85c9a4-1efb-4a61-afd9-21d4b70932c1",
+    "flight_number": "G41977",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "FRA",
+    "destination": "MSP",
+    "departure_time": "2024-04-17T11:30:00"
+  },
+  {
+    "flight_id": "fbe9d144-c12a-4a85-b3df-d989a459826d",
+    "flight_number": "AA1064",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "AMS",
+    "destination": "MCO",
+    "departure_time": "2024-07-20T10:30:00"
+  },
+  {
+    "flight_id": "8c1db6b4-6059-4827-a781-663d8c35725d",
+    "flight_number": "UA5107",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "LHR",
+    "destination": "FRA",
+    "departure_time": "2024-06-17T20:45:00"
+  },
+  {
+    "flight_id": "2428d33d-a465-4fb5-8127-f7cae8c4ad6e",
+    "flight_number": "WN329",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "FRA",
+    "destination": "PHL",
+    "departure_time": "2024-10-20T07:30:00"
+  },
+  {
+    "flight_id": "2f48ced3-5815-4e89-baeb-8852d395a481",
+    "flight_number": "B63600",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "NRT",
+    "destination": "MCO",
+    "departure_time": "2024-09-01T13:00:00"
+  },
+  {
+    "flight_id": "caf460a6-1029-429b-8d7b-69ddf3f12fc2",
+    "flight_number": "B62353",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "SIN",
+    "destination": "BOS",
+    "departure_time": "2024-09-26T22:30:00"
+  },
+  {
+    "flight_id": "8349b20e-4dab-4512-91cb-5dfacea4ac0a",
+    "flight_number": "F91401",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "FRA",
+    "destination": "LAS",
+    "departure_time": "2024-10-02T10:15:00"
+  },
+  {
+    "flight_id": "f2ed8daa-5b7e-4393-85b8-89e9d15798d6",
+    "flight_number": "AA5189",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "CLT",
+    "destination": "DFW",
+    "departure_time": "2024-08-31T08:00:00"
+  },
+  {
+    "flight_id": "0d5ecfce-f456-412e-b53b-03d0d634e10f",
+    "flight_number": "WN1103",
+    "type": "unknown",
+    "delay_minutes": 85,
+    "origin": "DFW",
+    "destination": "ICN",
+    "departure_time": "2024-07-04T22:15:00"
+  },
+  {
+    "flight_id": "3b0f7b04-f266-46a2-9c0a-f4f255d156d8",
+    "flight_number": "NK2397",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "AMS",
+    "destination": "DFW",
+    "departure_time": "2024-01-05T13:00:00"
+  },
+  {
+    "flight_id": "d1cd1fd9-3e7e-453f-acf4-f7d64c3f741c",
+    "flight_number": "HA2751",
+    "type": "unknown",
+    "delay_minutes": 98,
+    "origin": "NRT",
+    "destination": "PHX",
+    "departure_time": "2024-03-24T11:45:00"
+  },
+  {
+    "flight_id": "572dd15c-9f8d-4f1a-94ad-39a75011aeb0",
+    "flight_number": "HA5892",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "LHR",
+    "destination": "DEN",
+    "departure_time": "2024-01-04T20:00:00"
+  },
+  {
+    "flight_id": "f669bd29-8226-4123-9533-76ff398394c8",
+    "flight_number": "WN5189",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "ICN",
+    "destination": "JFK",
+    "departure_time": "2024-01-16T10:45:00"
+  },
+  {
+    "flight_id": "ca2193d8-c303-4b7f-bbf1-02c89f4615de",
+    "flight_number": "G44955",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "DEL",
+    "destination": "CLT",
+    "departure_time": "2024-12-23T12:45:00"
+  },
+  {
+    "flight_id": "8ea22650-f712-421e-b561-f6bd35fb3108",
+    "flight_number": "UA1122",
+    "type": "unknown",
+    "delay_minutes": 84,
+    "origin": "LHR",
+    "destination": "FRA",
+    "departure_time": "2024-03-06T10:00:00"
+  },
+  {
+    "flight_id": "54e31f2f-5f13-4129-8e4e-b500174e9ea9",
+    "flight_number": "B61125",
+    "type": "unknown",
+    "delay_minutes": 93,
+    "origin": "JFK",
+    "destination": "PHL",
+    "departure_time": "2024-05-31T09:30:00"
+  },
+  {
+    "flight_id": "295c9621-f1ad-4e4d-8e38-d1deb731b8ea",
+    "flight_number": "F91211",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "CLT",
+    "destination": "DXB",
+    "departure_time": "2024-08-22T11:00:00"
+  },
+  {
+    "flight_id": "87dd98b1-6b31-4d15-831f-79641c80c2ae",
+    "flight_number": "G44223",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "JFK",
+    "destination": "ICN",
+    "departure_time": "2024-06-03T16:30:00"
+  },
+  {
+    "flight_id": "90ce6fe7-3858-476e-b665-55c448081989",
+    "flight_number": "WN4345",
+    "type": "unknown",
+    "delay_minutes": 103,
+    "origin": "NRT",
+    "destination": "ORD",
+    "departure_time": "2024-05-15T11:15:00"
+  },
+  {
+    "flight_id": "b6222390-50ff-42fc-919c-f3cf85ff7163",
+    "flight_number": "B61824",
+    "type": "unknown",
+    "delay_minutes": 106,
+    "origin": "MIA",
+    "destination": "BOM",
+    "departure_time": "2024-03-30T21:15:00"
+  },
+  {
+    "flight_id": "ce9c8267-5898-4a81-85f4-e9fdfa96e737",
+    "flight_number": "B64596",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "ATL",
+    "destination": "SEA",
+    "departure_time": "2024-06-04T10:00:00"
+  },
+  {
+    "flight_id": "3f512aff-5906-48fb-b3f0-3ffb396fecad",
+    "flight_number": "HA3889",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "SEA",
+    "destination": "DEL",
+    "departure_time": "2024-05-17T22:00:00"
+  },
+  {
+    "flight_id": "8cc3abde-47bd-4b05-a889-f8f3269064db",
+    "flight_number": "NK4217",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "MSP",
+    "destination": "BOS",
+    "departure_time": "2024-01-15T10:45:00"
+  },
+  {
+    "flight_id": "0aeb83e9-2af3-4737-8d4b-dbe490afc98e",
+    "flight_number": "B62490",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "DTW",
+    "destination": "FLL",
+    "departure_time": "2024-12-02T06:00:00"
+  },
+  {
+    "flight_id": "f358642a-fc31-40e4-93f2-f31a83b1fdb9",
+    "flight_number": "AA3613",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "LHR",
+    "destination": "SEA",
+    "departure_time": "2024-06-23T10:30:00"
+  },
+  {
+    "flight_id": "abbc7e5e-d1b3-4a51-bb11-54ac8ddfda0b",
+    "flight_number": "WN3385",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "SEA",
+    "destination": "LHR",
+    "departure_time": "2024-05-01T10:15:00"
+  },
+  {
+    "flight_id": "e0ce7f13-827f-4f80-b860-ca28921efb03",
+    "flight_number": "DL5451",
+    "type": "unknown",
+    "delay_minutes": 87,
+    "origin": "ICN",
+    "destination": "BOS",
+    "departure_time": "2024-02-10T08:15:00"
+  },
+  {
+    "flight_id": "2cf86b6d-2c70-42e0-8d50-af54e2a9a69a",
+    "flight_number": "WN5199",
+    "type": "unknown",
+    "delay_minutes": 104,
+    "origin": "DEN",
+    "destination": "AMS",
+    "departure_time": "2024-05-27T15:15:00"
+  },
+  {
+    "flight_id": "3755dec3-61df-4a88-aab6-bff4aee98f00",
+    "flight_number": "WN2807",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "FRA",
+    "destination": "FLL",
+    "departure_time": "2024-01-15T08:15:00"
+  },
+  {
+    "flight_id": "64ef1cc7-ba88-4dc6-a458-9ebcda6f109c",
+    "flight_number": "NK5567",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "MSP",
+    "destination": "FLL",
+    "departure_time": "2024-12-27T07:15:00"
+  },
+  {
+    "flight_id": "02e8c5df-c93e-4248-94e6-61f9701336fa",
+    "flight_number": "HA4198",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "PHX",
+    "destination": "EWR",
+    "departure_time": "2024-10-08T20:30:00"
+  },
+  {
+    "flight_id": "c4b3afc6-676b-486d-914e-0e1413c0aedb",
+    "flight_number": "F9321",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "CDG",
+    "destination": "PHL",
+    "departure_time": "2024-08-25T21:15:00"
+  },
+  {
+    "flight_id": "33f71d71-51de-4778-8bea-e82230a1803e",
+    "flight_number": "F9874",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "DFW",
+    "destination": "NRT",
+    "departure_time": "2024-01-31T22:30:00"
+  },
+  {
+    "flight_id": "68bf18e1-8bf4-415c-8ae1-e40faa4713ca",
+    "flight_number": "F95226",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "MSP",
+    "destination": "SEA",
+    "departure_time": "2024-05-30T14:15:00"
+  },
+  {
+    "flight_id": "8643eadd-cfe9-47fc-84bd-1f7e329ba1aa",
+    "flight_number": "F9248",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "AMS",
+    "destination": "MCO",
+    "departure_time": "2024-04-27T21:15:00"
+  },
+  {
+    "flight_id": "6dd4e26e-0b2d-41b1-9d1a-c9d57e99ceaf",
+    "flight_number": "UA4959",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "LAX",
+    "destination": "ATL",
+    "departure_time": "2024-03-28T08:00:00"
+  },
+  {
+    "flight_id": "2f1b6305-104a-4313-b3f7-520e844773f3",
+    "flight_number": "UA2903",
+    "type": "unknown",
+    "delay_minutes": 137,
+    "origin": "EWR",
+    "destination": "LHR",
+    "departure_time": "2024-07-07T06:15:00"
+  },
+  {
+    "flight_id": "e8e91a4d-c663-402e-9001-44eb6e482b04",
+    "flight_number": "AA4030",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "MCO",
+    "destination": "JFK",
+    "departure_time": "2024-02-11T08:30:00"
+  },
+  {
+    "flight_id": "17fc65af-967f-4738-a888-2faa09664625",
+    "flight_number": "F92469",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "DEL",
+    "destination": "CLT",
+    "departure_time": "2024-02-09T06:30:00"
+  },
+  {
+    "flight_id": "97bc0062-0bae-49b8-8ba6-4644e5529f7a",
+    "flight_number": "UA3775",
+    "type": "unknown",
+    "delay_minutes": 77,
+    "origin": "CDG",
+    "destination": "MIA",
+    "departure_time": "2024-01-26T09:00:00"
+  },
+  {
+    "flight_id": "85342689-d00c-4dfb-9f87-e676c56d52a7",
+    "flight_number": "HA4012",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "JFK",
+    "destination": "DFW",
+    "departure_time": "2024-05-29T21:00:00"
+  },
+  {
+    "flight_id": "6f9a917f-9ab3-4988-80d6-972f2e69ff51",
+    "flight_number": "B6264",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DEL",
+    "destination": "FLL",
+    "departure_time": "2024-03-14T15:45:00"
+  },
+  {
+    "flight_id": "156edebc-afe9-421c-9df3-5ede7608f576",
+    "flight_number": "UA4798",
+    "type": "unknown",
+    "delay_minutes": 88,
+    "origin": "LHR",
+    "destination": "NRT",
+    "departure_time": "2024-02-17T12:15:00"
+  },
+  {
+    "flight_id": "6003926e-1fc3-4a41-91b6-a4d5e4fcb2e7",
+    "flight_number": "B63500",
+    "type": "unknown",
+    "delay_minutes": 108,
+    "origin": "DEL",
+    "destination": "DXB",
+    "departure_time": "2024-10-31T21:00:00"
+  },
+  {
+    "flight_id": "ef4a4d11-551a-4de2-92e5-ed1732d31238",
+    "flight_number": "UA304",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "PHX",
+    "destination": "DEL",
+    "departure_time": "2024-08-11T22:30:00"
+  },
+  {
+    "flight_id": "24f0cc35-c824-4d84-a2ea-5270eabb3593",
+    "flight_number": "DL5402",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "MSP",
+    "destination": "JFK",
+    "departure_time": "2024-11-21T16:15:00"
+  },
+  {
+    "flight_id": "817aa7ff-3a55-40b9-bc21-051d105f15dc",
+    "flight_number": "UA3765",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "ORD",
+    "destination": "DEN",
+    "departure_time": "2024-08-05T12:15:00"
+  },
+  {
+    "flight_id": "44328e97-d996-4a79-809b-4ceb06010ba2",
+    "flight_number": "UA184",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "FRA",
+    "destination": "LAS",
+    "departure_time": "2024-04-09T20:30:00"
+  },
+  {
+    "flight_id": "be7949bc-97ec-4f68-ab1e-08bee8223e5f",
+    "flight_number": "AA3595",
+    "type": "unknown",
+    "delay_minutes": 91,
+    "origin": "ORD",
+    "destination": "FLL",
+    "departure_time": "2024-03-08T10:45:00"
+  },
+  {
+    "flight_id": "0c489f07-9625-4dda-aa2b-7c9ad024492c",
+    "flight_number": "AS233",
+    "type": "unknown",
+    "delay_minutes": 85,
+    "origin": "DFW",
+    "destination": "DXB",
+    "departure_time": "2024-03-10T17:30:00"
+  },
+  {
+    "flight_id": "1cbc2848-fd70-4807-a8e7-439c841e04a9",
+    "flight_number": "G4949",
+    "type": "unknown",
+    "delay_minutes": 89,
+    "origin": "ATL",
+    "destination": "DXB",
+    "departure_time": "2024-01-12T10:15:00"
+  },
+  {
+    "flight_id": "d0b6d667-4111-4c79-b9ad-297b64357faa",
+    "flight_number": "UA5509",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "CLT",
+    "destination": "AMS",
+    "departure_time": "2024-11-12T12:30:00"
+  },
+  {
+    "flight_id": "a196dc2c-df15-43c3-9d3c-cbfdaaae3e70",
+    "flight_number": "UA4712",
+    "type": "unknown",
+    "delay_minutes": 92,
+    "origin": "LAX",
+    "destination": "LHR",
+    "departure_time": "2024-11-22T20:15:00"
+  },
+  {
+    "flight_id": "36a876ec-e3be-4808-bbd4-d285b3801433",
+    "flight_number": "G45964",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SFO",
+    "destination": "IAH",
+    "departure_time": "2024-01-24T20:30:00"
+  },
+  {
+    "flight_id": "4a6a0291-a014-4b2c-a2a0-ae576f9b3202",
+    "flight_number": "UA1788",
+    "type": "unknown",
+    "delay_minutes": 93,
+    "origin": "PHL",
+    "destination": "LAS",
+    "departure_time": "2024-05-19T20:45:00"
+  },
+  {
+    "flight_id": "159f99ad-811e-4771-a1f9-fdebfd366895",
+    "flight_number": "HA1504",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "LHR",
+    "destination": "MIA",
+    "departure_time": "2024-08-23T09:45:00"
+  },
+  {
+    "flight_id": "30b5b98c-bdf0-4a5d-bb49-883dd6f57559",
+    "flight_number": "UA731",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "ATL",
+    "destination": "SEA",
+    "departure_time": "2024-08-14T17:00:00"
+  },
+  {
+    "flight_id": "53baec64-9642-4e23-bb31-c46eed1c57c8",
+    "flight_number": "F91759",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "MCO",
+    "destination": "ATL",
+    "departure_time": "2024-07-29T09:00:00"
+  },
+  {
+    "flight_id": "cf68cc5b-dc88-4628-9125-af736f4557f2",
+    "flight_number": "UA5829",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "LHR",
+    "destination": "DEL",
+    "departure_time": "2024-09-13T13:45:00"
+  },
+  {
+    "flight_id": "c30097ab-1f80-4025-ad08-94a85fbd4d28",
+    "flight_number": "DL4857",
+    "type": "unknown",
+    "delay_minutes": 103,
+    "origin": "DEL",
+    "destination": "MCO",
+    "departure_time": "2024-09-01T11:30:00"
+  },
+  {
+    "flight_id": "6ba3ad62-0759-4255-a761-a129798f249d",
+    "flight_number": "UA2881",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "MCO",
+    "destination": "DEN",
+    "departure_time": "2024-02-02T17:30:00"
+  },
+  {
+    "flight_id": "4dd6f574-089d-4e97-ad9a-e5929b957867",
+    "flight_number": "G41376",
+    "type": "unknown",
+    "delay_minutes": 119,
+    "origin": "EWR",
+    "destination": "ICN",
+    "departure_time": "2024-02-24T12:45:00"
+  },
+  {
+    "flight_id": "32de4373-33c3-4f8d-86b9-fbf37a8712a3",
+    "flight_number": "G44125",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "NRT",
+    "destination": "DXB",
+    "departure_time": "2024-08-31T18:30:00"
+  },
+  {
+    "flight_id": "62df9810-99ac-4bc7-b586-91d9444fda11",
+    "flight_number": "B62785",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "BOM",
+    "destination": "FLL",
+    "departure_time": "2024-10-19T13:45:00"
+  },
+  {
+    "flight_id": "9f7ae039-05d8-47fa-96bf-831f43b0a244",
+    "flight_number": "F92678",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "ATL",
+    "destination": "SFO",
+    "departure_time": "2024-08-25T20:30:00"
+  },
+  {
+    "flight_id": "3fc1668c-bc5d-4884-97de-47989bdcf28f",
+    "flight_number": "B65358",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "LAS",
+    "destination": "CDG",
+    "departure_time": "2024-03-28T11:45:00"
+  },
+  {
+    "flight_id": "40e45287-0d51-419b-9c98-83969337818e",
+    "flight_number": "DL1455",
+    "type": "unknown",
+    "delay_minutes": 79,
+    "origin": "DTW",
+    "destination": "SFO",
+    "departure_time": "2024-06-17T12:45:00"
+  },
+  {
+    "flight_id": "9995e383-0dae-4d1f-a284-37bd2f9c4f98",
+    "flight_number": "F95748",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "IAH",
+    "destination": "ORD",
+    "departure_time": "2024-11-06T16:00:00"
+  },
+  {
+    "flight_id": "2dc2bbea-8c9d-410d-bebb-2d60a60c9cb2",
+    "flight_number": "F91049",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "EWR",
+    "destination": "AMS",
+    "departure_time": "2024-11-19T11:15:00"
+  },
+  {
+    "flight_id": "da215c6b-8d69-4152-91c8-b7c888a65fa9",
+    "flight_number": "B61471",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "BOM",
+    "destination": "ATL",
+    "departure_time": "2024-09-27T17:45:00"
+  },
+  {
+    "flight_id": "7b2db527-a97c-45ac-aedc-2844c1d981a8",
+    "flight_number": "HA5530",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "CDG",
+    "destination": "ATL",
+    "departure_time": "2024-12-20T10:00:00"
+  },
+  {
+    "flight_id": "c704dc34-fb63-44ca-9105-c583d5afb4da",
+    "flight_number": "F95024",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "DFW",
+    "destination": "FLL",
+    "departure_time": "2024-10-21T20:00:00"
+  },
+  {
+    "flight_id": "46d5c1f4-34c4-496a-92e9-fe437120375a",
+    "flight_number": "UA5726",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "DEN",
+    "destination": "ICN",
+    "departure_time": "2024-01-24T19:15:00"
+  },
+  {
+    "flight_id": "d4c5bab3-f5c0-4c8e-a032-7e9a78a01acb",
+    "flight_number": "AS1109",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "LAX",
+    "destination": "EWR",
+    "departure_time": "2024-11-11T08:15:00"
+  },
+  {
+    "flight_id": "231a7e08-4c2e-40c4-9d88-905eea2364b2",
+    "flight_number": "HA2258",
+    "type": "unknown",
+    "delay_minutes": 95,
+    "origin": "ORD",
+    "destination": "ATL",
+    "departure_time": "2024-06-09T18:00:00"
+  },
+  {
+    "flight_id": "544a50a9-647e-4227-b998-567d6bfa4c23",
+    "flight_number": "B63986",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "SEA",
+    "destination": "FRA",
+    "departure_time": "2024-11-14T08:00:00"
+  },
+  {
+    "flight_id": "41d7ec7f-cd03-45c5-8186-4ca95c56d13d",
+    "flight_number": "B64455",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "DFW",
+    "destination": "LAX",
+    "departure_time": "2024-06-20T11:15:00"
+  },
+  {
+    "flight_id": "17b07f29-8aae-4081-9c91-dc9e42741ac7",
+    "flight_number": "NK1400",
+    "type": "unknown",
+    "delay_minutes": 118,
+    "origin": "SFO",
+    "destination": "JFK",
+    "departure_time": "2024-05-16T10:00:00"
+  },
+  {
+    "flight_id": "fbd478da-5bd4-4522-b1c4-12a0475d861a",
+    "flight_number": "NK5267",
+    "type": "unknown",
+    "delay_minutes": 78,
+    "origin": "ATL",
+    "destination": "PHX",
+    "departure_time": "2024-06-20T13:00:00"
+  },
+  {
+    "flight_id": "99692ded-0b3d-4ad8-9c07-47c01dba8500",
+    "flight_number": "UA247",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "DEN",
+    "destination": "DXB",
+    "departure_time": "2024-04-26T14:30:00"
+  },
+  {
+    "flight_id": "e46b2427-0218-43c6-9d9b-f395f1fe5ca9",
+    "flight_number": "HA2878",
+    "type": "unknown",
+    "delay_minutes": 115,
+    "origin": "MSP",
+    "destination": "JFK",
+    "departure_time": "2024-09-14T16:00:00"
+  },
+  {
+    "flight_id": "5f2d3677-7c72-47d4-ab96-5a0e6cfc983f",
+    "flight_number": "AS2621",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "BOS",
+    "destination": "LHR",
+    "departure_time": "2024-08-02T09:45:00"
+  },
+  {
+    "flight_id": "e806bf2f-efb8-4994-9fb6-3056add24bc2",
+    "flight_number": "AA3993",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "AMS",
+    "destination": "NRT",
+    "departure_time": "2024-08-08T06:30:00"
+  },
+  {
+    "flight_id": "5cafc289-ae2b-40cb-89d4-c1cc6b417754",
+    "flight_number": "AS579",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "CDG",
+    "destination": "MIA",
+    "departure_time": "2024-01-10T10:15:00"
+  },
+  {
+    "flight_id": "7caa5e9f-6f29-4ee2-8bfd-b52b1ffe167f",
+    "flight_number": "HA5727",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "BOS",
+    "destination": "ATL",
+    "departure_time": "2024-11-06T16:30:00"
+  },
+  {
+    "flight_id": "fc593121-1eb8-4438-8f08-b0f6c2cc1879",
+    "flight_number": "WN4213",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "LAX",
+    "destination": "FRA",
+    "departure_time": "2024-07-16T21:30:00"
+  },
+  {
+    "flight_id": "8e1e4d19-d90d-4a3f-9de2-31e3870b7f62",
+    "flight_number": "NK4777",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "BOM",
+    "destination": "DXB",
+    "departure_time": "2024-10-08T16:00:00"
+  },
+  {
+    "flight_id": "f8849ee1-823d-407f-bd0d-14fee460aaea",
+    "flight_number": "DL2102",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "CDG",
+    "destination": "JFK",
+    "departure_time": "2024-02-17T20:45:00"
+  },
+  {
+    "flight_id": "6fad7f54-0e1b-4ac0-8ad1-636fe2a2fdbb",
+    "flight_number": "NK4660",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "PHX",
+    "destination": "SEA",
+    "departure_time": "2024-09-01T07:00:00"
+  },
+  {
+    "flight_id": "5cd695a4-7b45-4a54-a907-ed53761be317",
+    "flight_number": "G44616",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "LAX",
+    "destination": "PHL",
+    "departure_time": "2024-12-12T17:45:00"
+  },
+  {
+    "flight_id": "dbef45f9-b91d-4fd7-a1cf-fd8f08069f6c",
+    "flight_number": "AS5143",
+    "type": "unknown",
+    "delay_minutes": 79,
+    "origin": "SEA",
+    "destination": "DEN",
+    "departure_time": "2024-12-24T13:15:00"
+  },
+  {
+    "flight_id": "5f8a70a7-9872-4ae2-a634-c2f0500fb5d3",
+    "flight_number": "HA5776",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "DTW",
+    "destination": "MCO",
+    "departure_time": "2024-02-24T10:15:00"
+  },
+  {
+    "flight_id": "18bd6e08-907f-4f20-a098-ef9860856247",
+    "flight_number": "HA5146",
+    "type": "unknown",
+    "delay_minutes": 82,
+    "origin": "MIA",
+    "destination": "DXB",
+    "departure_time": "2024-08-27T06:00:00"
+  },
+  {
+    "flight_id": "b05b75e6-cefc-4968-ac9b-ddd55aab723c",
+    "flight_number": "WN1368",
+    "type": "unknown",
+    "delay_minutes": 85,
+    "origin": "AMS",
+    "destination": "FRA",
+    "departure_time": "2024-12-27T07:15:00"
+  },
+  {
+    "flight_id": "13b71849-d65f-4e13-9873-d677cb8754b9",
+    "flight_number": "NK1018",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "BOM",
+    "destination": "MIA",
+    "departure_time": "2024-05-15T12:30:00"
+  },
+  {
+    "flight_id": "ffa8c37a-de4c-4710-b30b-0c196b9cd576",
+    "flight_number": "NK5070",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "LAS",
+    "destination": "MCO",
+    "departure_time": "2024-06-20T10:30:00"
+  },
+  {
+    "flight_id": "2e044168-eece-4bd8-ab77-60fec4ff87ee",
+    "flight_number": "B61108",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DEN",
+    "destination": "PHX",
+    "departure_time": "2024-02-23T12:00:00"
+  },
+  {
+    "flight_id": "daf8f0a0-a5e3-414f-aa6e-f025ec0decc7",
+    "flight_number": "HA2187",
+    "type": "unknown",
+    "delay_minutes": 107,
+    "origin": "LHR",
+    "destination": "DEL",
+    "departure_time": "2024-01-11T21:45:00"
+  },
+  {
+    "flight_id": "5ac2755d-a3a8-47c1-b08b-d93376caf211",
+    "flight_number": "DL2079",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "CDG",
+    "destination": "PHL",
+    "departure_time": "2024-06-09T11:00:00"
+  },
+  {
+    "flight_id": "ca68f3bd-434b-4e1a-948e-6dc8e4dbecf3",
+    "flight_number": "AA651",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "PHX",
+    "destination": "MIA",
+    "departure_time": "2024-11-14T16:30:00"
+  },
+  {
+    "flight_id": "1a321534-bfa2-433c-b44e-f69817138e3b",
+    "flight_number": "DL1143",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "LAX",
+    "destination": "PHL",
+    "departure_time": "2024-05-05T11:45:00"
+  },
+  {
+    "flight_id": "2b29c78e-6900-456f-97c8-229117baac5b",
+    "flight_number": "F94895",
+    "type": "unknown",
+    "delay_minutes": 79,
+    "origin": "EWR",
+    "destination": "JFK",
+    "departure_time": "2024-12-25T11:45:00"
+  },
+  {
+    "flight_id": "b101d192-9cd0-447a-be9d-5318197d4cd4",
+    "flight_number": "DL1250",
+    "type": "unknown",
+    "delay_minutes": 99,
+    "origin": "SEA",
+    "destination": "LAS",
+    "departure_time": "2024-02-10T15:00:00"
+  },
+  {
+    "flight_id": "c32e828e-7df5-4349-b80f-979c21fdcddb",
+    "flight_number": "HA5763",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "ORD",
+    "destination": "DEL",
+    "departure_time": "2024-10-13T13:30:00"
+  },
+  {
+    "flight_id": "11545629-3532-44a2-89ef-4416097c2c2e",
+    "flight_number": "HA4351",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "MCO",
+    "destination": "BOS",
+    "departure_time": "2024-07-03T10:00:00"
+  },
+  {
+    "flight_id": "a6d69d88-0f2d-45d6-b797-f5e4e1fec2f3",
+    "flight_number": "HA5431",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "EWR",
+    "destination": "FRA",
+    "departure_time": "2024-06-16T10:15:00"
+  },
+  {
+    "flight_id": "1fb05b4e-de55-4429-8191-4fd5f80eb556",
+    "flight_number": "UA4747",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "AMS",
+    "destination": "EWR",
+    "departure_time": "2024-05-09T11:15:00"
+  },
+  {
+    "flight_id": "f5fbb69d-4605-4597-b28c-a9432d27df9a",
+    "flight_number": "AA1642",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "IAH",
+    "destination": "DEN",
+    "departure_time": "2024-07-19T11:15:00"
+  },
+  {
+    "flight_id": "2aebadbf-e6cd-43a0-8792-7c1b3d8c3024",
+    "flight_number": "UA2405",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "EWR",
+    "destination": "PHL",
+    "departure_time": "2024-06-07T11:15:00"
+  },
+  {
+    "flight_id": "af182923-9cf5-4837-bc9a-f50dde34dce0",
+    "flight_number": "F94916",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "DEL",
+    "destination": "FLL",
+    "departure_time": "2024-10-23T16:00:00"
+  },
+  {
+    "flight_id": "10719a2a-994c-4115-97be-9d120b24ad5c",
+    "flight_number": "AS2351",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DFW",
+    "destination": "ATL",
+    "departure_time": "2024-08-08T10:15:00"
+  },
+  {
+    "flight_id": "cb24036b-6284-4ea8-86f3-dbf810a6dc12",
+    "flight_number": "AA463",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "MIA",
+    "destination": "NRT",
+    "departure_time": "2024-07-17T19:45:00"
+  },
+  {
+    "flight_id": "1696c320-8b70-4d79-b968-bed79d9596fc",
+    "flight_number": "F93648",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "BOS",
+    "destination": "SFO",
+    "departure_time": "2024-05-09T14:30:00"
+  },
+  {
+    "flight_id": "ba09cf82-7f06-4bd7-890e-1e880f5133f1",
+    "flight_number": "DL2968",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "MCO",
+    "destination": "BOM",
+    "departure_time": "2024-02-09T09:45:00"
+  },
+  {
+    "flight_id": "c4732295-3b68-4db7-9f72-78209c23a198",
+    "flight_number": "DL172",
+    "type": "unknown",
+    "delay_minutes": 94,
+    "origin": "MCO",
+    "destination": "ICN",
+    "departure_time": "2024-11-13T13:00:00"
+  },
+  {
+    "flight_id": "345dc774-c4e3-4792-ba26-0a97a011ae90",
+    "flight_number": "HA2662",
+    "type": "unknown",
+    "delay_minutes": 81,
+    "origin": "MIA",
+    "destination": "LAS",
+    "departure_time": "2024-07-16T12:30:00"
+  },
+  {
+    "flight_id": "d1e2d8b2-f6d1-4428-b9f4-0836bf7dc52d",
+    "flight_number": "HA3206",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "CDG",
+    "destination": "DEN",
+    "departure_time": "2024-02-07T12:15:00"
+  },
+  {
+    "flight_id": "e89353ef-d8d7-42fa-aa4a-96ade6a2b321",
+    "flight_number": "B65554",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "NRT",
+    "destination": "LHR",
+    "departure_time": "2024-10-31T13:30:00"
+  },
+  {
+    "flight_id": "f587e835-a2c9-46cc-940b-26de3ed9910b",
+    "flight_number": "F95690",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SEA",
+    "destination": "ICN",
+    "departure_time": "2024-10-30T09:15:00"
+  },
+  {
+    "flight_id": "84bfeb2a-81d9-4f86-b994-c98dabc6ebcf",
+    "flight_number": "HA771",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "MCO",
+    "destination": "SFO",
+    "departure_time": "2024-02-07T17:45:00"
+  },
+  {
+    "flight_id": "c4393d40-e0eb-49d6-8e2a-20cd7364a774",
+    "flight_number": "G45860",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "ATL",
+    "destination": "FLL",
+    "departure_time": "2024-07-26T07:45:00"
+  },
+  {
+    "flight_id": "9668cae7-0d88-4645-ac7a-683d4eccd0d4",
+    "flight_number": "DL1233",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "LHR",
+    "destination": "MSP",
+    "departure_time": "2024-09-05T06:30:00"
+  },
+  {
+    "flight_id": "785a8ab6-864f-4833-abb3-a313b2e2040e",
+    "flight_number": "AS2009",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "LAX",
+    "destination": "SFO",
+    "departure_time": "2024-10-19T18:45:00"
+  },
+  {
+    "flight_id": "af2b4d37-4b1f-4716-b06e-e6784169c9bd",
+    "flight_number": "NK5541",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "LAS",
+    "destination": "LAX",
+    "departure_time": "2024-03-08T15:45:00"
+  },
+  {
+    "flight_id": "3cf127fa-61e3-4bc8-87dc-98e68c6bbf21",
+    "flight_number": "AA1198",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "MIA",
+    "destination": "LAS",
+    "departure_time": "2024-10-13T17:15:00"
+  },
+  {
+    "flight_id": "76912028-2c21-49da-b492-24eb84efc2b6",
+    "flight_number": "WN1751",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SEA",
+    "destination": "PHX",
+    "departure_time": "2024-12-20T16:00:00"
+  },
+  {
+    "flight_id": "6258f9b3-588d-42c8-a8c2-98f882812103",
+    "flight_number": "WN4548",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "MSP",
+    "destination": "FLL",
+    "departure_time": "2024-10-13T11:15:00"
+  },
+  {
+    "flight_id": "25691420-ee72-481d-ad0a-a4b2ff1298d9",
+    "flight_number": "DL1905",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "CLT",
+    "destination": "ATL",
+    "departure_time": "2024-01-25T09:00:00"
+  },
+  {
+    "flight_id": "ef5ef2bc-42a0-4df5-8aa1-fa819ba77c00",
+    "flight_number": "WN5870",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "EWR",
+    "destination": "SEA",
+    "departure_time": "2024-10-24T13:30:00"
+  },
+  {
+    "flight_id": "33d3ea43-55e5-47ba-bbe7-3ae11c4f80af",
+    "flight_number": "G42314",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "EWR",
+    "destination": "LAS",
+    "departure_time": "2024-02-18T07:45:00"
+  },
+  {
+    "flight_id": "0555db96-036c-4ede-a6e6-07b6f6e1559e",
+    "flight_number": "G45646",
+    "type": "unknown",
+    "delay_minutes": 87,
+    "origin": "SIN",
+    "destination": "MIA",
+    "departure_time": "2024-06-10T19:15:00"
+  },
+  {
+    "flight_id": "c0a719d9-caa6-4177-a32e-fcc4eca85356",
+    "flight_number": "UA4553",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "EWR",
+    "destination": "DEL",
+    "departure_time": "2024-08-31T15:30:00"
+  },
+  {
+    "flight_id": "becf2700-f8b0-4783-bd6e-8c8b116e7c9c",
+    "flight_number": "HA5852",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "CLT",
+    "destination": "FLL",
+    "departure_time": "2024-10-24T11:30:00"
+  },
+  {
+    "flight_id": "4a27a025-cb70-47c6-86f8-b09387c0c908",
+    "flight_number": "HA4886",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "CDG",
+    "destination": "BOM",
+    "departure_time": "2024-06-27T12:15:00"
+  },
+  {
+    "flight_id": "beb92d84-9ac8-4dda-af8a-96deb25d2c05",
+    "flight_number": "F92709",
+    "type": "unknown",
+    "delay_minutes": 79,
+    "origin": "EWR",
+    "destination": "FLL",
+    "departure_time": "2024-11-11T08:30:00"
+  },
+  {
+    "flight_id": "5898d4a5-af02-4482-a41f-6920d2c494ec",
+    "flight_number": "UA5811",
+    "type": "weather",
+    "delay_minutes": 21,
+    "origin": "CDG",
+    "destination": "MCO",
+    "departure_time": "2024-10-31T22:15:00"
+  },
+  {
+    "flight_id": "7393b981-99cd-48d6-8942-62a878247f23",
+    "flight_number": "F94694",
+    "type": "weather",
+    "delay_minutes": 37,
+    "origin": "ORD",
+    "destination": "CLT",
+    "departure_time": "2024-12-11T13:00:00"
+  },
+  {
+    "flight_id": "b1c71081-5892-4d97-992a-9aec77defd28",
+    "flight_number": "B61892",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "BOM",
+    "destination": "ORD",
+    "departure_time": "2024-11-16T17:30:00"
+  },
+  {
+    "flight_id": "58bbdae1-5dfa-483c-baaf-456d698643b8",
+    "flight_number": "WN4604",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "LAS",
+    "destination": "DXB",
+    "departure_time": "2024-05-09T21:30:00"
+  },
+  {
+    "flight_id": "440cb6a2-b565-4fe4-a06f-16ebc5945bd4",
+    "flight_number": "F95400",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "EWR",
+    "destination": "DEL",
+    "departure_time": "2024-03-22T17:15:00"
+  },
+  {
+    "flight_id": "7840c492-77f9-4c9b-bd83-02603b7cb75a",
+    "flight_number": "UA5276",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "FLL",
+    "destination": "BOS",
+    "departure_time": "2024-09-12T20:45:00"
+  },
+  {
+    "flight_id": "59030796-e26c-4c34-aa7f-c98794c55d98",
+    "flight_number": "WN4525",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "PHX",
+    "destination": "CLT",
+    "departure_time": "2024-08-17T22:45:00"
+  },
+  {
+    "flight_id": "55b0a2f8-bce4-499f-9469-921a45e2fd69",
+    "flight_number": "F92796",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "ATL",
+    "destination": "DTW",
+    "departure_time": "2024-08-22T06:45:00"
+  },
+  {
+    "flight_id": "09a137ed-e974-42ed-9da7-c44822c170bc",
+    "flight_number": "HA2640",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "NRT",
+    "destination": "PHL",
+    "departure_time": "2024-06-25T10:30:00"
+  },
+  {
+    "flight_id": "03e46a8a-da80-46fa-951b-2ada2382b265",
+    "flight_number": "WN4132",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "LAS",
+    "destination": "SIN",
+    "departure_time": "2024-11-25T10:00:00"
+  },
+  {
+    "flight_id": "b47d2896-3f1c-4026-9b00-4020789bf861",
+    "flight_number": "AS4477",
+    "type": "unknown",
+    "delay_minutes": 93,
+    "origin": "CLT",
+    "destination": "CDG",
+    "departure_time": "2024-08-18T11:45:00"
+  },
+  {
+    "flight_id": "4cf0e65c-d33e-4af2-9253-e41be2a6d79c",
+    "flight_number": "UA1884",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "SFO",
+    "destination": "EWR",
+    "departure_time": "2024-03-06T12:45:00"
+  },
+  {
+    "flight_id": "860976ab-290c-43f0-a454-6f3f98cfa70d",
+    "flight_number": "G43700",
+    "type": "unknown",
+    "delay_minutes": 78,
+    "origin": "PHX",
+    "destination": "PHL",
+    "departure_time": "2024-05-09T12:00:00"
+  },
+  {
+    "flight_id": "c6980124-757c-462f-b6f1-6ed63ecd0c7f",
+    "flight_number": "G4909",
+    "type": "unknown",
+    "delay_minutes": 90,
+    "origin": "NRT",
+    "destination": "DTW",
+    "departure_time": "2024-01-18T18:45:00"
+  },
+  {
+    "flight_id": "e2f1fd26-f157-4170-81f9-1c0cbef38f57",
+    "flight_number": "DL2601",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "DEL",
+    "destination": "NRT",
+    "departure_time": "2024-01-07T12:15:00"
+  },
+  {
+    "flight_id": "93cff148-4ac1-4925-aa56-ddd8ac95a0b8",
+    "flight_number": "B64650",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "IAH",
+    "destination": "SEA",
+    "departure_time": "2024-04-16T09:15:00"
+  },
+  {
+    "flight_id": "33df2fc3-8606-46f3-a537-832b9cf731b9",
+    "flight_number": "NK238",
+    "type": "unknown",
+    "delay_minutes": 86,
+    "origin": "SIN",
+    "destination": "AMS",
+    "departure_time": "2024-05-23T18:00:00"
+  },
+  {
+    "flight_id": "22cf1c7d-cdb5-4c1e-9f60-9a257df14935",
+    "flight_number": "NK1660",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "FRA",
+    "destination": "FLL",
+    "departure_time": "2024-05-10T22:00:00"
+  },
+  {
+    "flight_id": "95661207-8352-4f43-8b58-56f38a0a6d0b",
+    "flight_number": "B64303",
+    "type": "unknown",
+    "delay_minutes": 90,
+    "origin": "LAS",
+    "destination": "DEL",
+    "departure_time": "2024-07-08T15:00:00"
+  },
+  {
+    "flight_id": "7a365f7b-1778-4af7-8987-acd3b5ba95ff",
+    "flight_number": "AS5938",
+    "type": "unknown",
+    "delay_minutes": 92,
+    "origin": "JFK",
+    "destination": "PHL",
+    "departure_time": "2024-09-23T19:45:00"
+  },
+  {
+    "flight_id": "8805875f-1e4e-44e6-a887-11383d77afc1",
+    "flight_number": "DL4131",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "MSP",
+    "destination": "MCO",
+    "departure_time": "2024-03-08T21:30:00"
+  },
+  {
+    "flight_id": "6b331f69-61da-4f70-8efa-deff5934a020",
+    "flight_number": "NK4851",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "SFO",
+    "destination": "MCO",
+    "departure_time": "2024-09-29T13:45:00"
+  },
+  {
+    "flight_id": "12835574-c004-4218-9cee-ed62d0d79236",
+    "flight_number": "WN4815",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "ATL",
+    "destination": "IAH",
+    "departure_time": "2024-11-25T16:30:00"
+  },
+  {
+    "flight_id": "3551132a-698b-4506-807a-565154b3e974",
+    "flight_number": "AA5485",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "ICN",
+    "destination": "FLL",
+    "departure_time": "2024-02-02T12:30:00"
+  },
+  {
+    "flight_id": "1ea3c8ff-b60c-4dae-818e-6b8968f1be50",
+    "flight_number": "UA4336",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "ICN",
+    "destination": "JFK",
+    "departure_time": "2024-02-18T12:00:00"
+  },
+  {
+    "flight_id": "f13e0985-6a69-424d-9e5e-7b6dfcf1b320",
+    "flight_number": "G4722",
+    "type": "weather",
+    "delay_minutes": 26,
+    "origin": "DFW",
+    "destination": "JFK",
+    "departure_time": "2024-03-18T14:45:00"
+  },
+  {
+    "flight_id": "9b29d7e3-4a00-4ad9-a8d6-9e3b6c152108",
+    "flight_number": "WN3420",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "ORD",
+    "destination": "DEL",
+    "departure_time": "2024-06-27T09:30:00"
+  },
+  {
+    "flight_id": "f2ea389d-26b8-4750-a0de-bc35eb51d913",
+    "flight_number": "G44646",
+    "type": "unknown",
+    "delay_minutes": 87,
+    "origin": "FLL",
+    "destination": "BOS",
+    "departure_time": "2024-10-06T07:45:00"
+  },
+  {
+    "flight_id": "b1fc5f98-bf78-4798-aa9d-a1f80b598c5b",
+    "flight_number": "AS1375",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "ICN",
+    "destination": "JFK",
+    "departure_time": "2024-05-23T16:15:00"
+  },
+  {
+    "flight_id": "510ce090-d77f-4d4a-b6d8-45cb6099c6e9",
+    "flight_number": "B6641",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "PHL",
+    "destination": "MIA",
+    "departure_time": "2024-09-10T06:45:00"
+  },
+  {
+    "flight_id": "96e70a0e-de04-423a-83dd-7b6fb3569b8a",
+    "flight_number": "UA3150",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "MIA",
+    "destination": "FRA",
+    "departure_time": "2024-04-15T11:45:00"
+  },
+  {
+    "flight_id": "870cad6a-6ccb-4021-94dc-0c5e21925774",
+    "flight_number": "AA2922",
+    "type": "unknown",
+    "delay_minutes": 84,
+    "origin": "FLL",
+    "destination": "MIA",
+    "departure_time": "2024-07-09T16:15:00"
+  },
+  {
+    "flight_id": "e05cf9d6-c831-4224-b5d7-c0ad2d0b4e1a",
+    "flight_number": "HA2124",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "LAS",
+    "destination": "DEL",
+    "departure_time": "2024-04-06T15:00:00"
+  },
+  {
+    "flight_id": "ee682850-3c70-4145-8539-a4fce9566cec",
+    "flight_number": "HA5125",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "CDG",
+    "destination": "MCO",
+    "departure_time": "2024-03-19T16:30:00"
+  },
+  {
+    "flight_id": "a924e869-f558-472c-8365-4cfc284e2862",
+    "flight_number": "AS3211",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "FRA",
+    "destination": "BOS",
+    "departure_time": "2024-05-09T15:00:00"
+  },
+  {
+    "flight_id": "87e8678f-1922-4e0b-b682-a77b4a6b85dd",
+    "flight_number": "DL4029",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "DEN",
+    "destination": "SFO",
+    "departure_time": "2024-10-17T11:45:00"
+  },
+  {
+    "flight_id": "ea6cb35d-b25d-4cf5-a31a-513acdd9e8d3",
+    "flight_number": "G41608",
+    "type": "unknown",
+    "delay_minutes": 84,
+    "origin": "SEA",
+    "destination": "AMS",
+    "departure_time": "2024-01-01T11:15:00"
+  },
+  {
+    "flight_id": "ab99ebf4-99b4-4a88-8a1d-24e8a157a5c9",
+    "flight_number": "WN4433",
+    "type": "unknown",
+    "delay_minutes": 74,
+    "origin": "DFW",
+    "destination": "IAH",
+    "departure_time": "2024-10-26T11:45:00"
+  },
+  {
+    "flight_id": "091ad746-fa14-4483-a576-090b0d12b8cb",
+    "flight_number": "G43744",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "DTW",
+    "destination": "PHL",
+    "departure_time": "2024-11-30T09:45:00"
+  },
+  {
+    "flight_id": "0b453aef-5dd4-420c-b5ec-4bdd7b5de513",
+    "flight_number": "AA4958",
+    "type": "unknown",
+    "delay_minutes": 77,
+    "origin": "DTW",
+    "destination": "MSP",
+    "departure_time": "2024-02-23T10:15:00"
+  },
+  {
+    "flight_id": "9f3733cd-80a5-4a12-aec0-76f38678715a",
+    "flight_number": "NK2023",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "SIN",
+    "destination": "MIA",
+    "departure_time": "2024-07-11T21:15:00"
+  },
+  {
+    "flight_id": "a51dc38c-2f54-4403-b008-959419573252",
+    "flight_number": "WN4231",
+    "type": "unknown",
+    "delay_minutes": 82,
+    "origin": "FRA",
+    "destination": "ICN",
+    "departure_time": "2024-01-16T11:30:00"
+  },
+  {
+    "flight_id": "d15ee0ab-dc22-48c7-a6e6-09881b1b5969",
+    "flight_number": "B64832",
+    "type": "weather",
+    "delay_minutes": 46,
+    "origin": "ATL",
+    "destination": "AMS",
+    "departure_time": "2024-05-26T12:45:00"
+  },
+  {
+    "flight_id": "cb265bef-7c88-4674-aaa7-3dd0ee547927",
+    "flight_number": "F92228",
+    "type": "unknown",
+    "delay_minutes": 86,
+    "origin": "BOS",
+    "destination": "DFW",
+    "departure_time": "2024-08-08T16:15:00"
+  },
+  {
+    "flight_id": "6a9b74ac-5fde-46b9-9175-4ea501f507e3",
+    "flight_number": "HA3367",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "MIA",
+    "destination": "ICN",
+    "departure_time": "2024-12-12T10:00:00"
+  },
+  {
+    "flight_id": "0d28263e-6c31-4367-869d-9eaa37b133ff",
+    "flight_number": "UA5556",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "PHX",
+    "destination": "MCO",
+    "departure_time": "2024-10-11T19:15:00"
+  },
+  {
+    "flight_id": "f300506b-3f7e-4738-b216-661c468b4ca5",
+    "flight_number": "UA423",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "MSP",
+    "destination": "AMS",
+    "departure_time": "2024-10-10T07:45:00"
+  },
+  {
+    "flight_id": "8b2d8742-8508-42c4-88cf-8c6ed35cf007",
+    "flight_number": "DL1842",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "FRA",
+    "destination": "DEN",
+    "departure_time": "2024-01-12T21:30:00"
+  },
+  {
+    "flight_id": "e073114a-f527-4781-abe0-27a5f6e6af96",
+    "flight_number": "NK1360",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "PHL",
+    "destination": "ORD",
+    "departure_time": "2024-06-07T10:45:00"
+  },
+  {
+    "flight_id": "6786fdd3-4b62-4d2b-ae91-24dd1edc22fa",
+    "flight_number": "DL3181",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "SFO",
+    "destination": "ICN",
+    "departure_time": "2024-04-08T13:30:00"
+  },
+  {
+    "flight_id": "7ec5f093-99c6-431b-826c-ca5935e9964d",
+    "flight_number": "UA1485",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "LHR",
+    "destination": "BOS",
+    "departure_time": "2024-07-01T11:00:00"
+  },
+  {
+    "flight_id": "9a7130bb-57b9-4c9e-8450-a2e561cc6c9b",
+    "flight_number": "UA3991",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "ORD",
+    "destination": "BOS",
+    "departure_time": "2024-06-21T21:15:00"
+  },
+  {
+    "flight_id": "d62ecbfb-2c8a-4358-8316-2b2ec67abef3",
+    "flight_number": "F92580",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "PHL",
+    "destination": "DEL",
+    "departure_time": "2024-01-08T15:15:00"
+  },
+  {
+    "flight_id": "908b1ef6-f5af-4946-b997-8b7e681b5deb",
+    "flight_number": "UA4818",
+    "type": "unknown",
+    "delay_minutes": 86,
+    "origin": "FLL",
+    "destination": "MIA",
+    "departure_time": "2024-08-26T21:15:00"
+  },
+  {
+    "flight_id": "df09bdde-8d5c-4496-9929-75d69fed12ae",
+    "flight_number": "B63594",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "SIN",
+    "destination": "CLT",
+    "departure_time": "2024-04-12T20:00:00"
+  },
+  {
+    "flight_id": "e255de7e-ebe3-45e2-9a81-cb08b42c2122",
+    "flight_number": "AS4107",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "BOS",
+    "destination": "IAH",
+    "departure_time": "2024-04-14T19:15:00"
+  },
+  {
+    "flight_id": "afc390e5-531f-4cba-bd14-08b4154d229f",
+    "flight_number": "UA3026",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "CDG",
+    "destination": "ATL",
+    "departure_time": "2024-01-07T17:15:00"
+  },
+  {
+    "flight_id": "e52fa18d-73f1-4a5e-b165-6660ec3c14de",
+    "flight_number": "AA5267",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "MCO",
+    "destination": "ICN",
+    "departure_time": "2024-03-23T09:45:00"
+  },
+  {
+    "flight_id": "2cf2cccd-1c65-4c66-9076-df7ae75dea4b",
+    "flight_number": "UA1191",
+    "type": "unknown",
+    "delay_minutes": 93,
+    "origin": "FRA",
+    "destination": "PHX",
+    "departure_time": "2024-05-31T14:45:00"
+  },
+  {
+    "flight_id": "9b13246e-ef84-4609-a6ac-9b39a588cc8b",
+    "flight_number": "WN2312",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "DTW",
+    "destination": "BOM",
+    "departure_time": "2024-03-03T17:00:00"
+  },
+  {
+    "flight_id": "b12354f4-e887-44a7-bd0d-92bf38ef12f0",
+    "flight_number": "AA4044",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "BOM",
+    "destination": "FRA",
+    "departure_time": "2024-05-13T11:30:00"
+  },
+  {
+    "flight_id": "265e0f09-cf1d-4255-a9f9-2c6a4188a962",
+    "flight_number": "F93618",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "LAX",
+    "destination": "PHX",
+    "departure_time": "2024-08-24T11:15:00"
+  },
+  {
+    "flight_id": "689aa416-2d4e-42ab-8c0c-814122b08814",
+    "flight_number": "AS4381",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "DFW",
+    "destination": "LAS",
+    "departure_time": "2024-05-19T15:45:00"
+  },
+  {
+    "flight_id": "55a5f4ac-60f7-4226-84db-6433c708caf7",
+    "flight_number": "B63460",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "ICN",
+    "destination": "BOM",
+    "departure_time": "2024-07-06T12:00:00"
+  },
+  {
+    "flight_id": "6b305723-e9c6-4b59-9cab-db543509b366",
+    "flight_number": "HA1273",
+    "type": "weather",
+    "delay_minutes": 9,
+    "origin": "PHL",
+    "destination": "LAX",
+    "departure_time": "2024-01-18T15:15:00"
+  },
+  {
+    "flight_id": "173ac8f3-a81d-4859-8ad2-d49251b8acdc",
+    "flight_number": "G41915",
+    "type": "unknown",
+    "delay_minutes": 108,
+    "origin": "ICN",
+    "destination": "IAH",
+    "departure_time": "2024-04-26T17:00:00"
+  },
+  {
+    "flight_id": "1ac8ee91-02c5-43fa-9203-418a9e60e2cf",
+    "flight_number": "NK1439",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "MSP",
+    "destination": "DEN",
+    "departure_time": "2024-06-26T10:30:00"
+  },
+  {
+    "flight_id": "253de910-3b6f-49d5-b2df-1a225d4deb19",
+    "flight_number": "G42013",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "FLL",
+    "destination": "PHL",
+    "departure_time": "2024-06-18T11:45:00"
+  },
+  {
+    "flight_id": "d0dcaaee-cbd5-4dcb-ae1d-9756c6780d8c",
+    "flight_number": "WN5624",
+    "type": "unknown",
+    "delay_minutes": 64,
+    "origin": "LAX",
+    "destination": "CLT",
+    "departure_time": "2024-09-09T10:30:00"
+  },
+  {
+    "flight_id": "655a6ac3-f4d3-4036-8f9e-467f837b40a2",
+    "flight_number": "UA2755",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "PHL",
+    "destination": "NRT",
+    "departure_time": "2024-01-21T11:30:00"
+  },
+  {
+    "flight_id": "2ef9d189-f0d2-4b05-a4ca-27bd646df4c7",
+    "flight_number": "DL4557",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "AMS",
+    "destination": "NRT",
+    "departure_time": "2024-08-16T13:00:00"
+  },
+  {
+    "flight_id": "f1675078-5c7a-49ae-9eb1-3656c9484669",
+    "flight_number": "HA4878",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "FLL",
+    "destination": "BOS",
+    "departure_time": "2024-01-08T13:15:00"
+  },
+  {
+    "flight_id": "3f363275-8925-4bab-a73f-7142ecd8fa32",
+    "flight_number": "F93784",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "BOS",
+    "destination": "LAX",
+    "departure_time": "2024-03-23T17:30:00"
+  },
+  {
+    "flight_id": "ca91cb36-ee8a-4bb7-8048-c35e66b99a68",
+    "flight_number": "G43004",
+    "type": "unknown",
+    "delay_minutes": 113,
+    "origin": "MCO",
+    "destination": "LAS",
+    "departure_time": "2024-09-13T10:30:00"
+  },
+  {
+    "flight_id": "367e8bb8-7080-48db-b52a-8f4281b44a65",
+    "flight_number": "B63107",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "DXB",
+    "destination": "CLT",
+    "departure_time": "2024-09-25T14:45:00"
+  },
+  {
+    "flight_id": "df2cc719-7b3e-4ccf-8c00-d756cec03199",
+    "flight_number": "AS3820",
+    "type": "unknown",
+    "delay_minutes": 107,
+    "origin": "NRT",
+    "destination": "LAX",
+    "departure_time": "2024-02-10T16:30:00"
+  },
+  {
+    "flight_id": "03313f7d-b532-4c92-af26-a1ec8b1a9eae",
+    "flight_number": "B6793",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DEL",
+    "destination": "LAX",
+    "departure_time": "2024-06-21T15:00:00"
+  },
+  {
+    "flight_id": "7a637ed0-76db-4f45-9970-b666f3c76d0e",
+    "flight_number": "UA3437",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "BOM",
+    "destination": "SEA",
+    "departure_time": "2024-10-01T07:45:00"
+  },
+  {
+    "flight_id": "11420e6a-4f8f-4fe2-a6cc-905d072cd329",
+    "flight_number": "AA1180",
+    "type": "unknown",
+    "delay_minutes": 90,
+    "origin": "PHL",
+    "destination": "EWR",
+    "departure_time": "2024-10-26T19:45:00"
+  },
+  {
+    "flight_id": "5de3a372-2ba4-48f5-bea7-d2049e8175b9",
+    "flight_number": "DL4083",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "EWR",
+    "destination": "CDG",
+    "departure_time": "2024-07-09T11:00:00"
+  },
+  {
+    "flight_id": "dfb34248-f221-4481-84e4-a169bd00ea18",
+    "flight_number": "WN449",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "JFK",
+    "destination": "LAX",
+    "departure_time": "2024-07-27T15:15:00"
+  },
+  {
+    "flight_id": "f58a55de-b7c2-45ca-9657-7b27750d4a9e",
+    "flight_number": "AS5127",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "PHL",
+    "destination": "ATL",
+    "departure_time": "2024-06-10T07:15:00"
+  },
+  {
+    "flight_id": "b3a3e3cb-7fac-4c6a-9eb6-d2de7cf06b52",
+    "flight_number": "B64650",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "FRA",
+    "destination": "BOM",
+    "departure_time": "2024-03-05T14:45:00"
+  },
+  {
+    "flight_id": "617c6997-250d-4714-8bc4-322a02fa6b67",
+    "flight_number": "NK1362",
+    "type": "unknown",
+    "delay_minutes": 118,
+    "origin": "JFK",
+    "destination": "CLT",
+    "departure_time": "2024-04-26T14:30:00"
+  },
+  {
+    "flight_id": "d48e290d-91fb-4973-b667-437aafffcc63",
+    "flight_number": "G41286",
+    "type": "unknown",
+    "delay_minutes": 85,
+    "origin": "PHX",
+    "destination": "BOM",
+    "departure_time": "2024-03-17T20:15:00"
+  },
+  {
+    "flight_id": "174be3b1-bffb-43d3-b66c-e8193f2bd29c",
+    "flight_number": "DL3983",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "ATL",
+    "destination": "MSP",
+    "departure_time": "2024-02-07T13:30:00"
+  },
+  {
+    "flight_id": "5d962acd-5b41-46de-969d-9dff128973f7",
+    "flight_number": "DL3810",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "BOM",
+    "destination": "SEA",
+    "departure_time": "2024-04-18T11:00:00"
+  },
+  {
+    "flight_id": "8d9c754b-fdba-40d9-8d89-019e3357033a",
+    "flight_number": "G41498",
+    "type": "unknown",
+    "delay_minutes": 79,
+    "origin": "FLL",
+    "destination": "BOS",
+    "departure_time": "2024-06-27T08:00:00"
+  },
+  {
+    "flight_id": "1e6dab9b-e3c6-4b83-a3f0-f392e07b67ff",
+    "flight_number": "DL4750",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "NRT",
+    "destination": "LHR",
+    "departure_time": "2024-10-30T15:45:00"
+  },
+  {
+    "flight_id": "8a8f47d0-2ae7-4188-b0fe-d85068ea0e9f",
+    "flight_number": "UA1850",
+    "type": "unknown",
+    "delay_minutes": 70,
+    "origin": "SFO",
+    "destination": "DTW",
+    "departure_time": "2024-02-26T15:15:00"
+  },
+  {
+    "flight_id": "1f8df35d-fdea-4094-a008-5d835a02b5ed",
+    "flight_number": "B62582",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "FLL",
+    "destination": "BOM",
+    "departure_time": "2024-07-17T09:00:00"
+  },
+  {
+    "flight_id": "5b1e7743-c628-4961-a9dc-dc4f73a35a46",
+    "flight_number": "B61641",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "NRT",
+    "destination": "SFO",
+    "departure_time": "2024-11-13T19:00:00"
+  },
+  {
+    "flight_id": "5fb0ff9c-bd3e-4d71-9210-b6ba33156128",
+    "flight_number": "B6186",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "ICN",
+    "destination": "DTW",
+    "departure_time": "2024-02-18T11:45:00"
+  },
+  {
+    "flight_id": "0fe28a9c-6524-44f7-b6a3-d6e29b1b8f90",
+    "flight_number": "AA2820",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "MSP",
+    "destination": "ATL",
+    "departure_time": "2024-06-23T09:45:00"
+  },
+  {
+    "flight_id": "905d98b5-7ecb-4295-85f3-43dee1b03ab1",
+    "flight_number": "DL1231",
+    "type": "unknown",
+    "delay_minutes": 75,
+    "origin": "JFK",
+    "destination": "PHX",
+    "departure_time": "2024-04-08T07:30:00"
+  },
+  {
+    "flight_id": "5b08fc64-1956-4094-b8e0-4eed07949030",
+    "flight_number": "UA315",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "BOM",
+    "destination": "BOS",
+    "departure_time": "2024-11-30T15:45:00"
+  },
+  {
+    "flight_id": "9561ba3d-1261-4902-bab8-3ece2f44a72b",
+    "flight_number": "G41935",
+    "type": "unknown",
+    "delay_minutes": 66,
+    "origin": "MCO",
+    "destination": "MIA",
+    "departure_time": "2024-08-31T22:00:00"
+  },
+  {
+    "flight_id": "eb87c2ca-1c7c-4c2a-a55d-abc8134cc433",
+    "flight_number": "HA4261",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "ATL",
+    "destination": "FRA",
+    "departure_time": "2024-04-08T20:00:00"
+  },
+  {
+    "flight_id": "372b6087-b9ed-47d0-b731-9bed506d8595",
+    "flight_number": "HA2155",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "ICN",
+    "destination": "MIA",
+    "departure_time": "2024-08-21T17:15:00"
+  },
+  {
+    "flight_id": "62808dad-63fd-4e8a-beab-1e95a676601e",
+    "flight_number": "AS5973",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "CDG",
+    "destination": "SIN",
+    "departure_time": "2024-12-22T22:00:00"
+  },
+  {
+    "flight_id": "37e810c2-8c10-4027-9046-050bcb144bda",
+    "flight_number": "DL167",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "ICN",
+    "destination": "PHL",
+    "departure_time": "2024-10-13T16:30:00"
+  },
+  {
+    "flight_id": "596362e1-9575-4d4c-8000-b66f731b6e44",
+    "flight_number": "NK5837",
+    "type": "unknown",
+    "delay_minutes": 93,
+    "origin": "LAS",
+    "destination": "CLT",
+    "departure_time": "2024-04-20T09:30:00"
+  },
+  {
+    "flight_id": "837357c0-0f6b-4c1a-b7e4-894e32dc1da4",
+    "flight_number": "HA659",
+    "type": "unknown",
+    "delay_minutes": 81,
+    "origin": "CLT",
+    "destination": "EWR",
+    "departure_time": "2024-10-25T16:15:00"
+  },
+  {
+    "flight_id": "3c79de72-5de7-42d4-aaa8-7f90b62c3a1b",
+    "flight_number": "AA5933",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "NRT",
+    "destination": "DFW",
+    "departure_time": "2024-01-18T08:45:00"
+  },
+  {
+    "flight_id": "815fc578-2a89-4d78-b4e1-9330b7493aef",
+    "flight_number": "WN5872",
+    "type": "unknown",
+    "delay_minutes": 103,
+    "origin": "DXB",
+    "destination": "DFW",
+    "departure_time": "2024-10-28T15:30:00"
+  },
+  {
+    "flight_id": "1f384fb6-36ab-432d-811b-0ed496f80b5d",
+    "flight_number": "NK976",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "AMS",
+    "destination": "NRT",
+    "departure_time": "2024-02-08T10:00:00"
+  },
+  {
+    "flight_id": "1e541bcd-1ca4-463e-a120-53cb76dd586e",
+    "flight_number": "NK1745",
+    "type": "unknown",
+    "delay_minutes": 72,
+    "origin": "DFW",
+    "destination": "PHX",
+    "departure_time": "2024-03-13T17:30:00"
+  },
+  {
+    "flight_id": "16318c04-92c2-4386-be44-a0ef748cf638",
+    "flight_number": "F95132",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "SEA",
+    "destination": "ATL",
+    "departure_time": "2024-08-24T11:00:00"
+  },
+  {
+    "flight_id": "9d7dbb80-02e3-4c21-9961-eabd623b3616",
+    "flight_number": "HA5601",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "EWR",
+    "destination": "PHL",
+    "departure_time": "2024-11-01T07:15:00"
+  },
+  {
+    "flight_id": "c33c60c7-fe48-471c-b681-c46c55cc27a1",
+    "flight_number": "NK1048",
+    "type": "unknown",
+    "delay_minutes": 77,
+    "origin": "FRA",
+    "destination": "DEN",
+    "departure_time": "2024-01-29T13:00:00"
+  },
+  {
+    "flight_id": "483df688-2776-4cc8-a9b8-6cfa5b1821cd",
+    "flight_number": "F93784",
+    "type": "unknown",
+    "delay_minutes": 90,
+    "origin": "ICN",
+    "destination": "PHL",
+    "departure_time": "2024-11-07T22:30:00"
+  },
+  {
+    "flight_id": "1400ddc8-5777-4ee4-885b-b1a98446e86d",
+    "flight_number": "DL3375",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "MIA",
+    "destination": "SFO",
+    "departure_time": "2024-06-09T10:30:00"
+  },
+  {
+    "flight_id": "7b80fcb6-7643-43c8-bbe4-6615a423b655",
+    "flight_number": "B65866",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DTW",
+    "destination": "NRT",
+    "departure_time": "2024-08-13T08:30:00"
+  },
+  {
+    "flight_id": "1dd41f27-9808-48b0-9060-60a8323c02bc",
+    "flight_number": "G44444",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "PHX",
+    "destination": "SEA",
+    "departure_time": "2024-12-30T12:45:00"
+  },
+  {
+    "flight_id": "eeca160d-3e9d-41a7-9e6a-933579e1cd3a",
+    "flight_number": "G41796",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "PHL",
+    "destination": "LAX",
+    "departure_time": "2024-11-16T14:30:00"
+  },
+  {
+    "flight_id": "d4688aa6-3c44-40b2-9e92-62b874bfedfd",
+    "flight_number": "B62843",
+    "type": "unknown",
+    "delay_minutes": 91,
+    "origin": "DEN",
+    "destination": "SFO",
+    "departure_time": "2024-01-02T11:45:00"
+  },
+  {
+    "flight_id": "53f3ce7b-1fd0-4e69-8329-29df00d79849",
+    "flight_number": "DL275",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "MSP",
+    "destination": "SIN",
+    "departure_time": "2024-03-30T21:30:00"
+  },
+  {
+    "flight_id": "7b2cc192-54b1-43fe-a97c-036dc41dc2ac",
+    "flight_number": "AS4609",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "ICN",
+    "destination": "LHR",
+    "departure_time": "2024-04-13T06:15:00"
+  },
+  {
+    "flight_id": "38b42d82-ba4b-4cc8-a90f-87441145e538",
+    "flight_number": "F92618",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "LAS",
+    "destination": "ATL",
+    "departure_time": "2024-01-14T07:15:00"
+  },
+  {
+    "flight_id": "b3e496ea-d28a-472d-b7e0-4841fc25672b",
+    "flight_number": "UA3490",
+    "type": "unknown",
+    "delay_minutes": 106,
+    "origin": "LAX",
+    "destination": "DEL",
+    "departure_time": "2024-09-18T10:45:00"
+  },
+  {
+    "flight_id": "36849adb-1a11-4b7b-9585-ca7f3b21f94b",
+    "flight_number": "WN4285",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "DXB",
+    "destination": "ATL",
+    "departure_time": "2024-08-09T11:00:00"
+  },
+  {
+    "flight_id": "872a41c7-61c9-48f9-af53-9b65eaa5ae75",
+    "flight_number": "F92386",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "IAH",
+    "destination": "DEL",
+    "departure_time": "2024-03-16T08:45:00"
+  },
+  {
+    "flight_id": "f1b8bf37-8c34-4761-9407-65781c49d2a4",
+    "flight_number": "B64124",
+    "type": "unknown",
+    "delay_minutes": 67,
+    "origin": "CLT",
+    "destination": "MIA",
+    "departure_time": "2024-02-19T16:00:00"
+  },
+  {
+    "flight_id": "2b1c217a-7f60-454e-80ab-c6830a51aa8e",
+    "flight_number": "G4356",
+    "type": "unknown",
+    "delay_minutes": 80,
+    "origin": "PHX",
+    "destination": "DEL",
+    "departure_time": "2024-12-01T16:15:00"
+  },
+  {
+    "flight_id": "9cfdcc1f-784d-4de7-b776-6a1fd6da565e",
+    "flight_number": "DL462",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "DXB",
+    "destination": "PHL",
+    "departure_time": "2024-05-02T15:45:00"
+  },
+  {
+    "flight_id": "4bcb33c1-6000-437c-88fb-0d7c0fe70b30",
+    "flight_number": "HA4621",
+    "type": "unknown",
+    "delay_minutes": 76,
+    "origin": "DXB",
+    "destination": "DEL",
+    "departure_time": "2024-02-07T13:00:00"
+  },
+  {
+    "flight_id": "a2e7c424-9631-4e3a-afed-433ebf0a441b",
+    "flight_number": "DL3332",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "FRA",
+    "destination": "DFW",
+    "departure_time": "2024-02-13T08:30:00"
+  },
+  {
+    "flight_id": "bc2ad89e-491e-476d-b269-601b48010148",
+    "flight_number": "HA963",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "ICN",
+    "destination": "PHL",
+    "departure_time": "2024-03-10T14:30:00"
+  },
+  {
+    "flight_id": "a60221b9-c1d8-43b8-aac7-7fe4e1a4f9f4",
+    "flight_number": "F92454",
+    "type": "unknown",
+    "delay_minutes": 61,
+    "origin": "DTW",
+    "destination": "NRT",
+    "departure_time": "2024-03-28T22:45:00"
+  },
+  {
+    "flight_id": "3b668fcf-ad4b-4c6f-a14c-1875bc60b79d",
+    "flight_number": "DL2780",
+    "type": "unknown",
+    "delay_minutes": 91,
+    "origin": "PHL",
+    "destination": "LAS",
+    "departure_time": "2024-05-14T21:00:00"
+  },
+  {
+    "flight_id": "8c16a4eb-795f-4d4a-b6ec-a93aad9bad4f",
+    "flight_number": "NK4094",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "BOS",
+    "destination": "EWR",
+    "departure_time": "2024-11-09T08:15:00"
+  },
+  {
+    "flight_id": "96856847-b48e-45a0-b09c-91334e7cf441",
+    "flight_number": "F9636",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "DEL",
+    "destination": "MIA",
+    "departure_time": "2024-09-24T16:00:00"
+  },
+  {
+    "flight_id": "8e499a2b-67a2-466a-b602-57ba2058ee8b",
+    "flight_number": "F9479",
+    "type": "unknown",
+    "delay_minutes": 125,
+    "origin": "CDG",
+    "destination": "DFW",
+    "departure_time": "2024-08-18T11:45:00"
+  },
+  {
+    "flight_id": "f253d80b-634b-4992-8271-16ba610671ab",
+    "flight_number": "UA546",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "ORD",
+    "destination": "BOM",
+    "departure_time": "2024-08-29T10:30:00"
+  },
+  {
+    "flight_id": "a1de5506-4363-4dfd-a088-6b9240cb6d0f",
+    "flight_number": "HA2207",
+    "type": "unknown",
+    "delay_minutes": 77,
+    "origin": "NRT",
+    "destination": "CDG",
+    "departure_time": "2024-01-28T15:00:00"
+  },
+  {
+    "flight_id": "1c0a68b8-969c-4d1d-8692-6c4c2ab14d0a",
+    "flight_number": "UA3795",
+    "type": "unknown",
+    "delay_minutes": 90,
+    "origin": "SIN",
+    "destination": "SFO",
+    "departure_time": "2024-11-27T12:15:00"
+  },
+  {
+    "flight_id": "ed98c951-d26e-44e9-8fab-ee357e385eb6",
+    "flight_number": "NK4817",
+    "type": "unknown",
+    "delay_minutes": 87,
+    "origin": "JFK",
+    "destination": "BOM",
+    "departure_time": "2024-08-06T10:15:00"
+  },
+  {
+    "flight_id": "49df31ce-3385-4248-9517-7a8a04d909cf",
+    "flight_number": "AA2204",
+    "type": "unknown",
+    "delay_minutes": 65,
+    "origin": "LAS",
+    "destination": "SFO",
+    "departure_time": "2024-08-03T22:45:00"
+  },
+  {
+    "flight_id": "ee5fe318-5ca0-4f29-bbe4-56e60a101099",
+    "flight_number": "G45242",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "PHX",
+    "destination": "DEN",
+    "departure_time": "2024-12-07T12:45:00"
+  },
+  {
+    "flight_id": "d959bc36-d856-4017-bda9-9f07f3e2221c",
+    "flight_number": "DL2204",
+    "type": "weather",
+    "delay_minutes": 14,
+    "origin": "PHX",
+    "destination": "MCO",
+    "departure_time": "2024-10-20T20:00:00"
+  },
+  {
+    "flight_id": "022c782d-823d-4ec2-ba29-e49d47cad95a",
+    "flight_number": "HA2472",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "EWR",
+    "destination": "SIN",
+    "departure_time": "2024-01-11T19:45:00"
+  },
+  {
+    "flight_id": "948aee82-81c1-4af8-83e6-2dca062ee04a",
+    "flight_number": "DL1963",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SEA",
+    "destination": "IAH",
+    "departure_time": "2024-10-25T14:15:00"
+  },
+  {
+    "flight_id": "0bf4ce86-926e-40d4-b2a3-170a6f1df42c",
+    "flight_number": "B64430",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "DFW",
+    "destination": "DEN",
+    "departure_time": "2024-01-05T14:15:00"
+  },
+  {
+    "flight_id": "f6a87482-ca0f-41b7-b119-e5f2ed9bd8bc",
+    "flight_number": "DL1890",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "SIN",
+    "destination": "PHL",
+    "departure_time": "2024-08-07T14:15:00"
+  },
+  {
+    "flight_id": "277489a2-49f2-4bc8-a4b1-614ec0a9ebae",
+    "flight_number": "B61538",
+    "type": "unknown",
+    "delay_minutes": 83,
+    "origin": "ATL",
+    "destination": "DTW",
+    "departure_time": "2024-04-29T12:15:00"
+  },
+  {
+    "flight_id": "15fa4796-5af4-45aa-9e5d-4e8ccfee923a",
+    "flight_number": "AS2941",
+    "type": "unknown",
+    "delay_minutes": 71,
+    "origin": "NRT",
+    "destination": "LAX",
+    "departure_time": "2024-05-30T13:30:00"
+  },
+  {
+    "flight_id": "2f10c723-97a5-497c-b212-73a5a81c56e3",
+    "flight_number": "AA4326",
+    "type": "unknown",
+    "delay_minutes": 69,
+    "origin": "PHL",
+    "destination": "DFW",
+    "departure_time": "2024-03-28T12:45:00"
+  },
+  {
+    "flight_id": "de80f631-82c9-4ecd-8d02-6f9dace101f3",
+    "flight_number": "G45127",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "BOM",
+    "destination": "MIA",
+    "departure_time": "2024-10-03T09:15:00"
+  },
+  {
+    "flight_id": "0f240c42-970d-4968-970d-a2b760675371",
+    "flight_number": "DL218",
+    "type": "unknown",
+    "delay_minutes": 106,
+    "origin": "MCO",
+    "destination": "LAX",
+    "departure_time": "2024-07-17T06:45:00"
+  },
+  {
+    "flight_id": "2b746800-a974-4082-8c63-0c44b3213463",
+    "flight_number": "UA4632",
+    "type": "unknown",
+    "delay_minutes": 68,
+    "origin": "LAX",
+    "destination": "NRT",
+    "departure_time": "2024-11-02T13:00:00"
+  },
+  {
+    "flight_id": "bb5d7f12-33ee-4619-9733-8b3c71bca4c5",
+    "flight_number": "AS2042",
+    "type": "unknown",
+    "delay_minutes": 60,
+    "origin": "JFK",
+    "destination": "DEL",
+    "departure_time": "2024-07-17T13:30:00"
+  },
+  {
+    "flight_id": "19c491a1-cbe0-4a43-b4c9-98cb03ea06f0",
+    "flight_number": "UA4011",
+    "type": "unknown",
+    "delay_minutes": 63,
+    "origin": "MCO",
+    "destination": "DTW",
+    "departure_time": "2024-12-09T09:45:00"
+  },
+  {
+    "flight_id": "56fd626c-7d8a-42e3-a77d-7047b221311a",
+    "flight_number": "DL4113",
+    "type": "unknown",
+    "delay_minutes": 73,
+    "origin": "LAX",
+    "destination": "DEL",
+    "departure_time": "2024-01-24T14:00:00"
+  },
+  {
+    "flight_id": "ce348c18-0e11-493a-8f8b-95d61ffddd5e",
+    "flight_number": "WN402",
+    "type": "unknown",
+    "delay_minutes": 82,
+    "origin": "DEL",
+    "destination": "DFW",
+    "departure_time": "2024-02-20T18:00:00"
+  },
+  {
+    "flight_id": "31a41b8d-8ece-4803-9de8-6bf10539e0e6",
+    "flight_number": "UA4587",
+    "type": "unknown",
+    "delay_minutes": 62,
+    "origin": "LAS",
+    "destination": "AMS",
+    "departure_time": "2024-03-24T12:45:00"
+  },
+  {
+    "flight_id": "0251c54e-8bc0-4453-9a4a-011bd704cdf9",
+    "flight_number": "G44684",
+    "type": "weather",
+    "delay_minutes": 0,
+    "origin": "CLT",
+    "destination": "ATL",
+    "departure_time": "2024-06-28T20:00:00"
+  },
+  {
+    "flight_id": "b2f9dc10-cf9d-4b89-9612-5dc844cad249",
+    "flight_number": "AS2632",
+    "type": "carrier",
+    "delay_minutes": 0,
+    "origin": "PHL",
+    "destination": "BOM",
+    "departure_time": "2024-11-30T08:00:00"
+  }
+]
