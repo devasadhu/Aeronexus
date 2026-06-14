@@ -30,7 +30,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 logging.basicConfig(level=logging.INFO, format="%(levelname)s  %(message)s")
 log = logging.getLogger(__name__)
 
-MODEL_PATH    = Path("data/processed/cascade_model.xgb")
+MODEL_PATH    = Path("data/processed/cascade_model.ubj")
 FEATURES_PATH = Path("data/processed/feature_columns.json")
 TRAIN_PATH    = Path("data/processed/training_features.parquet")
 
