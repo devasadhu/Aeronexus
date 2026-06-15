@@ -34,6 +34,7 @@ MODEL_PATH    = Path("data/processed/cascade_model.ubj")
 FEATURES_PATH = Path("data/processed/feature_columns.json")
 TRAIN_PATH    = Path("data/processed/training_features.parquet")
 
+# risk_score_gt removed — it was derived from delay_minutes (label leakage).
 FEATURE_COLS = [
     "hour", "day_of_week", "month", "is_peak_hour", "is_weekend", "is_night",
     "is_hub_origin", "is_hub_dest", "both_hubs",
@@ -52,9 +53,7 @@ def train(df: Optional[pd.DataFrame] = None) -> xgb.XGBClassifier:
     if df is None:
         if not TRAIN_PATH.exists():
             log.info("Training features not found. Building now...")
-            from ml.feature_builder import (
-                load_graph, build_training_dataset
-            )
+            from ml.feature_builder import load_graph, build_training_dataset
             flights     = json.loads(Path("data/processed/flights.json").read_text())
             disruptions = json.loads(Path("data/processed/disruptions_seed.json").read_text())
             G           = load_graph()
@@ -63,7 +62,6 @@ def train(df: Optional[pd.DataFrame] = None) -> xgb.XGBClassifier:
             df = pd.read_parquet(TRAIN_PATH)
             log.info(f"Loaded training features: {len(df)} rows")
 
-    # ensure all feature cols exist
     for col in FEATURE_COLS:
         if col not in df.columns:
             df[col] = 0
@@ -78,14 +76,16 @@ def train(df: Optional[pd.DataFrame] = None) -> xgb.XGBClassifier:
     scale_pos_weight = (y_train == 0).sum() / max((y_train == 1).sum(), 1)
 
     model = xgb.XGBClassifier(
-        n_estimators=200,
-        max_depth=5,
+        n_estimators=300,
+        max_depth=4,          # shallower — reduces overfitting on synthetic data
         learning_rate=0.05,
         subsample=0.8,
-        colsample_bytree=0.8,
+        colsample_bytree=0.7,
+        min_child_weight=5,   # require more samples per leaf
+        gamma=1.0,            # min loss reduction to split
         scale_pos_weight=scale_pos_weight,
         eval_metric="auc",
-        early_stopping_rounds=20,
+        early_stopping_rounds=30,
         random_state=42,
         verbosity=0,
     )
@@ -96,16 +96,15 @@ def train(df: Optional[pd.DataFrame] = None) -> xgb.XGBClassifier:
         verbose=False,
     )
 
-    # evaluation
     y_prob = model.predict_proba(X_val)[:, 1]
     y_pred = (y_prob >= 0.5).astype(int)
 
-    auc  = roc_auc_score(y_val, y_prob)
-    ap   = average_precision_score(y_val, y_prob)
+    auc = roc_auc_score(y_val, y_prob)
+    ap  = average_precision_score(y_val, y_prob)
     log.info(f"Validation AUC={auc:.4f}  AP={ap:.4f}")
-    log.info("\n" + classification_report(y_val, y_pred, target_names=["not_impacted","impacted"]))
+    log.info("\n" + classification_report(y_val, y_pred,
+                                          target_names=["not_impacted", "impacted"]))
 
-    # feature importance top-10
     importance = sorted(
         zip(FEATURE_COLS, model.feature_importances_),
         key=lambda x: x[1], reverse=True
@@ -114,7 +113,6 @@ def train(df: Optional[pd.DataFrame] = None) -> xgb.XGBClassifier:
     for feat, imp in importance:
         log.info(f"  {feat:<30s}  {imp:.4f}")
 
-    # save
     MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
     model.save_model(str(MODEL_PATH))
     Path(FEATURES_PATH).write_text(json.dumps(FEATURE_COLS))
@@ -140,21 +138,10 @@ def predict_cascade(
     G,
     hist_rates: dict,
     downstream_idx: dict,
-    risk_threshold: float = 0.30,
+    risk_threshold: float = 0.35,
     max_results: int = 20,
 ) -> list:
-    """
-    Given a disruption dict and a list of candidate downstream flights,
-    return sorted list of AffectedFlight dicts.
-
-    disruption = {
-        "flight_id": ..., "type": "weather"|..., "delay_minutes": int,
-        "origin": IATA, "destination": IATA, "departure_time": ISO
-    }
-    """
-    from ml.feature_builder import (
-        extract_features, compute_centrality, DISRUPTION_TYPE_MAP
-    )
+    from ml.feature_builder import extract_features, compute_centrality
 
     if not candidate_flights:
         return []
@@ -165,7 +152,7 @@ def predict_cascade(
     rows = []
     for f in candidate_flights:
         feats = extract_features(f, disruption, G, centrality,
-                                  hist_rates, downstream_idx)
+                                 hist_rates, downstream_idx)
         rows.append(feats)
 
     df = pd.DataFrame(rows)
@@ -173,24 +160,21 @@ def predict_cascade(
         if col not in df.columns:
             df[col] = 0
 
-    X = df[FEATURE_COLS].fillna(0).astype(float)
+    X     = df[FEATURE_COLS].fillna(0).astype(float)
     probs = model.predict_proba(X)[:, 1]
 
     results = []
     for f, prob in zip(candidate_flights, probs):
         if prob < risk_threshold:
             continue
-
-        # estimate downstream delay from risk score + root delay
-        base_delay  = disruption.get("delay_minutes", 0)
-        delay_est   = int(base_delay * prob + 15 * prob)
-
+        base_delay = disruption.get("delay_minutes", 0)
+        delay_est  = int(base_delay * prob + 15 * prob)
         results.append({
-            "flight_id":           f["id"],
-            "flight_number":       f.get("flight_number", ""),
-            "risk_score":          round(float(prob), 3),
-            "delay_estimate_min":  delay_est,
-            "reason":              _risk_reason(disruption, prob),
+            "flight_id":          f["id"],
+            "flight_number":      f.get("flight_number", ""),
+            "risk_score":         round(float(prob), 3),
+            "delay_estimate_min": delay_est,
+            "reason":             _risk_reason(disruption, prob),
         })
 
     results.sort(key=lambda x: x["risk_score"], reverse=True)
@@ -211,12 +195,11 @@ def _risk_reason(disruption: dict, prob: float) -> str:
 # ── Demo ──────────────────────────────────────────────────────────────────────
 
 def demo():
-    import pickle as pkl
     G = None
     graph_path = Path("data/processed/flight_graph.gpickle")
     if graph_path.exists():
         with open(graph_path, "rb") as f:
-            G = pkl.load(f)
+            G = pickle.load(f)
 
     flights     = json.loads(Path("data/processed/flights.json").read_text())
     disruptions = json.loads(Path("data/processed/disruptions_seed.json").read_text())
@@ -225,19 +208,17 @@ def demo():
     hist_rates     = build_historical_rates(flights)
     downstream_idx = build_downstream_index(flights)
 
-    # pick first disruption as demo
     disruption = disruptions[0]
     log.info(f"\nDemo disruption: flight {disruption['flight_number']} "
              f"| type={disruption['type']} | delay={disruption['delay_minutes']}min "
              f"| {disruption['origin']} → {disruption['destination']}")
 
-    # candidates: flights departing from disruption's destination
     candidates = [f for f in flights
-                   if f["origin_id"] == disruption["destination"]
-                   and f["status"] not in ("cancelled",)][:30]
+                  if f["origin_id"] == disruption["destination"]
+                  and f["status"] not in ("cancelled",)][:30]
 
     results = predict_cascade(disruption, candidates, G, hist_rates,
-                               downstream_idx, risk_threshold=0.2)
+                              downstream_idx, risk_threshold=0.3)
 
     log.info(f"\nCascade results ({len(results)} at-risk flights):")
     for r in results[:5]:
