@@ -6,7 +6,9 @@ End-to-end multi-agent AI platform for airline irregular operations (IROPS) reco
 
 - Detects & predicts flight disruptions and downstream cascade propagation
 - Plans recovery across fleet, crew, and passengers via specialised agents
+- Enforces FAR Part 117 crew legality (FDP tables, rest, cumulative limits)
 - Explains decisions through natural-language OCC-style advisories and an ops dashboard
+- Estimates cost of disruption vs recovery plan in real-time
 
 ## Architecture
 
@@ -21,10 +23,15 @@ Ingestion Layer        →  Disruption Intelligence  →  Multi-Agent Core  → 
 aeronexus/
 ├── backend/          FastAPI app, SQLAlchemy models, Pydantic schemas
 ├── agents/           FleetAgent, CrewAgent, PassengerAgent, CoordinatorAgent
-├── ml/               Feature builder, cascade model, severity scorer
+│   ├── crew_legality.py        FAR 117 legality engine (FDP Table B, rest, cumulative limits)
+│   └── pax_reaccommodation.py  Graph-based rebooking (Dijkstra on time-expanded flight network)
+├── ml/               Feature builder, cascade model, severity scorer, SHAP explainability
+│   ├── explainability.py       SHAP global + per-disruption waterfall explanations
+│   └── cost_estimator.py       Cost-of-disruption vs recovery plan estimator
 ├── ingestion/        BTS loader, airport/route loader, weather loader
 ├── synthetic/        Crew, aircraft, passenger data generators
-├── dashboard/        Streamlit ops dashboard (orthographic globe, 3 pages)
+├── dashboard/        Streamlit ops dashboard (orthographic globe, 4 pages)
+│   └── scenarios.py            6 preset IROPS scenarios (ORD snowstorm, JFK ATC stop, etc.)
 ├── tests/            pytest suite (75 tests passing)
 └── data/             raw/ and processed/ data files
 ```
@@ -39,6 +46,7 @@ source venv/bin/activate     # macOS/Linux
 
 # 2. Install dependencies
 pip install -r requirements.txt
+pip install shap
 
 # 3. Load airport/route network
 python -m ingestion.load_airports --hub-only --no-db
@@ -69,12 +77,20 @@ streamlit run dashboard/app.py
 The advisory router calls Groq's LLaMA-3.3-70b for natural-language OCC advisories.
 Without a key it silently falls back to rule-based text.
 
-```bash
-# Create a .env file in the project root:
+Create a `.env` file in the project root:
+
+```
 GROQ_API_KEY=gsk_...
 ```
 
-Then install python-dotenv and load it at startup, or export the variable directly:
+Add to the top of `dashboard/app.py` (after imports):
+
+```python
+from dotenv import load_dotenv
+load_dotenv()
+```
+
+Or export directly:
 
 ```bash
 export GROQ_API_KEY=gsk_...   # macOS/Linux
@@ -90,14 +106,18 @@ export DATABASE_URL=postgresql://user:pass@localhost:5432/aeronexus
 
 ## Tech stack
 
-| Layer     | Tech                                      |
-|-----------|-------------------------------------------|
-| API       | FastAPI + SQLAlchemy + PostgreSQL         |
-| Agents    | Python multi-agent (Fleet/Crew/Pax/Coord) |
-| ML        | XGBoost, scikit-learn, NetworkX           |
-| LLM       | Groq (LLaMA-3.3-70b, optional)            |
-| Dashboard | Streamlit + Plotly (orthographic globe)   |
-| Tests     | pytest — 75 tests passing                 |
+| Layer          | Tech                                                    |
+|----------------|---------------------------------------------------------|
+| API            | FastAPI + SQLAlchemy + PostgreSQL                       |
+| Agents         | Python multi-agent (Fleet / Crew / Pax / Coordinator)   |
+| Crew Legality  | FAR 117 FDP Table B, rest & cumulative limit engine     |
+| Pax Rebooking  | Dijkstra on time-expanded flight graph (NetworkX)       |
+| ML             | XGBoost, scikit-learn, NetworkX                         |
+| Explainability | SHAP (global importance + per-disruption waterfall)     |
+| Cost Model     | Delay-minute cost, compensation, crew overtime, reposition |
+| LLM            | Groq (LLaMA-3.3-70b, optional)                          |
+| Dashboard      | Streamlit + Plotly (orthographic globe, 4 pages)        |
+| Tests          | pytest — 75 tests passing                               |
 
 ## ML model notes
 
@@ -109,9 +129,35 @@ Note: an earlier version of the training data had label leakage (`risk_score_gt`
 negative examples). This was fixed in `feature_builder.py` — negative examples now receive real
 disruption context sampled from the disruption pool, and `risk_score_gt` was removed from features.
 
+## Crew legality (FAR Part 117)
+
+`agents/crew_legality.py` implements a simplified but defensible FAR 117 compliance check:
+
+- **FDP limit** — looked up from Table B by report hour × number of flight segments
+- **Minimum rest** — 10h standard, 8h reduced-rest floor
+- **7-day cumulative** — 60h flight duty limit
+- **28-day cumulative** — 100h flight duty limit
+- **365-day flight time** — 1000h limit
+- **Type qualification** — crew must be rated on the aircraft type
+
+Every crew assignment in the recovery plan carries a `legality` block with FDP used/max and
+any warnings, surfaced in the dashboard Explainability page.
+
+## Passenger reaccommodation
+
+`agents/pax_reaccommodation.py` implements two-tier rebooking:
+
+1. **Tier 1 (same-route fast rebook)** — finds the next available flight on the same origin→dest
+   within 6 hours, respects seat inventory, priority-ranked by fare class and misconnect risk.
+2. **Tier 2 (graph reroute)** — for passengers Tier 1 cannot place, runs Dijkstra on a
+   time-expanded flight graph to find the lowest-cost multi-hop path to the final destination,
+   with cabin-class downgrade penalties and overnight connection penalties.
+
 ## Status
 
 - ✅ Phase 1: DB schema, airport/route graph, synthetic data
 - ✅ Phase 2: Disruption intelligence engine (cascade model + severity scorer)
 - ✅ Phase 3: Multi-agent recovery core (Fleet, Crew, Passenger, Coordinator)
 - ✅ Phase 4: Advisory (Groq LLM + rule-based fallback) + Streamlit dashboard
+- ✅ Phase 5: SHAP explainability, cost estimator, scenario presets, pax reaccommodation engine
+- ✅ Phase 6: FAR 117 crew legality engine (FDP Table B, rest, cumulative limits)
