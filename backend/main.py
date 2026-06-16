@@ -6,12 +6,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-from .routers import flights, disruptions, advisory
+from .routers import flights, disruptions, advisory, recovery, pdf_export, weather, occ_assistant
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # startup: create tables if needed
     try:
         from .db import init_db
         init_db()
@@ -22,8 +21,12 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="AeroNexus IROPS API",
-    description="Agentic flight disruption recovery system",
-    version="0.2.0",
+    description=(
+        "Agentic flight disruption recovery system. "
+        "Full pipeline: cascade prediction → multi-agent recovery → "
+        "FAR 117 legality → cost estimation → OCC advisory."
+    ),
+    version="0.3.0",
     lifespan=lifespan,
 )
 
@@ -34,11 +37,37 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(flights.router,     prefix="/flights",     tags=["flights"])
-app.include_router(disruptions.router, prefix="/disruptions", tags=["disruptions"])
-app.include_router(advisory.router,    prefix="/advisory",    tags=["advisory"])
+# ── Routers ───────────────────────────────────────────────────────────────────
+app.include_router(flights.router,        prefix="/flights",       tags=["Flights"])
+app.include_router(disruptions.router,    prefix="/disruptions",   tags=["Disruptions"])
+app.include_router(advisory.router,       prefix="/advisory",      tags=["Advisory"])
+app.include_router(recovery.router,       prefix="/recovery",      tags=["Recovery & Audit"])
+app.include_router(pdf_export.router,     prefix="/export",        tags=["Export"])
+app.include_router(weather.router,        prefix="/weather",       tags=["Weather"])
+app.include_router(occ_assistant.router,  prefix="/occ",           tags=["OCC Assistant"])
 
 
-@app.get("/health")
+# ── Health ────────────────────────────────────────────────────────────────────
+@app.get("/health", tags=["System"])
 def health():
-    return {"status": "ok", "version": "0.2.0"}
+    return {"status": "ok", "version": "0.3.0"}
+
+
+@app.get("/", tags=["System"])
+def root():
+    return {
+        "system":  "AeroNexus IROPS Recovery Platform",
+        "version": "0.3.0",
+        "docs":    "/docs",
+        "endpoints": {
+            "flights":        "/flights",
+            "disruptions":    "/disruptions",
+            "recovery":       "/recovery/run?flight_id=<id>",
+            "audit":          "/recovery/audit",
+            "network_health": "/recovery/health",
+            "advisory":       "/advisory/full-pipeline",
+            "pdf_export":     "/export/pdf",
+            "weather":        "/weather/synthetic",
+            "occ_chat":       "/occ/chat",
+        },
+    }

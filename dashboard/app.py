@@ -7,9 +7,7 @@ Pages:
   1. Disruption Map       — live network map with severity overlays
   2. Disruption Detail    — cascade + per-agent recovery breakdown
   3. What-If Simulator    — inject custom delay and rerun pipeline
-
-Run:
-    streamlit run dashboard/app.py
+  4. OCC Assistant        — Groq-powered chatbot grounded in live system state
 """
 from dotenv import load_dotenv
 load_dotenv()
@@ -25,7 +23,6 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-# ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="AeroNexus IROPS",
     page_icon="✈",
@@ -33,7 +30,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── Colour scheme ─────────────────────────────────────────────────────────────
 SEVERITY_COLOUR = {
     "critical": "#e74c3c",
     "high":     "#e67e22",
@@ -51,7 +47,7 @@ STATUS_COLOUR = {
     "departed":  "#1abc9c",
 }
 
-# ── Data loaders (cached) ─────────────────────────────────────────────────────
+# ── Data loaders ──────────────────────────────────────────────────────────────
 
 @st.cache_data(ttl=60)
 def load_flights():
@@ -102,7 +98,6 @@ def airport_coords():
         for n, d in G.nodes(data=True)
     }
 
-
 # ── Pipeline runner ───────────────────────────────────────────────────────────
 
 def run_pipeline(disruption: dict, risk_threshold: float = 0.25):
@@ -143,7 +138,6 @@ def run_pipeline(disruption: dict, risk_threshold: float = 0.25):
     )
     return event, plan
 
-
 # ── Shared helpers ────────────────────────────────────────────────────────────
 
 def metric_row(cols_data: list):
@@ -165,7 +159,7 @@ def action_table(actions: list, filter_type: str = None):
         "Conflict":    "⚠️" if a["conflict_flag"] else "—",
         "Description": a["description"][:80] + ("…" if len(a["description"]) > 80 else ""),
     } for a in rows])
-    st.dataframe(df, width="stretch", hide_index=True)
+    st.dataframe(df, use_container_width=True, hide_index=True)
 
 
 def _no_data_error():
@@ -181,7 +175,6 @@ def _no_data_error():
         "python -m ml.cascade_model --train\n"
         "```"
     )
-
 
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE 1: Disruption Map
@@ -199,7 +192,6 @@ def page_map():
         _no_data_error()
         return
 
-    # ── Sidebar filters ───────────────────────────────────────────────────────
     with st.sidebar:
         st.header("Filters")
         show_status = st.multiselect(
@@ -216,7 +208,6 @@ def page_map():
         and f.get("delay_minutes", 0) >= delay_min_filter
     ]
 
-    # ── KPI row ───────────────────────────────────────────────────────────────
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Total flights",   len(flights))
     c2.metric("Disrupted",       len(disruptions),
@@ -227,14 +218,11 @@ def page_map():
 
     st.divider()
 
-    # ── Globe map ─────────────────────────────────────────────────────────────
     fig = go.Figure()
-
     airport_delay = defaultdict(list)
     for f in flights:
         airport_delay[f["origin_id"]].append(f.get("delay_minutes", 0))
 
-    # Airport nodes
     for iata, c in coords.items():
         if hub_only and not c["is_hub"]:
             continue
@@ -262,7 +250,6 @@ def page_map():
             showlegend=False,
         ))
 
-    # Disrupted flight arcs
     flight_lookup = {f["id"]: f for f in flights}
     for d in disruptions[:80]:
         f = flight_lookup.get(d["flight_id"])
@@ -292,7 +279,7 @@ def page_map():
 
     fig.update_layout(
         geo=dict(
-            projection_type="orthographic",          # real globe
+            projection_type="orthographic",
             showland=True,      landcolor="#1e2a3a",
             showocean=True,     oceancolor="#0d1b2a",
             showlakes=True,     lakecolor="#0d1b2a",
@@ -301,7 +288,6 @@ def page_map():
             countrywidth=0.5,
             showframe=False,
             bgcolor="#0a0f1e",
-            # start centred on Atlantic so both US and Europe hubs are visible
             center=dict(lon=-30, lat=30),
             projection_rotation=dict(lon=-30, lat=20, roll=0),
         ),
@@ -311,10 +297,9 @@ def page_map():
         height=520,
     )
 
-    st.plotly_chart(fig, width="stretch")
+    st.plotly_chart(fig, use_container_width=True)
     st.caption("🌐 Drag the globe to rotate. Red = severe delay/cancel · Orange = moderate · Green = on time")
 
-    # ── Status bar chart ──────────────────────────────────────────────────────
     st.subheader("Flight status breakdown")
     status_counts = defaultdict(int)
     for f in flights:
@@ -338,11 +323,10 @@ def page_map():
                 plot_bgcolor="#0a0f1e",
                 height=280,
             )
-            st.plotly_chart(fig2, width="stretch")
+            st.plotly_chart(fig2, use_container_width=True)
     else:
         st.warning("No flight status data available.")
 
-    # ── Disruption table ──────────────────────────────────────────────────────
     st.subheader(f"Active disruptions ({len(filtered)} flights shown)")
     if filtered:
         df = pd.DataFrame([{
@@ -353,7 +337,7 @@ def page_map():
             "Delay (min)": f.get("delay_minutes", 0),
             "Booked":      f.get("booked_seats", 0),
         } for f in filtered[:100]])
-        st.dataframe(df, width="stretch", hide_index=True)
+        st.dataframe(df, use_container_width=True, hide_index=True)
     else:
         st.info("No flights match the current filters.")
 
@@ -394,7 +378,7 @@ def page_detail():
     with col2:
         risk_threshold = st.slider("Risk threshold", 0.0, 1.0, 0.25, 0.05,
                                    help="Cascade model probability cutoff")
-        run_btn = st.button("▶ Run Recovery Pipeline", type="primary", width="stretch")
+        run_btn = st.button("▶ Run Recovery Pipeline", type="primary", use_container_width=True)
 
     if run_btn or "last_event" in st.session_state:
         with st.spinner("Running cascade prediction and recovery pipeline..."):
@@ -445,8 +429,16 @@ def page_detail():
                 action_table(cancels)
 
         with tab_crew:
-            st.markdown("**Crew assignments proposed by CrewAgent**")
+            st.markdown("**Crew assignments proposed by CrewAgent (FAR 117 checked)**")
             action_table(actions, "crew_reassign")
+            # show crew legality summary
+            crew_actions = [a for a in actions if a.get("action_type") == "crew_reassign"]
+            rejected_total = sum(
+                len(a.get("metadata", {}).get("rejected_crew", []))
+                for a in crew_actions
+            )
+            if rejected_total:
+                st.caption(f"ℹ️ {rejected_total} crew member(s) rejected due to FAR 117 violations")
 
         with tab_pax:
             st.markdown("**Passenger rebookings proposed by PassengerAgent**")
@@ -479,7 +471,7 @@ def page_detail():
                     paper_bgcolor="#0a0f1e", height=250,
                     margin=dict(t=20, b=20, l=20, r=20),
                 )
-                st.plotly_chart(fig_donut, width="stretch")
+                st.plotly_chart(fig_donut, use_container_width=True)
             action_table(actions)
 
         with tab_json:
@@ -488,6 +480,46 @@ def page_detail():
             st.markdown("**RecoveryPlan summary**")
             st.json(plan.get("summary", {}))
 
+        # ── Cost estimate ─────────────────────────────────────────────────────
+        try:
+            from ml.cost_estimator import estimate_cost
+            cost = estimate_cost(event, plan)
+            st.divider()
+            st.subheader("💰 Cost Impact")
+            cc1, cc2, cc3 = st.columns(3)
+            cc1.metric("Baseline cost",  f"${cost.get('baseline_cost_usd',0):,.0f}")
+            cc2.metric("Recovery cost",  f"${cost.get('recovery_cost_usd',0):,.0f}")
+            cc3.metric("Net saving",     f"${cost.get('net_saving_usd',0):,.0f}",
+                       delta="saving" if cost.get('net_saving_usd',0) > 0 else "over baseline")
+        except Exception:
+            pass
+
+        # ── PDF export button ─────────────────────────────────────────────────
+        st.divider()
+        st.subheader("📄 Export OCC Briefing")
+        if st.button("⬇️ Download PDF Briefing", use_container_width=True):
+            try:
+                from backend.routers.pdf_export import _build_pdf
+                from backend.routers.advisory import _rule_based_advisory, _call_groq, _format_plan_for_llm
+
+                llm_text = _call_groq(_format_plan_for_llm(event, plan))
+                if llm_text:
+                    lines = [l.strip() for l in llm_text.split("\n") if l.strip()]
+                    adv = {"summary": lines[0] if lines else "", "bullets": lines[1:], "llm_used": True}
+                else:
+                    s, b = _rule_based_advisory(event, plan)
+                    adv = {"summary": s, "bullets": b, "llm_used": False}
+
+                pdf_bytes = _build_pdf(event, plan, adv)
+                st.download_button(
+                    label="📥 Save PDF",
+                    data=pdf_bytes,
+                    file_name=f"aeronexus_briefing_{event.get('root_flight_id','unknown')}.pdf",
+                    mime="application/pdf",
+                )
+            except Exception as e:
+                st.error(f"PDF generation failed: {e}")
+
         # ── OCC Advisory ─────────────────────────────────────────────────────
         st.divider()
         st.subheader("📢 OCC Advisory")
@@ -495,9 +527,9 @@ def page_detail():
 
         llm_text = _call_groq(_format_plan_for_llm(event, plan))
         if llm_text:
-            lines   = [l.strip() for l in llm_text.split("\n") if l.strip()]
+            lines        = [l.strip() for l in llm_text.split("\n") if l.strip()]
             summary_text = lines[0] if lines else llm_text
-            bullets = [l.lstrip("•-* ") for l in lines[1:] if l.strip()]
+            bullets      = [l.lstrip("•-* ") for l in lines[1:] if l.strip()]
             st.caption("✨ Generated by Groq LLaMA-3.3-70b")
         else:
             summary_text, bullets = _rule_based_advisory(event, plan)
@@ -585,7 +617,7 @@ def page_whatif():
     }
 
     st.divider()
-    run_btn = st.button("▶ Run Simulation", type="primary", width="stretch")
+    run_btn = st.button("▶ Run Simulation", type="primary", use_container_width=True)
 
     if run_btn:
         with st.spinner("Simulating disruption and running recovery pipeline..."):
@@ -611,7 +643,6 @@ def page_whatif():
             ("Conflicts",             summary.get("conflict_count", 0),        None),
         ])
 
-        # ── Affected route globe ──────────────────────────────────────────────
         st.subheader("Affected route network")
         affected  = event.get("affected_flights_json", [])
         fl_lookup = {f["id"]: f for f in all_flights}
@@ -669,9 +700,8 @@ def page_whatif():
             height=400,
             margin=dict(l=0, r=0, t=0, b=0),
         )
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 
-        # ── At-risk table ─────────────────────────────────────────────────────
         st.subheader("At-risk downstream flights")
         if affected:
             df = pd.DataFrame([{
@@ -680,11 +710,23 @@ def page_whatif():
                 "Est. delay": f"{a.get('delay_estimate_min', 0)} min",
                 "Reason":     a.get("reason", ""),
             } for a in affected])
-            st.dataframe(df, width="stretch", hide_index=True)
+            st.dataframe(df, use_container_width=True, hide_index=True)
         else:
             st.info("No downstream flights at risk above the threshold.")
 
-        # ── Advisory ──────────────────────────────────────────────────────────
+        # cost
+        try:
+            from ml.cost_estimator import estimate_cost
+            cost = estimate_cost(event, plan)
+            st.divider()
+            st.subheader("💰 Cost Impact")
+            cc1, cc2, cc3 = st.columns(3)
+            cc1.metric("Baseline cost", f"${cost.get('baseline_cost_usd',0):,.0f}")
+            cc2.metric("Recovery cost", f"${cost.get('recovery_cost_usd',0):,.0f}")
+            cc3.metric("Net saving",    f"${cost.get('net_saving_usd',0):,.0f}")
+        except Exception:
+            pass
+
         st.divider()
         st.subheader("📢 OCC Advisory")
         from backend.routers.advisory import _rule_based_advisory, _call_groq, _format_plan_for_llm
@@ -708,6 +750,127 @@ def page_whatif():
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+# PAGE 4: OCC Assistant Chatbot
+# ══════════════════════════════════════════════════════════════════════════════
+
+def page_chat():
+    st.title("🤖 OCC Assistant")
+    st.caption("Ask questions about the live network, crew duty limits, weather, and recovery plans")
+
+    # live context sidebar panel
+    with st.sidebar:
+        st.divider()
+        st.subheader("📊 Live Context")
+        flights     = load_flights()
+        disruptions = load_disruptions()
+        crew        = load_crew()
+
+        delayed   = sum(1 for f in flights if f.get("delay_minutes", 0) > 15)
+        cancelled = sum(1 for f in flights if f.get("status") == "cancelled")
+        total     = len(flights)
+        on_time   = total - delayed - cancelled
+        score = max(0, min(100, round(
+            (on_time / max(total, 1)) * 70 +
+            max(0, 1 - (sum(f.get("delay_minutes", 0) for f in flights) / max(total, 1)) / 120) * 20 +
+            max(0, 1 - cancelled / max(total, 1)) * 10
+        )))
+        score_col = "#2ecc71" if score >= 75 else "#e67e22" if score >= 50 else "#e74c3c"
+        st.markdown(
+            f"<div style='background:{score_col};padding:6px 12px;border-radius:6px;"
+            f"color:white;font-weight:bold;text-align:center;font-size:1.1em'>"
+            f"Network Health: {score}/100</div>",
+            unsafe_allow_html=True,
+        )
+        st.metric("Disruptions", len(disruptions))
+        st.metric("Delayed", delayed)
+        st.metric("Cancelled", cancelled)
+        near_limit = [
+            c for c in crew
+            if c.get("current_duty_hours", 0) >= c.get("max_duty_hours", 14) * 0.85
+        ]
+        st.metric("Crew near FAR 117 limit", len(near_limit))
+        st.divider()
+        st.caption("💡 Try asking:")
+        for q in [
+            "Which crew are near their duty limit?",
+            "What is the network health score?",
+            "Which airports are in LVP mode?",
+            "How many passengers are stranded?",
+            "What disruptions are active?",
+        ]:
+            st.caption(f"• {q}")
+
+    # init chat history
+    if "chat_history" not in st.session_state:
+        st.session_state.chat_history = []
+
+    # render existing messages
+    for msg in st.session_state.chat_history:
+        with st.chat_message(msg["role"]):
+            st.markdown(msg["content"])
+            if msg.get("context"):
+                with st.expander("Context used", expanded=False):
+                    st.json(msg["context"])
+
+    # chat input
+    user_input = st.chat_input("Ask the OCC Assistant...")
+
+    if user_input:
+        with st.chat_message("user"):
+            st.markdown(user_input)
+        st.session_state.chat_history.append({"role": "user", "content": user_input})
+
+        history = [
+            {"role": m["role"], "content": m["content"]}
+            for m in st.session_state.chat_history[-6:]
+            if m["role"] in ("user", "assistant")
+        ]
+
+        with st.chat_message("assistant"):
+            with st.spinner("Checking live system state..."):
+                try:
+                    from backend.routers.occ_assistant import (
+                        _build_live_context,
+                        _format_context_for_prompt,
+                        _call_groq_chat,
+                        _rule_based_reply,
+                        OCC_SYSTEM_PROMPT,
+                    )
+                    ctx            = _build_live_context()
+                    context_prompt = _format_context_for_prompt(ctx)
+                    full_system    = f"{OCC_SYSTEM_PROMPT}\n\n{context_prompt}"
+                    reply    = _call_groq_chat(full_system, history[:-1], user_input)
+                    llm_used = reply is not None and not str(reply).startswith("[Groq error")
+                    if not llm_used:
+                        reply = _rule_based_reply(user_input, ctx)
+                    ctx_summary = {
+                        "network_health_score": ctx.get("network_health", {}).get("score"),
+                        "active_disruptions":   ctx.get("active_disruptions", 0),
+                        "crew_near_limit":      ctx.get("crew_near_duty_limit", 0),
+                        "lvp_airports":         ctx.get("lvp_airports", []),
+                        "source": "Groq LLaMA-3.3-70b" if llm_used else "rule-based",
+                    }
+                except Exception as e:
+                    reply       = f"Assistant error: {e}"
+                    ctx_summary = {}
+                    llm_used    = False
+
+            st.markdown(reply)
+            st.caption("✨ Groq LLaMA-3.3-70b" if llm_used else "⚙️ Rule-based fallback")
+            with st.expander("Context injected", expanded=False):
+                st.json(ctx_summary)
+
+        st.session_state.chat_history.append({
+            "role": "assistant", "content": reply, "context": ctx_summary,
+        })
+
+    if st.session_state.chat_history:
+        if st.button("🗑 Clear conversation", key="clear_chat"):
+            st.session_state.chat_history = []
+            st.rerun()
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 # Sidebar nav
 # ══════════════════════════════════════════════════════════════════════════════
 
@@ -719,18 +882,20 @@ def main():
         st.divider()
         page = st.radio(
             "Navigation",
-            ["🗺 Disruption Map", "🔍 Disruption Detail", "🔮 What-If Simulator"],
+            ["🗺 Disruption Map", "🔍 Disruption Detail", "🔮 What-If Simulator", "🤖 OCC Assistant"],
         )
         st.divider()
-        st.caption("Phase 4 — Dashboard")
+        st.caption("Phase 7 — Full Platform")
         st.caption("75 tests passing ✅")
 
     if page == "🗺 Disruption Map":
         page_map()
     elif page == "🔍 Disruption Detail":
         page_detail()
-    else:
+    elif page == "🔮 What-If Simulator":
         page_whatif()
+    else:
+        page_chat()
 
 
 if __name__ == "__main__":
